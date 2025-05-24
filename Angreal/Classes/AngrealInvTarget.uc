@@ -27,28 +27,28 @@ class AngrealInvTarget expands ReflectorInstaller;
 
 defaultproperties
 {
-     Duration=15.000000
-     ReflectorClasses(0)=Class'Angreal.AutoTargetReflector'
-     DurationType=DT_Lifespan
-     bElementAir=True
-     bElementSpirit=True
-     bRare=True
-     bOffensive=True
-     bCombat=True
-     MaxInitialCharges=2
-     MaxCharges=5
-     ActivateSoundName="Angreal.ActivateTA"
-     MinChargeGroupInterval=5.000000
-     Title="Find Target"
-     Description="For a short time, all seeking weaves automatically target the nearest victim, regardless of line of sight."
-     Quote="With the Power you had to see something to affect it, or know exactly where it was in relation to you down to a hair.  Perhaps it was different here."
-     StatusIconFrame=Texture'Angreal.Icons.M_Targeting'
-     InventoryGroup=66
-     PickupMessage="You got the Find Target ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealTargetingPickup'
-     PickupViewScale=0.800000
-     StatusIcon=Texture'Angreal.Icons.I_Targeting'
-     Texture=None
-     Mesh=Mesh'Angreal.AngrealTargetingPickup'
-     DrawScale=0.800000
+    Duration=15.00
+    ReflectorClasses=Class'AutoTargetReflector'
+    DurationType=1
+    bElementAir=True
+    bElementSpirit=True
+    bRare=True
+    bOffensive=True
+    bCombat=True
+    MaxInitialCharges=2
+    MaxCharges=5
+    ActivateSoundName="Angreal.ActivateTA"
+    MinChargeGroupInterval=5.00
+    Title="Find Target"
+    Description="For a short time, all seeking weaves automatically target the nearest victim, regardless of line of sight."
+    Quote="With the Power you had to see something to affect it, or know exactly where it was in relation to you down to a hair.  Perhaps it was different here."
+    StatusIconFrame=Texture'Icons.M_Targeting'
+    InventoryGroup=66
+    PickupMessage="You got the Find Target ter'angreal"
+    PickupViewMesh=Mesh'AngrealTargetingPickup'
+    PickupViewScale=0.80
+    StatusIcon=Texture'Icons.I_Targeting'
+    Texture=None
+    Mesh=Mesh'AngrealTargetingPickup'
+    DrawScale=0.80
 }

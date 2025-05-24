@@ -20,15 +20,15 @@ simulated function PreBeginPlay()
 
 defaultproperties
 {
-     Spread=95.000000
-     Volume=60.000000
-     Gravity=(X=20.000000,Z=-90.000000)
-     NumTemplates=2
-     Templates(0)=(LifeSpan=0.650000,MaxInitialVelocity=-20.000000,MinInitialVelocity=-18.000000,MaxDrawScale=0.400000,MinDrawScale=0.100000,MaxScaleGlow=0.000000,MinScaleGlow=0.000000,GrowPhase=1,MaxGrowRate=1.000000,FadePhase=2,MaxFadeRate=3.000000)
-     Templates(1)=(LifeSpan=0.750000,MaxInitialVelocity=20.000000,MinInitialVelocity=-18.000000,MaxDrawScale=0.400000,MinDrawScale=0.100000,MaxScaleGlow=0.000000,MinScaleGlow=0.000000,GrowPhase=2,MaxGrowRate=1.000000,FadePhase=2,MaxFadeRate=3.000000)
-     Particles(0)=Texture'Angreal.Ice.SnowE'
-     Particles(1)=Texture'Angreal.Ice.SnowD'
-     bOn=True
-     MinVolume=20.000000
-     bStatic=False
+    Spread=95.00
+    Volume=60.00
+    Gravity=(X=20.00,Y=0.00,Z=-90.00),
+    NumTemplates=2
+    Templates(0)=(LifeSpan=0.65,Weight=1.00,MaxInitialVelocity=-20.00,MinInitialVelocity=-18.00,MaxDrawScale=0.40,MinDrawScale=0.10,MaxScaleGlow=0.00,MinScaleGlow=0.00,GrowPhase=1,MaxGrowRate=1.00,MinGrowRate=0.00,FadePhase=2,MaxFadeRate=3.00,MinFadeRate=0.00),
+    Templates(1)=(LifeSpan=0.75,Weight=1.00,MaxInitialVelocity=20.00,MinInitialVelocity=-18.00,MaxDrawScale=0.40,MinDrawScale=0.10,MaxScaleGlow=0.00,MinScaleGlow=0.00,GrowPhase=2,MaxGrowRate=1.00,MinGrowRate=0.00,FadePhase=2,MaxFadeRate=3.00,MinFadeRate=0.00),
+    Particles(0)=Texture'Ice.SnowE'
+    Particles(1)=Texture'Ice.SnowD'
+    bOn=True
+    MinVolume=20.00
+    bStatic=False
 }

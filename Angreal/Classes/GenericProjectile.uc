@@ -433,18 +433,18 @@ static function float GetMinRange()
 
 defaultproperties
 {
-     SpawnSoundPitch=1.000000
-     ImpactSoundPitch=1.000000
-     HitPawnSoundPitch=1.000000
-     HitWaterSoundPitch=1.000000
-     SpawnSoundRadius=2500.000000
-     ImpactSoundRadius=2500.000000
-     HitPawnSoundRadius=2500.000000
-     HitWaterSoundRadius=1000.000000
-     DamageType=hurt
-     bExplode=True
-     LauncherClass=Class'Angreal.LaunchProjectileEffect'
-     bRequiresLeading=True
-     bDestroyOnExplode=True
-     RemoteRole=ROLE_SimulatedProxy
+    SpawnSoundPitch=1.00
+    ImpactSoundPitch=1.00
+    HitPawnSoundPitch=1.00
+    HitWaterSoundPitch=1.00
+    SpawnSoundRadius=2500.00
+    ImpactSoundRadius=2500.00
+    HitPawnSoundRadius=2500.00
+    HitWaterSoundRadius=1000.00
+    DamageType=hurt
+    bExplode=True
+    LauncherClass=Class'LaunchProjectileEffect'
+    bRequiresLeading=True
+    bDestroyOnExplode=True
+    RemoteRole=2
 }

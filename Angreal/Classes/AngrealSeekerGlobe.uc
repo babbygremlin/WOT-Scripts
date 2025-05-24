@@ -25,10 +25,10 @@ simulated function Tick( float DeltaTime )
 
 defaultproperties
 {
-     bCanTeleport=True
-     RemoteRole=ROLE_None
-     DrawType=DT_Sprite
-     Style=STY_Translucent
-     Texture=Texture'Angreal.Seeker.SeekerGlobe.SG_A00'
-     DrawScale=0.750000
+    bCanTeleport=True
+    RemoteRole=0
+    DrawType=1
+    Style=3
+    Texture=Texture'Seeker.SeekerGlobe.SG_A00'
+    DrawScale=0.75
 }

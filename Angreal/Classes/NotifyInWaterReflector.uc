@@ -57,8 +57,8 @@ function FootZoneChange( ZoneInfo newFootZone )
 
 defaultproperties
 {
-     PollingTime=0.500000
-     Priority=64
-     bRemovable=False
-     bDisplayIcon=False
+    PollingTime=0.50
+    Priority=64
+    bRemovable=False
+    bDisplayIcon=False
 }

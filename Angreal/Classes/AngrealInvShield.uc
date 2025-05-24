@@ -68,28 +68,28 @@ function float GetPriority()
 
 defaultproperties
 {
-     ReflectorClasses(0)=Class'Angreal.ShieldReflector'
-     DurationType=DT_Shield
-     bElementAir=True
-     bCommon=True
-     bDefensive=True
-     bCombat=True
-     MaxInitialCharges=3
-     MaxCharges=10
-     Priority=1.000000
-     ActivateSoundName="Angreal.ActivateSD"
-     MinChargeGroupInterval=4.000000
-     Title="Personal Shield"
-     Description="Personal Shield surrounds you with a weave that blunts all damage-dealing attacks, internal or external. It is a permanent effect--although it can be worn away by said attacks. Subsequent activation replenishes the shield's strength."
-     Quote="Rand seized saidin and channeled as the bolt flew toward him; it struck Air, a silvery blue mass hanging above the street, with a clang as of metal against metal."
-     StatusIconFrame=Texture'Angreal.Icons.M_Shield'
-     InventoryGroup=53
-     PickupMessage="You got the Personal Shield ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealShieldPickup'
-     PickupViewScale=0.800000
-     StatusIcon=Texture'Angreal.Icons.I_Shield'
-     Texture=None
-     Mesh=Mesh'Angreal.AngrealShieldPickup'
-     DrawScale=0.800000
-     bMeshCurvy=True
+    ReflectorClasses=Class'ShieldReflector'
+    DurationType=2
+    bElementAir=True
+    bCommon=True
+    bDefensive=True
+    bCombat=True
+    MaxInitialCharges=3
+    MaxCharges=10
+    Priority=1.00
+    ActivateSoundName="Angreal.ActivateSD"
+    MinChargeGroupInterval=4.00
+    Title="Personal Shield"
+    Description="Personal Shield surrounds you with a weave that blunts all damage-dealing attacks, internal or external. It is a permanent effect--although it can be worn away by said attacks. Subsequent activation replenishes the shield's strength."
+    Quote="Rand seized saidin and channeled as the bolt flew toward him; it struck Air, a silvery blue mass hanging above the street, with a clang as of metal against metal."
+    StatusIconFrame=Texture'Icons.M_Shield'
+    InventoryGroup=53
+    PickupMessage="You got the Personal Shield ter'angreal"
+    PickupViewMesh=Mesh'AngrealShieldPickup'
+    PickupViewScale=0.80
+    StatusIcon=Texture'Icons.I_Shield'
+    Texture=None
+    Mesh=Mesh'AngrealShieldPickup'
+    DrawScale=0.80
+    bMeshCurvy=True
 }

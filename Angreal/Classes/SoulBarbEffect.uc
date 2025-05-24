@@ -21,10 +21,10 @@ simulated function Tick( float DeltaTime )
 
 defaultproperties
 {
-     bAnimLoop=True
-     AnimRate=0.050000
-     DrawType=DT_Sprite
-     Style=STY_Translucent
-     Texture=Texture'Angreal.Effects.SB_A00'
-     DrawScale=0.750000
+    bAnimLoop=True
+    AnimRate=0.05
+    DrawType=1
+    Style=3
+    Texture=Texture'Effects.SB_A00'
+    DrawScale=0.75
 }

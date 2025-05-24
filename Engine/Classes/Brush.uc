@@ -34,12 +34,12 @@ var() bool  bColored;
 
 defaultproperties
 {
-     MainScale=(Scale=(X=1.000000,Y=1.000000,Z=1.000000))
-     PostScale=(Scale=(X=1.000000,Y=1.000000,Z=1.000000))
-     TempScale=(Scale=(X=1.000000,Y=1.000000,Z=1.000000))
-     bStatic=True
-     bNoDelete=True
-     bEdShouldSnap=True
-     DrawType=DT_Brush
-     bFixedRotationDir=True
+    MainScale=(Scale=(X=1.00,Y=1.00,Z=1.00),,SheerRate=0.00,SheerAxis=SHEER_None),
+    PostScale=(Scale=(X=1.00,Y=1.00,Z=1.00),,SheerRate=0.00,SheerAxis=SHEER_None),
+    TempScale=(Scale=(X=1.00,Y=1.00,Z=1.00),,SheerRate=0.00,SheerAxis=SHEER_None),
+    bStatic=True
+    bNoDelete=True
+    bEdShouldSnap=True
+    DrawType=3
+    bFixedRotationDir=True
 }

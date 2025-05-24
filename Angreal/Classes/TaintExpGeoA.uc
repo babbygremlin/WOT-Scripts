@@ -13,9 +13,9 @@ class TaintExpGeoA expands TaintExpAssets;
 
 defaultproperties
 {
-     NumAnimFrames=13
-     DrawType=DT_Mesh
-     Style=STY_Translucent
-     Texture=IceTexture'Angreal.Taint.RedIce'
-     Mesh=Mesh'Angreal.TaintExpGeoA'
+    NumAnimFrames=13
+    DrawType=2
+    Style=3
+    Texture=IceTexture'Taint.RedIce'
+    Mesh=Mesh'TaintExpGeoA'
 }

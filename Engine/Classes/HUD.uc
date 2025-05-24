@@ -62,8 +62,8 @@ simulated function bool DisplayMessages(canvas Canvas)
 
 defaultproperties
 {
-     Crosshair=13
-     HUDConfigWindowType="UMenu.UMenuHUDConfigCW"
-     bHidden=True
-     RemoteRole=ROLE_SimulatedProxy
+    Crosshair=13
+    HUDConfigWindowType="UMenu.UMenuHUDConfigCW"
+    bHidden=True
+    RemoteRole=2
 }

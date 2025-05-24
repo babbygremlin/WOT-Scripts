@@ -436,8 +436,8 @@ function Invoke()
 
 defaultproperties
 {
-     SourceFailMessage="failed because you don't fit at the target's location."
-     DestinationFailMessage="failed because the target doesn't fit at your location."
-     ActorFitsRadius=1024.000000
-     bDeleterious=True
+    SourceFailMessage="failed because you don't fit at the target's location."
+    DestinationFailMessage="failed because the target doesn't fit at your location."
+    ActorFitsRadius=1024.00
+    bDeleterious=True
 }

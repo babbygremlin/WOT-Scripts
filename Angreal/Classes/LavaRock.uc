@@ -25,11 +25,11 @@ class LavaRock expands BurningChunk;
 
 defaultproperties
 {
-     MinSpeed=400.000000
-     MaxSpeed=600.000000
-     SprayerTypes(0)=Class'ParticleSystems.BlackSmoke01'
-     DrawType=DT_Mesh
-     Style=STY_Normal
-     Mesh=Mesh'Angreal.LavaRock'
-     DrawScale=0.700000
+    MinSpeed=400.00
+    MaxSpeed=600.00
+    SprayerTypes=Class'ParticleSystems.BlackSmoke01'
+    DrawType=2
+    Style=1
+    Mesh=Mesh'LavaRock'
+    DrawScale=0.70
 }

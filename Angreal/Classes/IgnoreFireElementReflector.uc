@@ -42,8 +42,8 @@ function bool InvIsIgnored( AngrealInventory Inv )
 
 defaultproperties
 {
-     ImpactType=Class'Angreal.FireShieldVisual'
-     DeflectSound=Sound'Angreal.FireShield.DeflectFS'
-     TriggerEvent=ElementalFireTriggered
-     IgnoredDamageType=Fire
+    ImpactType=Class'FireShieldVisual'
+    DeflectSound=Sound'FireShield.DeflectFS'
+    TriggerEvent=ElementalFireTriggered
+    IgnoredDamageType=Fire
 }

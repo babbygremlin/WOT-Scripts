@@ -9,9 +9,9 @@ var() bool bOnlyTriggerable;
 
 defaultproperties
 {
-     bNetTemporary=True
-     DrawType=DT_None
-     bGameRelevant=True
-     CollisionRadius=0.000000
-     CollisionHeight=0.000000
+    bNetTemporary=True
+    DrawType=0
+    bGameRelevant=True
+    CollisionRadius=0.00
+    CollisionHeight=0.00
 }

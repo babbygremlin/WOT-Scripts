@@ -66,5 +66,5 @@ function Invokable Duplicate()
 
 defaultproperties
 {
-     bDeleterious=True
+    bDeleterious=True
 }

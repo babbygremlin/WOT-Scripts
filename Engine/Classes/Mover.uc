@@ -1023,24 +1023,24 @@ Close:
 
 defaultproperties
 {
-     MoverEncroachType=ME_ReturnWhenEncroach
-     MoverGlideType=MV_GlideByTime
-     NumKeys=2
-     MoveTime=1.000000
-     StayOpenTime=4.000000
-     bStatic=False
-     Physics=PHYS_MovingBrush
-     RemoteRole=ROLE_SimulatedProxy
-     InitialState=BumpOpenTimed
-     bMustFace=False
-     bIsMover=True
-     bAlwaysRelevant=True
-     SoundVolume=228
-     TransientSoundVolume=3.000000
-     CollisionRadius=160.000000
-     CollisionHeight=160.000000
-     bCollideActors=True
-     bBlockActors=True
-     bBlockPlayers=True
-     NetPriority=2.700000
+    MoverEncroachType=1
+    MoverGlideType=1
+    NumKeys=2
+    MoveTime=1.00
+    StayOpenTime=4.00
+    bStatic=False
+    Physics=9
+    RemoteRole=2
+    InitialState=BumpOpenTimed
+    bMustFace=False
+    bIsMover=True
+    bAlwaysRelevant=True
+    SoundVolume=228
+    TransientSoundVolume=3.00
+    CollisionRadius=160.00
+    CollisionHeight=160.00
+    bCollideActors=True
+    bBlockActors=True
+    bBlockPlayers=True
+    NetPriority=2.70
 }

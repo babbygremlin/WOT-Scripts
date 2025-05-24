@@ -302,7 +302,6 @@ function StartCycle()
 	FrameLastCycle = 0;
 	CycleCount++;
 }
-
 defaultproperties
 {
 }

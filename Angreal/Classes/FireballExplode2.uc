@@ -26,27 +26,27 @@ class FireballExplode2 expands Explosion;
 
 defaultproperties
 {
-     ExplosionAnim(0)=Texture'Angreal.Effects.FBExp200'
-     ExplosionAnim(1)=Texture'Angreal.Effects.FBExp201'
-     ExplosionAnim(2)=Texture'Angreal.Effects.FBExp202'
-     ExplosionAnim(3)=Texture'Angreal.Effects.FBExp203'
-     ExplosionAnim(4)=Texture'Angreal.Effects.FBExp204'
-     ExplosionAnim(5)=Texture'Angreal.Effects.FBExp205'
-     ExplosionAnim(6)=Texture'Angreal.Effects.FBExp206'
-     ExplosionAnim(7)=Texture'Angreal.Effects.FBExp207'
-     ExplosionAnim(8)=Texture'Angreal.Effects.FBExp208'
-     ExplosionAnim(9)=Texture'Angreal.Effects.FBExp209'
-     ExplosionAnim(10)=Texture'Angreal.Effects.FBExp210'
-     ExplosionAnim(11)=Texture'Angreal.Effects.FBExp211'
-     ExplosionAnim(12)=Texture'Angreal.Effects.FBExp212'
-     ExplosionAnim(13)=Texture'Angreal.Effects.FBExp213'
-     ExplosionAnim(14)=Texture'Angreal.Effects.FBExp214'
-     ExplosionAnim(15)=Texture'Angreal.Effects.FBExp215'
-     ExplosionAnim(16)=Texture'Angreal.Effects.FBExp216'
-     ExplosionAnim(17)=Texture'Angreal.Effects.FBExp217'
-     LifeSpan=1.000000
-     DrawScale=2.500000
-     SoundPitch=32
-     LightEffect=LE_NonIncidence
-     LightRadius=12
+    ExplosionAnim(0)=Texture'Effects.FBExp200'
+    ExplosionAnim(1)=Texture'Effects.FBExp201'
+    ExplosionAnim(2)=Texture'Effects.FBExp202'
+    ExplosionAnim(3)=Texture'Effects.FBExp203'
+    ExplosionAnim(4)=Texture'Effects.FBExp204'
+    ExplosionAnim(5)=Texture'Effects.FBExp205'
+    ExplosionAnim(6)=Texture'Effects.FBExp206'
+    ExplosionAnim(7)=Texture'Effects.FBExp207'
+    ExplosionAnim(8)=Texture'Effects.FBExp208'
+    ExplosionAnim(9)=Texture'Effects.FBExp209'
+    ExplosionAnim(10)=Texture'Effects.FBExp210'
+    ExplosionAnim(11)=Texture'Effects.FBExp211'
+    ExplosionAnim(12)=Texture'Effects.FBExp212'
+    ExplosionAnim(13)=Texture'Effects.FBExp213'
+    ExplosionAnim(14)=Texture'Effects.FBExp214'
+    ExplosionAnim(15)=Texture'Effects.FBExp215'
+    ExplosionAnim(16)=Texture'Effects.FBExp216'
+    ExplosionAnim(17)=Texture'Effects.FBExp217'
+    LifeSpan=1.00
+    DrawScale=2.50
+    SoundPitch=32
+    LightEffect=13
+    LightRadius=12
 }

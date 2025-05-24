@@ -16,5 +16,5 @@ class LScylB expands LScylA;
 
 defaultproperties
 {
-     Mesh=Mesh'Angreal.LScylB'
+    Mesh=Mesh'LScylB'
 }

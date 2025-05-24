@@ -138,25 +138,25 @@ function ProcessDamage( Actor Other, int GivenDamage, Pawn GivenInstigator, vect
 
 defaultproperties
 {
-     Duration=7.000000
-     LeechClasses(0)=Class'Angreal.IceLeech'
-     AttachLeechEffectClass=Class'Angreal.AttachLeechEffect'
-     SprayerTypes(0)=Class'Angreal.SnowSprayer01'
-     SprayerTypes(1)=Class'Angreal.SnowSprayer02'
-     SprayerTypes(2)=Class'Angreal.SnowSprayer03'
-     SRate=5.000000
-     SRadius=20.000000
-     speed=300.000000
-     SpawnSound=Sound'Angreal.Ice.LaunchIC'
-     ImpactSound=Sound'Angreal.Ice.HitPawnIC'
-     LifeSpan=0.000000
-     DrawType=DT_None
-     SoundRadius=64
-     SoundVolume=128
-     AmbientSound=Sound'Angreal.Ice.LoopIC'
-     CollisionRadius=6.000000
-     CollisionHeight=12.000000
-     LightType=LT_Steady
-     LightBrightness=255
-     LightSaturation=255
+    Duration=7.00
+    LeechClasses=Class'IceLeech'
+    AttachLeechEffectClass=Class'AttachLeechEffect'
+    SprayerTypes(0)=Class'SnowSprayer01'
+    SprayerTypes(1)=Class'SnowSprayer02'
+    SprayerTypes(2)=Class'SnowSprayer03'
+    SRate=5.00
+    SRadius=20.00
+    speed=300.00
+    SpawnSound=Sound'Ice.LaunchIC'
+    ImpactSound=Sound'Ice.HitPawnIC'
+    LifeSpan=0.00
+    DrawType=0
+    SoundRadius=64
+    SoundVolume=128
+    AmbientSound=Sound'Ice.LoopIC'
+    CollisionRadius=6.00
+    CollisionHeight=12.00
+    LightType=1
+    LightBrightness=255
+    LightSaturation=255
 }

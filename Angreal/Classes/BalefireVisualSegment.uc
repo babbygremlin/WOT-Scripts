@@ -119,27 +119,27 @@ simulated function SetEndpoints( vector Start, vector End )
 
 defaultproperties
 {
-     SegmentLength=3190.000000
-     BFTextures(0)=Texture'Angreal.BalefireBeam.BFbeam01'
-     BFTextures(1)=Texture'Angreal.BalefireBeam.BFbeam02'
-     BFTextures(2)=Texture'Angreal.BalefireBeam.BFbeam03'
-     BFTextures(3)=Texture'Angreal.BalefireBeam.BFbeam04'
-     BFTextures(4)=Texture'Angreal.BalefireBeam.BFbeam05'
-     BFTextures(5)=Texture'Angreal.BalefireBeam.BFbeam06'
-     BFTextures(6)=Texture'Angreal.BalefireBeam.BFbeam07'
-     BFTextures(7)=Texture'Angreal.BalefireBeam.BFbeam08'
-     BFTextures(8)=Texture'Angreal.BalefireBeam.BFbeam09'
-     BFTextures(9)=Texture'Angreal.BalefireBeam.BFbeam10'
-     BFTextures(10)=Texture'Angreal.BalefireBeam.BFbeam11'
-     RemoteRole=ROLE_SimulatedProxy
-     LifeSpan=1.200000
-     DrawType=DT_Mesh
-     Style=STY_Translucent
-     bMustFace=False
-     Texture=Texture'Angreal.BalefireBeam.BFbeam01'
-     Mesh=Mesh'Angreal.BF010'
-     DrawScale=100.000000
-     AmbientGlow=254
-     bUnlit=True
-     RenderIteratorClass=Class'Legend.AlwaysFaceRI'
+    SegmentLength=3190.00
+    BFTextures(0)=Texture'BalefireBeam.BFbeam01'
+    BFTextures(1)=Texture'BalefireBeam.BFbeam02'
+    BFTextures(2)=Texture'BalefireBeam.BFbeam03'
+    BFTextures(3)=Texture'BalefireBeam.BFbeam04'
+    BFTextures(4)=Texture'BalefireBeam.BFbeam05'
+    BFTextures(5)=Texture'BalefireBeam.BFbeam06'
+    BFTextures(6)=Texture'BalefireBeam.BFbeam07'
+    BFTextures(7)=Texture'BalefireBeam.BFbeam08'
+    BFTextures(8)=Texture'BalefireBeam.BFbeam09'
+    BFTextures(9)=Texture'BalefireBeam.BFbeam10'
+    BFTextures(10)=Texture'BalefireBeam.BFbeam11'
+    RemoteRole=2
+    LifeSpan=1.20
+    DrawType=2
+    Style=3
+    bMustFace=False
+    Texture=Texture'BalefireBeam.BFbeam01'
+    Mesh=Mesh'BF010'
+    DrawScale=100.00
+    AmbientGlow=254
+    bUnlit=True
+    RenderIteratorClass=Class'Legend.AlwaysFaceRI'
 }

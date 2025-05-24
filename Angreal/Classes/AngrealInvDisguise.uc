@@ -459,29 +459,29 @@ function RestoreDisguisePawnProperties( Pawn Dest, TPreDisguiseData Source )
 
 defaultproperties
 {
-     DurationType=DT_Charge
-     bElementSpirit=True
-     bRare=True
-     bCombat=True
-     MinInitialCharges=15
-     MaxInitialCharges=20
-     MaxCharges=60
-     ActivateSoundName="Angreal.ActivateDG"
-     DeActivateSoundName="Angreal.DeActivateDG"
-     MaxChargesInGroup=20
-     MinChargesInGroup=10
-     MaxChargeUsedInterval=1.000000
-     MinChargeGroupInterval=1.000000
-     Title="Disguise"
-     Description="As long as you continue to activate the artifact, Disguise cloaks you with the image of the nearest creature or person."
-     Quote="His skin tingled slightly as she channeled, and for an instant her image changed. Her skin became coppery but dull, her hair and eyes dark but flat."
-     StatusIconFrame=Texture'Angreal.Icons.M_Disguise'
-     InventoryGroup=67
-     PickupMessage="You got the Disguise ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealDisguisePickup'
-     PickupViewScale=0.700000
-     StatusIcon=Texture'Angreal.Icons.I_Disguise'
-     Texture=None
-     Mesh=Mesh'Angreal.AngrealDisguisePickup'
-     DrawScale=0.700000
+    DurationType=0
+    bElementSpirit=True
+    bRare=True
+    bCombat=True
+    MinInitialCharges=15
+    MaxInitialCharges=20
+    MaxCharges=60
+    ActivateSoundName="Angreal.ActivateDG"
+    DeActivateSoundName="Angreal.DeActivateDG"
+    MaxChargesInGroup=20
+    MinChargesInGroup=10
+    MaxChargeUsedInterval=1.00
+    MinChargeGroupInterval=1.00
+    Title="Disguise"
+    Description="As long as you continue to activate the artifact, Disguise cloaks you with the image of the nearest creature or person."
+    Quote="His skin tingled slightly as she channeled, and for an instant her image changed. Her skin became coppery but dull, her hair and eyes dark but flat."
+    StatusIconFrame=Texture'Icons.M_Disguise'
+    InventoryGroup=67
+    PickupMessage="You got the Disguise ter'angreal"
+    PickupViewMesh=Mesh'AngrealDisguisePickup'
+    PickupViewScale=0.70
+    StatusIcon=Texture'Icons.I_Disguise'
+    Texture=None
+    Mesh=Mesh'AngrealDisguisePickup'
+    DrawScale=0.70
 }

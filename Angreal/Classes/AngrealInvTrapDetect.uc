@@ -27,29 +27,29 @@ class AngrealInvTrapDetect expands LeechAttacher;
 
 defaultproperties
 {
-     Duration=15.000000
-     LeechClasses(0)=Class'Angreal.TrapDetectLeech'
-     DurationType=DT_Lifespan
-     bElementWater=True
-     bElementAir=True
-     bElementEarth=True
-     bCommon=True
-     bTraps=True
-     MinInitialCharges=5
-     MaxInitialCharges=15
-     MaxCharges=20
-     ActivateSoundName="Angreal.ActivateTD"
-     MaxChargesInGroup=20
-     MinChargesInGroup=10
-     MinChargeGroupInterval=6.000000
-     Title="Trap Detect"
-     Description="For a short time, Trap Detect makes nearby traps extremely obvious, whether the traps are woven from the One Power or conventional.  As you approach a trap, a sound quickens¾but more importantly, any trap directly in your view alights with a visual cue that serves to identify both position and function.  This cue only shows the closest trap; sweeping the area is recommended to discover more."
-     Quote="There was something woven into the barrier of shattered columns. He hardened the shield around himself. Great tumbled chunks of red and white stone exploded as he reached to climb, a burst of pure light and flying stone."
-     StatusIconFrame=Texture'Angreal.Icons.M_TrapDetection'
-     InventoryGroup=55
-     PickupMessage="You got the Trap Detect ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealTrapDetectionPickup'
-     StatusIcon=Texture'Angreal.Icons.I_TrapDetection'
-     Texture=None
-     Mesh=Mesh'Angreal.AngrealTrapDetectionPickup'
+    Duration=15.00
+    LeechClasses=Class'TrapDetectLeech'
+    DurationType=1
+    bElementWater=True
+    bElementAir=True
+    bElementEarth=True
+    bCommon=True
+    bTraps=True
+    MinInitialCharges=5
+    MaxInitialCharges=15
+    MaxCharges=20
+    ActivateSoundName="Angreal.ActivateTD"
+    MaxChargesInGroup=20
+    MinChargesInGroup=10
+    MinChargeGroupInterval=6.00
+    Title="Trap Detect"
+    Description="For a short time, Trap Detect makes nearby traps extremely obvious, whether the traps are woven from the One Power or conventional.  As you approach a trap, a sound quickens¾but more importantly, any trap directly in your view alights with a visual cue that serves to identify both position and function.  This cue only shows the closest trap; sweeping the area is recommended to discover more."
+    Quote="There was something woven into the barrier of shattered columns. He hardened the shield around himself. Great tumbled chunks of red and white stone exploded as he reached to climb, a burst of pure light and flying stone."
+    StatusIconFrame=Texture'Icons.M_TrapDetection'
+    InventoryGroup=55
+    PickupMessage="You got the Trap Detect ter'angreal"
+    PickupViewMesh=Mesh'AngrealTrapDetectionPickup'
+    StatusIcon=Texture'Icons.I_TrapDetection'
+    Texture=None
+    Mesh=Mesh'AngrealTrapDetectionPickup'
 }

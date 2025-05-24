@@ -183,29 +183,29 @@ event ActorLeaving( actor Other )
 
 defaultproperties
 {
-     ZoneGravity=(Z=-950.000000)
-     ZoneGroundFriction=8.000000
-     ZoneFluidFriction=1.200000
-     ZoneTerminalVelocity=2500.000000
-     MaxCarcasses=3
-     bMoveProjectiles=True
-     AmbientSaturation=255
-     TexUPanSpeed=1.000000
-     TexVPanSpeed=1.000000
-     SpeedOfSound=8000.000000
-     MasterGain=100
-     CutoffHz=6000
-     Delay(0)=20
-     Delay(1)=34
-     Gain(0)=150
-     Gain(1)=70
-     MinLightCount=6
-     MaxLightCount=6
-     MinLightingPolyCount=1000
-     MaxLightingPolyCount=5000
-     bStatic=True
-     bNoDelete=True
-     Texture=Texture'Engine.S_ZoneInfo'
-     bAlwaysRelevant=True
-     NetUpdateFrequency=4.000000
+    ZoneGravity=(X=0.00,Y=0.00,Z=-950.00),
+    ZoneGroundFriction=8.00
+    ZoneFluidFriction=1.20
+    ZoneTerminalVelocity=2500.00
+    MaxCarcasses=3
+    bMoveProjectiles=True
+    AmbientSaturation=255
+    TexUPanSpeed=1.00
+    TexVPanSpeed=1.00
+    SpeedOfSound=8000.00
+    MasterGain=100
+    CutoffHz=6000
+    Delay(0)=20
+    Delay(1)=34
+    Gain(0)=150
+    Gain(1)=70
+    MinLightCount=6
+    MaxLightCount=6
+    MinLightingPolyCount=1000
+    MaxLightingPolyCount=5000
+    bStatic=True
+    bNoDelete=True
+    Texture=Texture'S_ZoneInfo'
+    bAlwaysRelevant=True
+    NetUpdateFrequency=4.00
 }

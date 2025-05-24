@@ -39,6 +39,6 @@ function NotifyTargettedByAngrealProjectile( AngrealProjectile Proj )
 
 defaultproperties
 {
-     Priority=128
-     bRemoveExisting=True
+    Priority=128
+    bRemoveExisting=True
 }

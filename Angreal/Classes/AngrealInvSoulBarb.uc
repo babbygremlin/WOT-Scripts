@@ -25,26 +25,26 @@ class AngrealInvSoulBarb expands ProjectileLauncher;
 
 defaultproperties
 {
-     ProjectileClassName="Angreal.AngrealSoulBarbProjectile"
-     DurationType=DT_Lifespan
-     bElementSpirit=True
-     bCommon=True
-     bOffensive=True
-     bCombat=True
-     MinInitialCharges=3
-     MaxInitialCharges=5
-     MaxCharges=10
-     Priority=9.000000
-     FailMessage="requires a target"
-     bTargetsFriendlies=False
-     MinChargeGroupInterval=20.000000
-     Title="Soul Barb"
-     Description="For a short time, Soul Barb's target takes damage whenever he activates an artifact--more powerful artifacts inflict more damage."
-     Quote="Agony in his chest, as if his heart was about to explode, in his head, white-hot nails driving into his brain, pain so strong that even in the Void he wanted to scream."
-     StatusIconFrame=Texture'Angreal.Icons.M_SoulBarb'
-     InventoryGroup=56
-     PickupMessage="You got the Soul Barb ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealSoulBarbPickup'
-     StatusIcon=Texture'Angreal.Icons.I_SoulBarb'
-     Mesh=Mesh'Angreal.AngrealSoulBarbPickup'
+    ProjectileClassName="Angreal.AngrealSoulBarbProjectile"
+    DurationType=1
+    bElementSpirit=True
+    bCommon=True
+    bOffensive=True
+    bCombat=True
+    MinInitialCharges=3
+    MaxInitialCharges=5
+    MaxCharges=10
+    Priority=9.00
+    FailMessage="requires a target"
+    bTargetsFriendlies=False
+    MinChargeGroupInterval=20.00
+    Title="Soul Barb"
+    Description="For a short time, Soul Barb's target takes damage whenever he activates an artifact--more powerful artifacts inflict more damage."
+    Quote="Agony in his chest, as if his heart was about to explode, in his head, white-hot nails driving into his brain, pain so strong that even in the Void he wanted to scream."
+    StatusIconFrame=Texture'Icons.M_SoulBarb'
+    InventoryGroup=56
+    PickupMessage="You got the Soul Barb ter'angreal"
+    PickupViewMesh=Mesh'AngrealSoulBarbPickup'
+    StatusIcon=Texture'Icons.I_SoulBarb'
+    Mesh=Mesh'AngrealSoulBarbPickup'
 }

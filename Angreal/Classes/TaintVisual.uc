@@ -117,11 +117,11 @@ simulated function Destroyed()
 
 defaultproperties
 {
-     bHidden=True
-     RemoteRole=ROLE_None
-     LightType=LT_Steady
-     LightEffect=LE_NonIncidence
-     LightBrightness=255
-     LightRadius=7
-     LightPeriod=32
+    bHidden=True
+    RemoteRole=0
+    LightType=1
+    LightEffect=13
+    LightBrightness=255
+    LightRadius=7
+    LightPeriod=32
 }

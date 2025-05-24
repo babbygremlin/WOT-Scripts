@@ -178,17 +178,17 @@ state Dying
 
 defaultproperties
 {
-     bFirstHit=True
-     bNetTemporary=False
-     bNetOptional=True
-     Physics=PHYS_Falling
-     RemoteRole=ROLE_SimulatedProxy
-     LifeSpan=20.000000
-     CollisionRadius=18.000000
-     CollisionHeight=4.000000
-     bCollideActors=False
-     bProjTarget=True
-     bBounce=True
-     bFixedRotationDir=True
-     NetPriority=1.400000
+    bFirstHit=True
+    bNetTemporary=False
+    bNetOptional=True
+    Physics=2
+    RemoteRole=2
+    LifeSpan=20.00
+    CollisionRadius=18.00
+    CollisionHeight=4.00
+    bCollideActors=False
+    bProjTarget=True
+    bBounce=True
+    bFixedRotationDir=True
+    NetPriority=1.40
 }

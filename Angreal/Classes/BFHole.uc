@@ -16,6 +16,6 @@ class BFHole expands Decal;
 
 defaultproperties
 {
-     Skin=Texture'Angreal.BFHole.BalefireHole'
-     DrawScale=0.500000
+    Skin=Texture'BFHole.BalefireHole'
+    DrawScale=0.50
 }

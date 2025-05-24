@@ -19,8 +19,8 @@ function PreBeginPlay()
 
 defaultproperties
 {
-     ProjectileClassName="Angreal.YellowDart"
-     StatusIconFrame=Texture'Angreal.Icons.M_Dartgld'
-     StatusIcon=Texture'Angreal.Icons.I_Dartgld'
-     Skin=Texture'Angreal.Skins.DartWhitecloak'
+    ProjectileClassName="Angreal.YellowDart"
+    StatusIconFrame=Texture'Icons.M_Dartgld'
+    StatusIcon=Texture'Icons.I_Dartgld'
+    Skin=Texture'Skins.DartWhitecloak'
 }

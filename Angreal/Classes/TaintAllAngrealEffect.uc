@@ -38,5 +38,5 @@ function Invoke()
 
 defaultproperties
 {
-     bDeleterious=True
+    bDeleterious=True
 }

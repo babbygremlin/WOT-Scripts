@@ -46,5 +46,5 @@ Begin:
 
 defaultproperties
 {
-     Texture=Texture'Engine.S_Dispatcher'
+    Texture=Texture'S_Dispatcher'
 }

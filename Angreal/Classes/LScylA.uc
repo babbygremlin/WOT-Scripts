@@ -50,22 +50,22 @@ simulated function Timer()
 
 defaultproperties
 {
-     LSTextures(0)=Texture'Angreal.Skins.LScyl_A01'
-     LSTextures(1)=Texture'Angreal.Skins.LScyl_A02'
-     LSTextures(2)=Texture'Angreal.Skins.LScyl_A03'
-     LSTextures(3)=Texture'Angreal.Skins.LScyl_A04'
-     LSTextures(4)=Texture'Angreal.Skins.LScyl_A05'
-     LSTextures(5)=Texture'Angreal.Skins.LScyl_A06'
-     LSTextures(6)=Texture'Angreal.Skins.LScyl_A07'
-     LSTextures(7)=Texture'Angreal.Skins.LScyl_A08'
-     LSTextures(8)=Texture'Angreal.Skins.LScyl_A09'
-     LSTextures(9)=Texture'Angreal.Skins.LScyl_A10'
-     LSFrameRate=20.000000
-     RemoteRole=ROLE_None
-     DrawType=DT_Mesh
-     Style=STY_Translucent
-     Skin=Texture'Angreal.Skins.LScyl_A01'
-     Mesh=Mesh'Angreal.LScylA'
-     bUnlit=True
-     CollisionRadius=6.000000
+    LSTextures(0)=Texture'Skins.LScyl_A01'
+    LSTextures(1)=Texture'Skins.LScyl_A02'
+    LSTextures(2)=Texture'Skins.LScyl_A03'
+    LSTextures(3)=Texture'Skins.LScyl_A04'
+    LSTextures(4)=Texture'Skins.LScyl_A05'
+    LSTextures(5)=Texture'Skins.LScyl_A06'
+    LSTextures(6)=Texture'Skins.LScyl_A07'
+    LSTextures(7)=Texture'Skins.LScyl_A08'
+    LSTextures(8)=Texture'Skins.LScyl_A09'
+    LSTextures(9)=Texture'Skins.LScyl_A10'
+    LSFrameRate=20.00
+    RemoteRole=0
+    DrawType=2
+    Style=3
+    Skin=Texture'Skins.LScyl_A01'
+    Mesh=Mesh'LScylA'
+    bUnlit=True
+    CollisionRadius=6.00
 }

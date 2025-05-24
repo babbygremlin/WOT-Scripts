@@ -25,27 +25,27 @@ class AngrealInvFireball expands ProjectileLauncher;
 
 defaultproperties
 {
-     ProjectileClassName="Angreal.AngrealFireballProjectile"
-     bElementFire=True
-     bCommon=True
-     bOffensive=True
-     bCombat=True
-     RoundsPerMinute=90.000000
-     MinInitialCharges=10
-     MaxInitialCharges=20
-     MaxCharges=35
-     Priority=9.000000
-     MaxChargesInGroup=6
-     MinChargesInGroup=3
-     MaxChargeUsedInterval=0.670000
-     Title="Fireball"
-     Description="The Fireball ter'angreal launches a concentrated weave of fire. It explodes upon impact with anything except water, which causes it to fizzle."
-     Quote="A head sized fireball flashed down the street toward her. She leaped back just before it exploded against the corner where her own head had been, showering her with stone chips."
-     StatusIconFrame=Texture'Angreal.Icons.M_Fireball'
-     InventoryGroup=51
-     PickupMessage="You got the Fireball ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealFireballPickup'
-     StatusIcon=Texture'Angreal.Icons.I_Fireball'
-     Mesh=Mesh'Angreal.AngrealFireballPickup'
-     DrawScale=1.300000
+    ProjectileClassName="Angreal.AngrealFireballProjectile"
+    bElementFire=True
+    bCommon=True
+    bOffensive=True
+    bCombat=True
+    RoundsPerMinute=90.00
+    MinInitialCharges=10
+    MaxInitialCharges=20
+    MaxCharges=35
+    Priority=9.00
+    MaxChargesInGroup=6
+    MinChargesInGroup=3
+    MaxChargeUsedInterval=0.67
+    Title="Fireball"
+    Description="The Fireball ter'angreal launches a concentrated weave of fire. It explodes upon impact with anything except water, which causes it to fizzle."
+    Quote="A head sized fireball flashed down the street toward her. She leaped back just before it exploded against the corner where her own head had been, showering her with stone chips."
+    StatusIconFrame=Texture'Icons.M_Fireball'
+    InventoryGroup=51
+    PickupMessage="You got the Fireball ter'angreal"
+    PickupViewMesh=Mesh'AngrealFireballPickup'
+    StatusIcon=Texture'Icons.I_Fireball'
+    Mesh=Mesh'AngrealFireballPickup'
+    DrawScale=1.30
 }

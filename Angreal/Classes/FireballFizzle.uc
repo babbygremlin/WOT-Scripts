@@ -27,30 +27,30 @@ class FireballFizzle expands Explosion;
 
 defaultproperties
 {
-     ExplosionAnim(0)=Texture'Angreal.Effects.FBFiz100'
-     ExplosionAnim(1)=Texture'Angreal.Effects.FBFiz101'
-     ExplosionAnim(2)=Texture'Angreal.Effects.FBFiz102'
-     ExplosionAnim(3)=Texture'Angreal.Effects.FBFiz103'
-     ExplosionAnim(4)=Texture'Angreal.Effects.FBFiz104'
-     ExplosionAnim(5)=Texture'Angreal.Effects.FBFiz105'
-     ExplosionAnim(6)=Texture'Angreal.Effects.FBFiz106'
-     ExplosionAnim(7)=Texture'Angreal.Effects.FBFiz107'
-     ExplosionAnim(8)=Texture'Angreal.Effects.FBFiz108'
-     ExplosionAnim(9)=Texture'Angreal.Effects.FBFiz109'
-     ExplosionAnim(10)=Texture'Angreal.Effects.FBFiz110'
-     ExplosionAnim(11)=Texture'Angreal.Effects.FBFiz111'
-     ExplosionAnim(12)=Texture'Angreal.Effects.FBFiz112'
-     ExplosionAnim(13)=Texture'Angreal.Effects.FBFiz113'
-     ExplosionAnim(14)=Texture'Angreal.Effects.FBFiz114'
-     ExplosionAnim(15)=Texture'Angreal.Effects.FBFiz115'
-     ExplosionAnim(16)=Texture'Angreal.Effects.FBFiz116'
-     ExplosionAnim(17)=Texture'Angreal.Effects.FBFiz117'
-     ExplosionAnim(18)=Texture'Angreal.Effects.FBFiz118'
-     LifeSpan=1.000000
-     DrawScale=4.000000
-     SoundPitch=32
-     LightEffect=LE_NonIncidence
-     LightBrightness=128
-     LightSaturation=128
-     LightRadius=8
+    ExplosionAnim(0)=Texture'Effects.FBFiz100'
+    ExplosionAnim(1)=Texture'Effects.FBFiz101'
+    ExplosionAnim(2)=Texture'Effects.FBFiz102'
+    ExplosionAnim(3)=Texture'Effects.FBFiz103'
+    ExplosionAnim(4)=Texture'Effects.FBFiz104'
+    ExplosionAnim(5)=Texture'Effects.FBFiz105'
+    ExplosionAnim(6)=Texture'Effects.FBFiz106'
+    ExplosionAnim(7)=Texture'Effects.FBFiz107'
+    ExplosionAnim(8)=Texture'Effects.FBFiz108'
+    ExplosionAnim(9)=Texture'Effects.FBFiz109'
+    ExplosionAnim(10)=Texture'Effects.FBFiz110'
+    ExplosionAnim(11)=Texture'Effects.FBFiz111'
+    ExplosionAnim(12)=Texture'Effects.FBFiz112'
+    ExplosionAnim(13)=Texture'Effects.FBFiz113'
+    ExplosionAnim(14)=Texture'Effects.FBFiz114'
+    ExplosionAnim(15)=Texture'Effects.FBFiz115'
+    ExplosionAnim(16)=Texture'Effects.FBFiz116'
+    ExplosionAnim(17)=Texture'Effects.FBFiz117'
+    ExplosionAnim(18)=Texture'Effects.FBFiz118'
+    LifeSpan=1.00
+    DrawScale=4.00
+    SoundPitch=32
+    LightEffect=13
+    LightBrightness=128
+    LightSaturation=128
+    LightRadius=8
 }

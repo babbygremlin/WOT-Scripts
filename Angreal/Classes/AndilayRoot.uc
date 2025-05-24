@@ -120,29 +120,29 @@ function int GetPotentialHealth( Pawn Other )
 
 defaultproperties
 {
-     LeechClasses(0)=Class'Angreal.AndilayRootLeech'
-     DurationType=DT_Lifespan
-     TAINT_COMMON_DAMAGE=0
-     TAINT_UNCOMMON_DAMAGE=0
-     TAINT_RARE_DAMAGE=0
-     MinInitialCharges=15
-     MaxInitialCharges=20
-     ActivateSoundName="Angreal.ActivateAR"
-     Title="Andilay Root"
-     Description="None"
-     Quote="None"
-     StatusIconFrame=Texture'Angreal.Icons.M_AndilayRoot'
-     InventoryGroup=50
-     bAmbientGlow=False
-     PickupMessage="You found an Andilay Root"
-     PickupViewMesh=Mesh'Angreal.AndilayRoot'
-     StatusIcon=Texture'Angreal.Icons.I_AndilayRoot'
-     PickupSound=None
-     Texture=None
-     Mesh=Mesh'Angreal.AndilayRoot'
-     AmbientGlow=0
-     CollisionRadius=10.000000
-     CollisionHeight=16.000000
-     bFixedRotationDir=False
-     RotationRate=(Yaw=0)
+    LeechClasses=Class'AndilayRootLeech'
+    DurationType=1
+    TAINT_COMMON_DAMAGE=0
+    TAINT_UNCOMMON_DAMAGE=0
+    TAINT_RARE_DAMAGE=0
+    MinInitialCharges=15
+    MaxInitialCharges=20
+    ActivateSoundName="Angreal.ActivateAR"
+    Title="Andilay Root"
+    Description="None"
+    Quote="None"
+    StatusIconFrame=Texture'Icons.M_AndilayRoot'
+    InventoryGroup=50
+    bAmbientGlow=False
+    PickupMessage="You found an Andilay Root"
+    PickupViewMesh=Mesh'AndilayRoot'
+    StatusIcon=Texture'Icons.I_AndilayRoot'
+    PickupSound=None
+    Texture=None
+    Mesh=Mesh'AndilayRoot'
+    AmbientGlow=0
+    CollisionRadius=10.00
+    CollisionHeight=16.00
+    bFixedRotationDir=False
+    RotationRate=(Pitch=0,Yaw=0,Roll=0),
 }

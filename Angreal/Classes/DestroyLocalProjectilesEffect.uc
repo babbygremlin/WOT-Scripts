@@ -53,5 +53,5 @@ function Invokable Duplicate()
 
 defaultproperties
 {
-     EffectRadius=100.000000
+    EffectRadius=100.00
 }

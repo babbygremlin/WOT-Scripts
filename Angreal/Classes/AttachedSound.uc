@@ -37,8 +37,8 @@ simulated function Tick( float DeltaTime )
 
 defaultproperties
 {
-     RemoteRole=ROLE_SimulatedProxy
-     DrawType=DT_None
-     SoundRadius=64
-     SoundVolume=192
+    RemoteRole=2
+    DrawType=0
+    SoundRadius=64
+    SoundVolume=192
 }

@@ -64,6 +64,6 @@ function SpawnImpactEffect( vector AimLoc )
 
 defaultproperties
 {
-     SoundReflectName="Angreal.Fork.ForkFK"
-     Priority=150
+    SoundReflectName="Angreal.Fork.ForkFK"
+    Priority=150
 }

@@ -36,22 +36,22 @@ function class<WOTPawn> GetResourceClass()
 
 defaultproperties
 {
-     LimitWarning="You already have one Champion under your control."
-     TopSparkle=Texture'ParticleSystems.Appear.ZGreenCorona'
-     BottomSparkle=Texture'ParticleSystems.Appear.AYellowCorona'
-     bElementSpirit=True
-     bRare=True
-     MaxCharges=5
-     ActivateSoundName="Angreal.ActivateCH"
-     MinChargeGroupInterval=10.000000
-     Title="Champion"
-     Description="The Champion ter'angreal summons the strongest creature under your command--extremely powerful, but also very headstrong."
-     Quote="It was Thom Merrilin who answered her hoarsely. @In the war that ended the Age of Legends, worse than Trollocs and Halfmen were created.@"
-     StatusIconFrame=Texture'Angreal.Icons.M_Champion'
-     PickupMessage="You got the Champion ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealChampionPickup'
-     StatusIcon=Texture'Angreal.Icons.I_Champion'
-     Style=STY_Masked
-     Mesh=Mesh'Angreal.AngrealChampionPickup'
-     DrawScale=0.500000
+    LimitWarning="You already have one Champion under your control."
+    TopSparkle=Texture'ParticleSystems.Appear.ZGreenCorona'
+    BottomSparkle=Texture'ParticleSystems.Appear.AYellowCorona'
+    bElementSpirit=True
+    bRare=True
+    MaxCharges=5
+    ActivateSoundName="Angreal.ActivateCH"
+    MinChargeGroupInterval=10.00
+    Title="Champion"
+    Description="The Champion ter'angreal summons the strongest creature under your command--extremely powerful, but also very headstrong."
+    Quote="It was Thom Merrilin who answered her hoarsely. @In the war that ended the Age of Legends, worse than Trollocs and Halfmen were created.@"
+    StatusIconFrame=Texture'Icons.M_Champion'
+    PickupMessage="You got the Champion ter'angreal"
+    PickupViewMesh=Mesh'AngrealChampionPickup'
+    StatusIcon=Texture'Icons.I_Champion'
+    Style=2
+    Mesh=Mesh'AngrealChampionPickup'
+    DrawScale=0.50
 }

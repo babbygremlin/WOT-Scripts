@@ -232,25 +232,25 @@ static function DisableLevitate( Pawn Other )
 
 defaultproperties
 {
-     ActorFitsRadius=1024.000000
-     AlignmentSpeed=2.000000
-     RotationPerSecond=120000
-     WWRotationRate=(Yaw=64000)
-     WWRotationOffset=(X=10.000000)
-     TouchDownSpeed=60.000000
-     MaxHeight=500.000000
-     AffectResolution=0.200000
-     bDeleterious=True
-     bDisplayIcon=True
-     bSingular=True
-     RemoteRole=ROLE_SimulatedProxy
-     SoundRadius=255
-     SoundVolume=255
-     AmbientSound=Sound'Angreal.Whirlwind.LoopWW'
-     LightType=LT_Steady
-     LightEffect=LE_NonIncidence
-     LightBrightness=88
-     LightHue=204
-     LightSaturation=204
-     LightRadius=8
+    ActorFitsRadius=1024.00
+    AlignmentSpeed=2.00
+    RotationPerSecond=120000
+    WWRotationRate=(Pitch=0,Yaw=64000,Roll=0),
+    WWRotationOffset=(X=10.00,Y=0.00,Z=0.00),
+    TouchDownSpeed=60.00
+    MaxHeight=500.00
+    AffectResolution=0.20
+    bDeleterious=True
+    bDisplayIcon=True
+    bSingular=True
+    RemoteRole=2
+    SoundRadius=255
+    SoundVolume=255
+    AmbientSound=Sound'Whirlwind.LoopWW'
+    LightType=1
+    LightEffect=13
+    LightBrightness=88
+    LightHue=204
+    LightSaturation=204
+    LightRadius=8
 }

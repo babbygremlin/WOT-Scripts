@@ -114,9 +114,9 @@ function inventory SpawnCopy( Pawn Other )
 
 defaultproperties
 {
-     PickupMessage="You picked up some ammo."
-     RespawnTime=30.000000
-     MaxDesireability=0.200000
-     Texture=Texture'Engine.S_Ammo'
-     bCollideActors=False
+    PickupMessage="You picked up some ammo."
+    RespawnTime=30.00
+    MaxDesireability=0.20
+    Texture=Texture'S_Ammo'
+    bCollideActors=False
 }

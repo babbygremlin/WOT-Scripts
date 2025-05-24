@@ -387,12 +387,12 @@ state EEDDAA extends DDAA
 
 defaultproperties
 {
-     bTrue1=True
-     bTrue2=True
-     xnum=777
-     ppp=3.140000
-     sxx="Tim"
-     bHidden=False
-     RemoteRole=ROLE_SimulatedProxy
-     bAlwaysRelevant=True
+    bTrue1=True
+    bTrue2=True
+    xnum=777
+    ppp=3.14
+    sxx="Tim"
+    bHidden=False
+    RemoteRole=2
+    bAlwaysRelevant=True
 }

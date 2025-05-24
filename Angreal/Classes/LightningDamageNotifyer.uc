@@ -25,7 +25,7 @@ function TakeDamage( int Damage, Pawn InstigatedBy, Vector HitLocation, vector M
 
 defaultproperties
 {
-     Priority=64
-     bRemovable=False
-     bDisplayIcon=False
+    Priority=64
+    bRemovable=False
+    bDisplayIcon=False
 }

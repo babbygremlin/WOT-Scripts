@@ -89,7 +89,7 @@ function AffectHost( optional int Iterations )
 
 defaultproperties
 {
-     DecaySound=Sound'Angreal.Decay.LeechDC'
-     AffectResolution=1.000000
-     bDeleterious=True
+    DecaySound=Sound'Decay.LeechDC'
+    AffectResolution=1.00
+    bDeleterious=True
 }

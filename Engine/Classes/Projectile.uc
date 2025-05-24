@@ -134,19 +134,19 @@ simulated final function RandSpin(float spinRate)
 
 defaultproperties
 {
-     MaxSpeed=2000.000000
-     bNetTemporary=True
-     bReplicateInstigator=True
-     Physics=PHYS_Projectile
-     LifeSpan=140.000000
-     bDirectional=True
-     DrawType=DT_Mesh
-     Texture=Texture'Engine.S_Camera'
-     bGameRelevant=True
-     SoundVolume=0
-     CollisionRadius=0.000000
-     CollisionHeight=0.000000
-     bCollideActors=True
-     bCollideWorld=True
-     NetPriority=2.500000
+    MaxSpeed=2000.00
+    bNetTemporary=True
+    bReplicateInstigator=True
+    Physics=6
+    LifeSpan=140.00
+    bDirectional=True
+    DrawType=2
+    Texture=Texture'S_Camera'
+    bGameRelevant=True
+    SoundVolume=0
+    CollisionRadius=0.00
+    CollisionHeight=0.00
+    bCollideActors=True
+    bCollideWorld=True
+    NetPriority=2.50
 }

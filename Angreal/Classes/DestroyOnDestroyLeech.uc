@@ -44,6 +44,6 @@ function AffectHost( optional int Iterations )
 
 defaultproperties
 {
-     AffectResolution=1.000000
-     bDeleterious=True
+    AffectResolution=1.00
+    bDeleterious=True
 }

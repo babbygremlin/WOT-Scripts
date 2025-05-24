@@ -15,5 +15,5 @@ class LSwingsB expands LSwingsA;
 
 defaultproperties
 {
-     Mesh=Mesh'Angreal.LSwingsB'
+    Mesh=Mesh'LSwingsB'
 }

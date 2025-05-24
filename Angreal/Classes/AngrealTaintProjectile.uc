@@ -91,14 +91,14 @@ simulated function Destroyed()
 
 defaultproperties
 {
-     speed=150.000000
-     MomentumTransfer=2000
-     SpawnSound=Sound'Angreal.Taint.LaunchTN'
-     ImpactSound=Sound'Angreal.Taint.HitTN'
-     LifeSpan=0.000000
-     SoundRadius=160
-     SoundVolume=255
-     AmbientSound=Sound'Angreal.Taint.LoopTN'
-     CollisionRadius=6.000000
-     CollisionHeight=12.000000
+    speed=150.00
+    MomentumTransfer=2000
+    SpawnSound=Sound'Taint.LaunchTN'
+    ImpactSound=Sound'Taint.HitTN'
+    LifeSpan=0.00
+    SoundRadius=160
+    SoundVolume=255
+    AmbientSound=Sound'Taint.LoopTN'
+    CollisionRadius=6.00
+    CollisionHeight=12.00
 }

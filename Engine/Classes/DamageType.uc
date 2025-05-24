@@ -22,5 +22,5 @@ static function string DeathMessage()
 
 defaultproperties
 {
-     AltName="killed"
+    AltName="killed"
 }

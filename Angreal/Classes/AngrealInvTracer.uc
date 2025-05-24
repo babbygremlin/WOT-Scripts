@@ -160,24 +160,24 @@ simulated function bool CanDirectlyReach( vector To, vector From )
 
 defaultproperties
 {
-     ProjectileClassName="Angreal.AngrealTracerProjectile"
-     bElementFire=True
-     bElementAir=True
-     bRare=True
-     bInfo=True
-     MinInitialCharges=2
-     MaxInitialCharges=4
-     MaxCharges=10
-     MaxChargesInGroup=5
-     MinChargeGroupInterval=6.000000
-     Title="Tracer"
-     Description="Tracer creates a weave that seeks out the nearest seal, leaving behind a fiery trail. When the weave eventually touches the seal, the trail slowly fades away."
-     Quote="Rolling onto his back, he could see the remnants of those burning red wires still, fresh enough to make out Fire and Air woven in a way he had not known. Enough to make out exactly the direction they had come from."
-     StatusIconFrame=Texture'Angreal.Icons.M_Tracer'
-     PickupMessage="You got the Tracer ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealTracerPickup'
-     StatusIcon=Texture'Angreal.Icons.I_Tracer'
-     Texture=None
-     Skin=Texture'Angreal.Skins.JAngrealTracer1'
-     Mesh=Mesh'Angreal.AngrealTracerPickup'
+    ProjectileClassName="Angreal.AngrealTracerProjectile"
+    bElementFire=True
+    bElementAir=True
+    bRare=True
+    bInfo=True
+    MinInitialCharges=2
+    MaxInitialCharges=4
+    MaxCharges=10
+    MaxChargesInGroup=5
+    MinChargeGroupInterval=6.00
+    Title="Tracer"
+    Description="Tracer creates a weave that seeks out the nearest seal, leaving behind a fiery trail. When the weave eventually touches the seal, the trail slowly fades away."
+    Quote="Rolling onto his back, he could see the remnants of those burning red wires still, fresh enough to make out Fire and Air woven in a way he had not known. Enough to make out exactly the direction they had come from."
+    StatusIconFrame=Texture'Icons.M_Tracer'
+    PickupMessage="You got the Tracer ter'angreal"
+    PickupViewMesh=Mesh'AngrealTracerPickup'
+    StatusIcon=Texture'Icons.I_Tracer'
+    Texture=None
+    Skin=Texture'Skins.JAngrealTracer1'
+    Mesh=Mesh'AngrealTracerPickup'
 }

@@ -32,24 +32,25 @@ class LightningStreak expands Streak;
 
 // NOTE[aleiby]: Lighting (not to be confused with lightning) doesn't work well with Streaks.
 
+
 defaultproperties
 {
-     SegmentLength=64.000000
-     bRandomizeTextures=True
-     Textures(0)=Texture'Angreal.Skins.LB1'
-     Textures(1)=Texture'Angreal.Skins.LB2'
-     Textures(2)=Texture'Angreal.Skins.LB3'
-     Textures(3)=Texture'Angreal.Skins.LB4'
-     Textures(4)=Texture'Angreal.Skins.LB5'
-     Textures(5)=Texture'Angreal.Skins.LB6'
-     Textures(6)=Texture'Angreal.Skins.LB7'
-     Textures(7)=Texture'Angreal.Skins.LB8'
-     Textures(8)=Texture'Angreal.Skins.LB9'
-     Textures(9)=Texture'Angreal.Skins.LB10'
-     NumTextures=10
-     DrawType=DT_Mesh
-     Skin=Texture'Angreal.Skins.LB10'
-     Mesh=Mesh'Angreal.LightningBolt'
-     bUnlit=True
-     SoundVolume=255
+    SegmentLength=64.00
+    bRandomizeTextures=True
+    Textures(0)=Texture'Skins.LB1'
+    Textures(1)=Texture'Skins.LB2'
+    Textures(2)=Texture'Skins.LB3'
+    Textures(3)=Texture'Skins.LB4'
+    Textures(4)=Texture'Skins.LB5'
+    Textures(5)=Texture'Skins.LB6'
+    Textures(6)=Texture'Skins.LB7'
+    Textures(7)=Texture'Skins.LB8'
+    Textures(8)=Texture'Skins.LB9'
+    Textures(9)=Texture'Skins.LB10'
+    NumTextures=10
+    DrawType=2
+    Skin=Texture'Skins.LB10'
+    Mesh=Mesh'LightningBolt'
+    bUnlit=True
+    SoundVolume=255
 }

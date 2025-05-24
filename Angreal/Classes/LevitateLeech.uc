@@ -85,7 +85,7 @@ simulated function Tick( float DeltaTime )
 
 defaultproperties
 {
-     RiseHeight=20.000000
-     LevitateSpeed=96.000000
-     AffectResolution=1.000000
+    RiseHeight=20.00
+    LevitateSpeed=96.00
+    AffectResolution=1.00
 }

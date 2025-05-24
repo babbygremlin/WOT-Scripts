@@ -2513,14 +2513,74 @@ event PlayerInput( float DeltaTime )
 	bWasRight = (aStrafe < 0);
 	
 	// Smooth and amplify mouse movement
+	SmoothTime = FMin(0.2, 3 * DeltaTime);
 	FOVScale = DesiredFOV * 0.01111; 
-	MouseScale = MouseSensitivity * FOVScale * 5;
-	SmoothMouseX = aMouseX * MouseScale * 0.005;
-	SmoothMouseY = aMouseY * MouseScale * 0.005;
-	aMouseX = 0;
-	aMouseY = 0;
+	MouseScale = MouseSensitivity * FOVScale;
+
+	aMouseX *= MouseScale;
+	aMouseY *= MouseScale;
 
 //************************************************************************
+
+	//log("X "$aMouseX$" Smooth "$SmoothMouseX$" Borrowed "$BorrowedMouseX$" zero time "$(Level.TimeSeconds - MouseZeroTime)$" vs "$MouseSmoothThreshold);
+	AbsSmoothX = SmoothMouseX;
+	AbsSmoothY = SmoothMouseY;
+	if ( bMaxMouseSmoothing && (aMouseX == 0) && (Level.TimeSeconds - MouseZeroTime < MouseSmoothThreshold) )
+	{
+		SmoothMouseX = 0.5 * (MouseSmoothThreshold - Level.TimeSeconds + MouseZeroTime) * AbsSmoothX/MouseSmoothThreshold;
+		BorrowedMouseX += SmoothMouseX;
+	}
+	else
+	{
+		if ( (SmoothMouseX == 0) || (aMouseX == 0) 
+				|| ((SmoothMouseX > 0) != (aMouseX > 0)) )
+		{
+			SmoothMouseX = aMouseX;
+			BorrowedMouseX = 0;
+		}
+		else
+		{
+			SmoothMouseX = 0.5 * (SmoothMouseX + aMouseX - BorrowedMouseX);
+			if ( (SmoothMouseX > 0) != (aMouseX > 0) )
+			{
+				if ( AMouseX > 0 )
+					SmoothMouseX = 1;
+				else
+					SmoothMouseX = -1;
+			} 
+			BorrowedMouseX = SmoothMouseX - aMouseX;
+		}
+		AbsSmoothX = SmoothMouseX;
+	}
+	if ( bMaxMouseSmoothing && (aMouseY == 0) && (Level.TimeSeconds - MouseZeroTime < MouseSmoothThreshold) )
+	{
+		SmoothMouseY = 0.5 * (MouseSmoothThreshold - Level.TimeSeconds + MouseZeroTime) * AbsSmoothY/MouseSmoothThreshold;
+		BorrowedMouseY += SmoothMouseY;
+	}
+	else
+	{
+		if ( (SmoothMouseY == 0) || (aMouseY == 0) 
+				|| ((SmoothMouseY > 0) != (aMouseY > 0)) )
+		{
+			SmoothMouseY = aMouseY;
+			BorrowedMouseY = 0;
+		}
+		else
+		{
+			SmoothMouseY = 0.5 * (SmoothMouseY + aMouseY - BorrowedMouseY);
+			if ( (SmoothMouseY > 0) != (aMouseY > 0) )
+			{
+				if ( AMouseY > 0 )
+					SmoothMouseY = 1;
+				else
+					SmoothMouseY = -1;
+			} 
+			BorrowedMouseY = SmoothMouseY - aMouseY;
+		}
+		AbsSmoothY = SmoothMouseY;
+	}
+	if ( (aMouseX != 0) || (aMouseY != 0) )
+		MouseZeroTime = Level.TimeSeconds;
 
 	// adjust keyboard and joystick movements
 	aLookUp *= FOVScale;
@@ -4659,8 +4719,8 @@ defaultproperties
     bKeyboardLook=True
     bMaxMouseSmoothing=True
     bMessageBeep=True
-	MouseSensitivity=5.0
-	MouseSmoothThreshold=0.070000
+    MouseSensitivity=3.00
+    MouseSmoothThreshold=0.07
     MaxTimeMargin=3.00
     QuickSaveString="Quick Saving"
     NoPauseMessage="Game is not pauseable"

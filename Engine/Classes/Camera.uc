@@ -9,10 +9,10 @@ class Camera extends PlayerPawn
 
 defaultproperties
 {
-     Location=(X=-500.000000,Y=-300.000000,Z=300.000000)
-     Texture=Texture'Engine.S_Camera'
-     CollisionRadius=16.000000
-     CollisionHeight=39.000000
-     LightBrightness=100
-     LightRadius=16
+    Location=(X=-500.00,Y=-300.00,Z=300.00),
+    Texture=Texture'S_Camera'
+    CollisionRadius=16.00
+    CollisionHeight=39.00
+    LightBrightness=100
+    LightRadius=16
 }

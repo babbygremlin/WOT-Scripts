@@ -238,6 +238,6 @@ function LazyLoad()
 
 defaultproperties
 {
-     bRestrictsUsage=True
-     MaxChargeUsedInterval=1.000000
+    bRestrictsUsage=True
+    MaxChargeUsedInterval=1.00
 }

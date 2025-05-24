@@ -116,6 +116,6 @@ function float GetPriority()
 
 defaultproperties
 {
-     SpawnSeparation=50.000000
-     Priority=50.000000
+    SpawnSeparation=50.00
+    Priority=50.00
 }

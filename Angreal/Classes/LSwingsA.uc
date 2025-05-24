@@ -80,27 +80,27 @@ simulated state LSLooping
 
 defaultproperties
 {
-     LSGrowTextures(0)=Texture'Angreal.Skins.LSwings01'
-     LSGrowTextures(1)=Texture'Angreal.Skins.LSwings02'
-     LSGrowTextures(2)=Texture'Angreal.Skins.LSwings03'
-     LSGrowTextures(3)=Texture'Angreal.Skins.LSwings04'
-     LSGrowTextures(4)=Texture'Angreal.Skins.LSwings05'
-     LSLoopTextures(0)=Texture'Angreal.Skins.LSwings06'
-     LSLoopTextures(1)=Texture'Angreal.Skins.LSwings07'
-     LSLoopTextures(2)=Texture'Angreal.Skins.LSwings08'
-     LSLoopTextures(3)=Texture'Angreal.Skins.LSwings09'
-     LSLoopTextures(4)=Texture'Angreal.Skins.LSwings10'
-     LSLoopTextures(5)=Texture'Angreal.Skins.LSwings11'
-     LSLoopTextures(6)=Texture'Angreal.Skins.LSwings12'
-     LSLoopTextures(7)=Texture'Angreal.Skins.LSwings13'
-     LSLoopTextures(8)=Texture'Angreal.Skins.LSwings14'
-     LSLoopTextures(9)=Texture'Angreal.Skins.LSwings15'
-     LSFrameRate=30.000000
-     RemoteRole=ROLE_None
-     DrawType=DT_Mesh
-     Style=STY_Translucent
-     Skin=Texture'Angreal.Skins.LSwings01'
-     Mesh=Mesh'Angreal.LSwingsA'
-     bUnlit=True
-     CollisionRadius=5.000000
+    LSGrowTextures(0)=Texture'Skins.LSwings01'
+    LSGrowTextures(1)=Texture'Skins.LSwings02'
+    LSGrowTextures(2)=Texture'Skins.LSwings03'
+    LSGrowTextures(3)=Texture'Skins.LSwings04'
+    LSGrowTextures(4)=Texture'Skins.LSwings05'
+    LSLoopTextures(0)=Texture'Skins.LSwings06'
+    LSLoopTextures(1)=Texture'Skins.LSwings07'
+    LSLoopTextures(2)=Texture'Skins.LSwings08'
+    LSLoopTextures(3)=Texture'Skins.LSwings09'
+    LSLoopTextures(4)=Texture'Skins.LSwings10'
+    LSLoopTextures(5)=Texture'Skins.LSwings11'
+    LSLoopTextures(6)=Texture'Skins.LSwings12'
+    LSLoopTextures(7)=Texture'Skins.LSwings13'
+    LSLoopTextures(8)=Texture'Skins.LSwings14'
+    LSLoopTextures(9)=Texture'Skins.LSwings15'
+    LSFrameRate=30.00
+    RemoteRole=0
+    DrawType=2
+    Style=3
+    Skin=Texture'Skins.LSwings01'
+    Mesh=Mesh'LSwingsA'
+    bUnlit=True
+    CollisionRadius=5.00
 }

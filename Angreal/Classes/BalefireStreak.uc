@@ -26,11 +26,11 @@ class BalefireStreak expands Streak;
 
 defaultproperties
 {
-     SegmentLength=96.000000
-     bDirectional=True
-     DrawType=DT_Mesh
-     Mesh=Mesh'Angreal.BalefireSeg'
-     DrawScale=3.000000
-     AmbientGlow=254
-     bUnlit=True
+    SegmentLength=96.00
+    bDirectional=True
+    DrawType=2
+    Mesh=Mesh'BalefireSeg'
+    DrawScale=3.00
+    AmbientGlow=254
+    bUnlit=True
 }

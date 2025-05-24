@@ -53,10 +53,10 @@ simulated function Explode( vector HitLocation, vector HitNormal )
 
 defaultproperties
 {
-     speed=600.000000
-     MaxSpeed=600.000000
-     LifeSpan=0.000000
-     DrawType=DT_None
-     CollisionRadius=6.000000
-     CollisionHeight=12.000000
+    speed=600.00
+    MaxSpeed=600.00
+    LifeSpan=0.00
+    DrawType=0
+    CollisionRadius=6.00
+    CollisionHeight=12.00
 }

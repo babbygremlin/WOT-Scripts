@@ -139,14 +139,14 @@ function MenuProcessInput( byte KeyNum, byte ActionNum )
 
 defaultproperties
 {
-     Selection=1
-     HelpMessage(1)="This menu has not yet been implemented."
-     LeftString="Left"
-     RightString="Right"
-     CenterString="Center"
-     EnabledString="Enabled"
-     DisabledString="Disabled"
-     YesString="yes"
-     NoString="no"
-     bHidden=True
+    Selection=1
+    HelpMessage(1)="This menu has not yet been implemented."
+    LeftString="Left"
+    RightString="Right"
+    CenterString="Center"
+    EnabledString="Enabled"
+    DisabledString="Disabled"
+    YesString="yes"
+    NoString="no"
+    bHidden=True
 }

@@ -20,17 +20,17 @@ simulated function PreBeginPlay()
 
 defaultproperties
 {
-     Spread=2.000000
-     Volume=25.000000
-     NumTemplates=2
-     Templates(0)=(LifeSpan=3.000000,MaxInitialVelocity=600.000000,MinInitialVelocity=500.000000,MaxDrawScale=1.400000,MinDrawScale=1.200000,MaxScaleGlow=0.000000,MinScaleGlow=0.000000,GrowPhase=1,MaxGrowRate=-1.000000,MinGrowRate=-1.500000,FadePhase=2,MaxFadeRate=1.000000,MinFadeRate=0.750000)
-     Templates(1)=(Weight=2.000000,MaxInitialVelocity=600.000000,MinInitialVelocity=500.000000,MaxDrawScale=0.800000,MinDrawScale=0.400000,MaxScaleGlow=0.000000,MinScaleGlow=0.000000,GrowPhase=1,MaxGrowRate=-0.750000,MinGrowRate=-1.000000,FadePhase=2,MaxFadeRate=0.750000,MinFadeRate=0.500000)
-     Particles(0)=Texture'ParticleSystems.Fire.FlameBase02'
-     Particles(1)=Texture'ParticleSystems.Fire.Flame07'
-     bOn=True
-     VolumeScalePct=1.000000
-     bStatic=False
-     SpriteProjForward=32.000000
-     VisibilityRadius=5000.000000
-     VisibilityHeight=5000.000000
+    Spread=2.00
+    Volume=25.00
+    NumTemplates=2
+    Templates(0)=(LifeSpan=3.00,Weight=1.00,MaxInitialVelocity=600.00,MinInitialVelocity=500.00,MaxDrawScale=1.40,MinDrawScale=1.20,MaxScaleGlow=0.00,MinScaleGlow=0.00,GrowPhase=1,MaxGrowRate=-1.00,MinGrowRate=-1.50,FadePhase=2,MaxFadeRate=1.00,MinFadeRate=0.75),
+    Templates(1)=(LifeSpan=1.00,Weight=2.00,MaxInitialVelocity=600.00,MinInitialVelocity=500.00,MaxDrawScale=0.80,MinDrawScale=0.40,MaxScaleGlow=0.00,MinScaleGlow=0.00,GrowPhase=1,MaxGrowRate=-0.75,MinGrowRate=-1.00,FadePhase=2,MaxFadeRate=0.75,MinFadeRate=0.50),
+    Particles(0)=Texture'ParticleSystems.Fire.FlameBase02'
+    Particles(1)=Texture'ParticleSystems.Fire.Flame07'
+    bOn=True
+    VolumeScalePct=1.00
+    bStatic=False
+    SpriteProjForward=32.00
+    VisibilityRadius=5000.00
+    VisibilityHeight=5000.00
 }

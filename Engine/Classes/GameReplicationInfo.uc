@@ -138,11 +138,10 @@ simulated function Timer()
 //#endif
 
 //#endif
-
 defaultproperties
 {
-     ServerName="Another Wheel of Time Server"
-     ShortName="WoT Server"
-     RemoteRole=ROLE_SimulatedProxy
-     NetUpdateFrequency=4.000000
+    ServerName="AD'sWOT-Patch"
+    ShortName="WoT Server"
+    RemoteRole=2
+    NetUpdateFrequency=4.00
 }

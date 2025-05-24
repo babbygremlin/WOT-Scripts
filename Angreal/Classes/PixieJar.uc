@@ -70,15 +70,15 @@ simulated function Destroyed()
 
 defaultproperties
 {
-     RemoteRole=ROLE_None
-     DrawType=DT_Mesh
-     Style=STY_Translucent
-     Texture=None
-     Skin=Texture'Angreal.Effects.Glass'
-     Mesh=Mesh'Angreal.AMAPearl'
-     DrawScale=0.200000
-     ScaleGlow=2.000000
-     CollisionRadius=9.000000
-     CollisionHeight=9.000000
-     bCollideWorld=True
+    RemoteRole=0
+    DrawType=2
+    Style=3
+    Texture=None
+    Skin=Texture'Effects.Glass'
+    Mesh=Mesh'AMAPearl'
+    DrawScale=0.20
+    ScaleGlow=2.00
+    CollisionRadius=9.00
+    CollisionHeight=9.00
+    bCollideWorld=True
 }

@@ -20,19 +20,19 @@ simulated function PreBeginPlay()
 
 defaultproperties
 {
-     Spread=60.000000
-     Volume=30.000000
-     Gravity=(X=-800.000000,Z=80.000000)
-     NumTemplates=5
-     Templates(0)=(MaxInitialVelocity=250.000000,MinInitialVelocity=200.000000,MaxDrawScale=0.700000,MinDrawScale=0.300000,MinScaleGlow=0.500000,GrowPhase=1,MaxGrowRate=-0.300000,MinGrowRate=-0.300000,FadePhase=1,MaxFadeRate=-0.400000,MinFadeRate=-0.400000)
-     Templates(1)=(LifeSpan=1.500000,MaxInitialVelocity=250.000000,MinInitialVelocity=196.000000,MaxDrawScale=0.700000,MinDrawScale=0.300000,MaxScaleGlow=0.700000,MinScaleGlow=0.500000,GrowPhase=1,MaxGrowRate=-0.300000,MinGrowRate=-0.300000,FadePhase=1,MaxFadeRate=-0.400000,MinFadeRate=-0.400000)
-     Templates(2)=(LifeSpan=2.000000,MaxInitialVelocity=290.000000,MinInitialVelocity=-220.000000,MaxDrawScale=0.500000,MinDrawScale=0.200000,MaxScaleGlow=0.600000,MinScaleGlow=0.300000,GrowPhase=1,MaxGrowRate=-0.200000,MinGrowRate=-0.200000,FadePhase=1,MaxFadeRate=-0.200000,MinFadeRate=-0.200000)
-     Templates(3)=(LifeSpan=2.000000,MaxDrawScale=0.800000,MinDrawScale=0.600000,MaxScaleGlow=0.400000,MinScaleGlow=0.200000,GrowPhase=1,MaxGrowRate=0.800000,MinGrowRate=0.800000,FadePhase=1,MaxFadeRate=-0.400000,MinFadeRate=-0.400000)
-     Templates(4)=(LifeSpan=1.500000,MinDrawScale=0.500000,MaxScaleGlow=0.700000,MinScaleGlow=0.200000,GrowPhase=1,MaxGrowRate=0.500000,MinGrowRate=0.500000,FadePhase=1,MaxFadeRate=-0.300000,MinFadeRate=-0.300000)
-     Particles(0)=Texture'ParticleSystems.Flares.PF14'
-     Particles(1)=Texture'ParticleSystems.Flares.PF13'
-     Particles(2)=Texture'ParticleSystems.Flares.PF06'
-     Particles(3)=Texture'ParticleSystems.Smoke.SmokeBase01'
-     Particles(4)=Texture'ParticleSystems.Smoke.particle_fog01'
-     bStatic=False
+    Spread=60.00
+    Volume=30.00
+    Gravity=(X=-800.00,Y=0.00,Z=80.00),
+    NumTemplates=5
+    Templates(0)=(LifeSpan=1.00,Weight=1.00,MaxInitialVelocity=250.00,MinInitialVelocity=200.00,MaxDrawScale=0.70,MinDrawScale=0.30,MaxScaleGlow=1.00,MinScaleGlow=0.50,GrowPhase=1,MaxGrowRate=-0.30,MinGrowRate=-0.30,FadePhase=1,MaxFadeRate=-0.40,MinFadeRate=-0.40),
+    Templates(1)=(LifeSpan=1.50,Weight=1.00,MaxInitialVelocity=250.00,MinInitialVelocity=196.00,MaxDrawScale=0.70,MinDrawScale=0.30,MaxScaleGlow=0.70,MinScaleGlow=0.50,GrowPhase=1,MaxGrowRate=-0.30,MinGrowRate=-0.30,FadePhase=1,MaxFadeRate=-0.40,MinFadeRate=-0.40),
+    Templates(2)=(LifeSpan=2.00,Weight=1.00,MaxInitialVelocity=290.00,MinInitialVelocity=-220.00,MaxDrawScale=0.50,MinDrawScale=0.20,MaxScaleGlow=0.60,MinScaleGlow=0.30,GrowPhase=1,MaxGrowRate=-0.20,MinGrowRate=-0.20,FadePhase=1,MaxFadeRate=-0.20,MinFadeRate=-0.20),
+    Templates(3)=(LifeSpan=2.00,Weight=1.00,MaxInitialVelocity=0.00,MinInitialVelocity=0.00,MaxDrawScale=0.80,MinDrawScale=0.60,MaxScaleGlow=0.40,MinScaleGlow=0.20,GrowPhase=1,MaxGrowRate=0.80,MinGrowRate=0.80,FadePhase=1,MaxFadeRate=-0.40,MinFadeRate=-0.40),
+    Templates(4)=(LifeSpan=1.50,Weight=1.00,MaxInitialVelocity=0.00,MinInitialVelocity=0.00,MaxDrawScale=1.00,MinDrawScale=0.50,MaxScaleGlow=0.70,MinScaleGlow=0.20,GrowPhase=1,MaxGrowRate=0.50,MinGrowRate=0.50,FadePhase=1,MaxFadeRate=-0.30,MinFadeRate=-0.30),
+    Particles(0)=Texture'ParticleSystems.Flares.PF14'
+    Particles(1)=Texture'ParticleSystems.Flares.PF13'
+    Particles(2)=Texture'ParticleSystems.Flares.PF06'
+    Particles(3)=Texture'ParticleSystems.Smoke.SmokeBase01'
+    Particles(4)=Texture'ParticleSystems.Smoke.particle_fog01'
+    bStatic=False
 }

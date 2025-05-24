@@ -5,6 +5,6 @@ class GenericSprite expands Effects;
 
 defaultproperties
 {
-     RemoteRole=ROLE_None
-     DrawType=DT_Sprite
+    RemoteRole=0
+    DrawType=1
 }

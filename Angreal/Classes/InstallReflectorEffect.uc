@@ -69,7 +69,6 @@ function Invokable Duplicate()
 	return NewInvokable;
 }
 	
-
 defaultproperties
 {
 }

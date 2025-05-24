@@ -88,9 +88,8 @@ function float GetPriority()
 	}
 }
 */
-
 defaultproperties
 {
-     AttachLeechEffectClass=Class'Angreal.AttachLeechEffect'
-     Priority=20.000000
+    AttachLeechEffectClass=Class'AttachLeechEffect'
+    Priority=20.00
 }

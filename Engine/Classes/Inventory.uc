@@ -790,31 +790,31 @@ State Idle2
 
 defaultproperties
 {
-     bAmbientGlow=True
-     bRotatingPickup=True
-     PickupMessage="Snagged an item."
-     ItemArticle="a"
-     PlayerViewScale=1.000000
-     BobDamping=0.960000
-     PickupViewScale=1.000000
-     ThirdPersonScale=1.000000
-     MaxDesireability=0.005000
-     bFirstFrame=True
-     bToggleSteadyFlash=True
-     M_Activated=" activated."
-     M_Selected=" selected."
-     M_Deactivated=" deactivated."
-     bIsItemGoal=True
-     bTravel=True
-     RemoteRole=ROLE_SimulatedProxy
-     DrawType=DT_Mesh
-     Texture=Texture'Engine.S_Inventory'
-     AmbientGlow=255
-     CollisionRadius=30.000000
-     CollisionHeight=30.000000
-     bCollideActors=True
-     bFixedRotationDir=True
-     RotationRate=(Yaw=5000)
-     DesiredRotation=(Yaw=30000)
-     NetPriority=1.400000
+    bAmbientGlow=True
+    bRotatingPickup=True
+    PickupMessage="Snagged an item."
+    ItemArticle="a"
+    PlayerViewScale=1.00
+    BobDamping=0.96
+    PickupViewScale=1.00
+    ThirdPersonScale=1.00
+    MaxDesireability=0.00
+    bFirstFrame=True
+    bToggleSteadyFlash=True
+    M_Activated=" activated."
+    M_Selected=" selected."
+    M_Deactivated=" deactivated."
+    bIsItemGoal=True
+    bTravel=True
+    RemoteRole=2
+    DrawType=2
+    Texture=Texture'S_Inventory'
+    AmbientGlow=255
+    CollisionRadius=30.00
+    CollisionHeight=30.00
+    bCollideActors=True
+    bFixedRotationDir=True
+    RotationRate=(Pitch=0,Yaw=5000,Roll=0),
+    DesiredRotation=(Pitch=0,Yaw=30000,Roll=0),
+    NetPriority=1.40
 }

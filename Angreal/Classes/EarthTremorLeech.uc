@@ -39,5 +39,5 @@ function AffectHost( optional int Iterations )
 
 defaultproperties
 {
-     bDisplayIcon=False
+    bDisplayIcon=False
 }

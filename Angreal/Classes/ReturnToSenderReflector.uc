@@ -294,17 +294,17 @@ simulated function Tick( float DeltaTime )
 
 defaultproperties
 {
-     SoundReflectName="WOT.Effect.Reflected"
-     UnAffectedTypes(0)=MashadarGuide
-     UnAffectedTypes(1)=MachinShin
-     UnAffectedTypes(2)=AMAPearl
-     UnAffectedTypes(3)=AngrealAMAProjectile
-     UnAffectedTypes(4)=AngrealDistantEyeProjectile
-     UnAffectedTypes(5)=AngrealExpWardProjectile
-     UnAffectedTypes(6)=AngrealTracerProjectile
-     UnAffectedTypes(7)=AngrealWallOfAirProjectile
-     UnAffectedTypes(8)=EarthTremorRock
-     Priority=160
-     bRemoveExisting=True
-     RemoteRole=ROLE_SimulatedProxy
+    SoundReflectName="WOT.Effect.Reflected"
+    UnAffectedTypes(0)=MashadarGuide
+    UnAffectedTypes(1)=MachinShin
+    UnAffectedTypes(2)=AMAPearl
+    UnAffectedTypes(3)=AngrealAMAProjectile
+    UnAffectedTypes(4)=AngrealDistantEyeProjectile
+    UnAffectedTypes(5)=AngrealExpWardProjectile
+    UnAffectedTypes(6)=AngrealTracerProjectile
+    UnAffectedTypes(7)=AngrealWallOfAirProjectile
+    UnAffectedTypes(8)=EarthTremorRock
+    Priority=160
+    bRemoveExisting=True
+    RemoteRole=2
 }

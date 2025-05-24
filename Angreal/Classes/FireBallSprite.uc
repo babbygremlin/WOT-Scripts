@@ -54,11 +54,11 @@ function Tick( float DeltaTime )
 
 defaultproperties
 {
-     FrameTime=0.200000
-     FadeTime=0.100000
-     bStatic=False
-     bCanTeleport=True
-     Style=STY_Translucent
-     DrawScale=0.500000
-     NetPriority=6.000000
+    FrameTime=0.20
+    FadeTime=0.10
+    bStatic=False
+    bCanTeleport=True
+    Style=3
+    DrawScale=0.50
+    NetPriority=6.00
 }

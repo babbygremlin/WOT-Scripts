@@ -113,8 +113,8 @@ function bool InvIsIgnored( AngrealInventory Inv )
 
 defaultproperties
 {
-     ImpactType=Class'Angreal.WaterShieldVisual'
-     DeflectSound=Sound'Angreal.WaterShield.DeflectWS'
-     TriggerEvent=ElementalWaterTriggered
-     IgnoredDamageType=Water
+    ImpactType=Class'WaterShieldVisual'
+    DeflectSound=Sound'WaterShield.DeflectWS'
+    TriggerEvent=ElementalWaterTriggered
+    IgnoredDamageType=Water
 }

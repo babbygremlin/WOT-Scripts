@@ -112,14 +112,14 @@ function Tick( float DeltaTime )
 
 defaultproperties
 {
-     MaxAffectResolution=0.800000
-     MinAffectResolution=0.200000
-     MaxHealSpeed=400.000000
-     HealingAmount=1
-     MaxCharges=100
-     AffectResolution=10000.000000
-     bDisplayIcon=True
-     bRemovable=False
-     bSingular=True
-     LifeSpan=10000.000000
+    MaxAffectResolution=0.80
+    MinAffectResolution=0.20
+    MaxHealSpeed=400.00
+    HealingAmount=1
+    MaxCharges=100
+    AffectResolution=10000.00
+    bDisplayIcon=True
+    bRemovable=False
+    bSingular=True
+    LifeSpan=10000.00
 }

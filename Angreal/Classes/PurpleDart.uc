@@ -17,8 +17,8 @@ class PurpleDart expands AngrealDartProjectile;
 
 defaultproperties
 {
-     CoronaTexture=Texture'Angreal.Coronas.Corona_purple'
-     ExplosionTexture=Texture'Angreal.Explosions.Expl_purple'
-     Skin=Texture'Angreal.Skins.Comet_purple'
-     LightHue=200
+    CoronaTexture=Texture'Coronas.Corona_purple'
+    ExplosionTexture=Texture'Explosions.Expl_purple'
+    Skin=Texture'Skins.Comet_purple'
+    LightHue=200
 }

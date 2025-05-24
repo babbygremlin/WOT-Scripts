@@ -220,16 +220,16 @@ simulated function bool IsAffectable( Actor Other )
 
 defaultproperties
 {
-     InvokeSound=Sound'Angreal.Absorb.AbsorbABS'
-     NonStealableTypes(0)=AngrealInvAirBurst
-     UnAffectedProjs(0)=MashadarGuide
-     UnAffectedProjs(1)=MachinShin
-     UnAffectedProjs(2)=AMAPearl
-     UnAffectedProjs(3)=AngrealDistantEyeProjectile
-     UnAffectedProjs(4)=AngrealWallOfAirProjectile
-     UnAffectedProjs(5)=EarthTremorRock
-     UnAffectedProjs(6)=LavaRock
-     Priority=170
-     bRemoveExisting=True
-     RemoteRole=ROLE_SimulatedProxy
+    InvokeSound=Sound'Absorb.AbsorbABS'
+    NonStealableTypes=AngrealInvAirBurst
+    UnAffectedProjs(0)=MashadarGuide
+    UnAffectedProjs(1)=MachinShin
+    UnAffectedProjs(2)=AMAPearl
+    UnAffectedProjs(3)=AngrealDistantEyeProjectile
+    UnAffectedProjs(4)=AngrealWallOfAirProjectile
+    UnAffectedProjs(5)=EarthTremorRock
+    UnAffectedProjs(6)=LavaRock
+    Priority=170
+    bRemoveExisting=True
+    RemoteRole=2
 }

@@ -102,12 +102,12 @@ simulated function Destroyed()
 
 defaultproperties
 {
-     StreakType=Class'Angreal.LightningStreak02'
-     SparkType=Class'Angreal.LightningSprayer02'
-     HitWaterClass=Class'Angreal.FireballFizzle'
-     HitWaterOffset=(Z=56.000000)
-     SoundRadius=64
-     SoundVolume=255
-     AmbientSound=Sound'Angreal.LightningStrike.LoopLS'
-     NetPriority=6.000000
+    StreakType=Class'LightningStreak02'
+    SparkType=Class'LightningSprayer02'
+    HitWaterClass=Class'FireballFizzle'
+    HitWaterOffset=(X=0.00,Y=0.00,Z=56.00),
+    SoundRadius=64
+    SoundVolume=255
+    AmbientSound=Sound'LightningStrike.LoopLS'
+    NetPriority=6.00
 }

@@ -61,6 +61,6 @@ function Unattach()
 
 defaultproperties
 {
-     GlowFog=(X=281.250000,Y=421.875000,Z=140.625000)
-     FOV=120.000000
+    GlowFog=(X=281.25,Y=421.88,Z=140.63),
+    FOV=120.00
 }

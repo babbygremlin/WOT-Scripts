@@ -31,7 +31,8 @@ var transient	Actor		Frame;	// just a generic pointer used for binary compatibil
 
 // end of RenderIterator.uc
 
+
 defaultproperties
 {
-     MaxItems=1
+    MaxItems=1
 }

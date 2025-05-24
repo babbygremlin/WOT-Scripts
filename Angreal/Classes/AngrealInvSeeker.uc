@@ -26,28 +26,28 @@ class AngrealInvSeeker expands ProjectileLauncher;
 
 defaultproperties
 {
-     ProjectileClassName="Angreal.AngrealSeekerProjectile"
-     bElementFire=True
-     bElementAir=True
-     bUncommon=True
-     bOffensive=True
-     bCombat=True
-     MinInitialCharges=3
-     MaxInitialCharges=10
-     MaxCharges=20
-     Priority=2.000000
-     FailMessage="requires a target"
-     bTargetsFriendlies=False
-     MaxChargesInGroup=3
-     MinChargeGroupInterval=5.000000
-     Title="Seeker"
-     Description="Seeker launches an explosive projectile at a target, gathering speed as it hunts the target down.  Unless countered, Seeker explodes upon impact."
-     Quote="He had made a weapon that searched Shadow Spawned through the Stone of Tear, struck them dead with a hunting lightening wherever they stood or ran or hid."
-     StatusIconFrame=Texture'Angreal.Icons.M_Seeker'
-     InventoryGroup=52
-     PickupMessage="You got the Seeker ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealSeekerPickup'
-     StatusIcon=Texture'Angreal.Icons.I_Seeker'
-     Texture=None
-     Mesh=Mesh'Angreal.AngrealSeekerPickup'
+    ProjectileClassName="Angreal.AngrealSeekerProjectile"
+    bElementFire=True
+    bElementAir=True
+    bUncommon=True
+    bOffensive=True
+    bCombat=True
+    MinInitialCharges=3
+    MaxInitialCharges=10
+    MaxCharges=20
+    Priority=2.00
+    FailMessage="requires a target"
+    bTargetsFriendlies=False
+    MaxChargesInGroup=3
+    MinChargeGroupInterval=5.00
+    Title="Seeker"
+    Description="Seeker launches an explosive projectile at a target, gathering speed as it hunts the target down.  Unless countered, Seeker explodes upon impact."
+    Quote="He had made a weapon that searched Shadow Spawned through the Stone of Tear, struck them dead with a hunting lightening wherever they stood or ran or hid."
+    StatusIconFrame=Texture'Icons.M_Seeker'
+    InventoryGroup=52
+    PickupMessage="You got the Seeker ter'angreal"
+    PickupViewMesh=Mesh'AngrealSeekerPickup'
+    StatusIcon=Texture'Icons.I_Seeker'
+    Texture=None
+    Mesh=Mesh'AngrealSeekerPickup'
 }

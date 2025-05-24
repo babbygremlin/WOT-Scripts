@@ -23,7 +23,6 @@ native(472) final function DrawText( float X, float Y, string Text, Font Font );
 native(474) final function DrawColoredText( float X, float Y, string Text, Font Font, color FontColor );
 native(475) final function ReplaceTexture( Texture Tex );
 native(476) final function TextSize( string Text, out float XL, out float YL, Font Font );
-
 defaultproperties
 {
 }

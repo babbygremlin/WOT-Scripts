@@ -33,5 +33,5 @@ function CeaseUsingAngreal()
 
 defaultproperties
 {
-     Priority=255
+    Priority=255
 }

@@ -20,15 +20,15 @@ simulated function PreBeginPlay()
 
 defaultproperties
 {
-     Gravity=(Z=-1.000000)
-     NumTemplates=3
-     Templates(0)=(LifeSpan=15.000000,MaxInitialVelocity=5.000000,MaxDrawScale=0.300000,MinDrawScale=0.100000,FadePhase=1,MaxFadeRate=-0.070000,MinFadeRate=-0.100000)
-     Templates(1)=(LifeSpan=15.000000,MaxInitialVelocity=5.000000,MaxDrawScale=0.300000,MinDrawScale=0.100000,FadePhase=1,MaxFadeRate=-0.070000,MinFadeRate=-0.100000)
-     Templates(2)=(LifeSpan=15.000000,MaxInitialVelocity=5.000000,MaxDrawScale=0.300000,MinDrawScale=0.100000,FadePhase=1,MaxFadeRate=-0.070000,MinFadeRate=-0.100000)
-     Particles(0)=Texture'ParticleSystems.Flares.PF03'
-     Particles(1)=Texture'ParticleSystems.Flares.PF05'
-     Particles(2)=Texture'ParticleSystems.General.Prtcl03'
-     bStatic=False
-     VisibilityRadius=800.000000
-     VisibilityHeight=800.000000
+    Gravity=(X=0.00,Y=0.00,Z=-1.00),
+    NumTemplates=3
+    Templates(0)=(LifeSpan=15.00,Weight=1.00,MaxInitialVelocity=5.00,MinInitialVelocity=0.00,MaxDrawScale=0.30,MinDrawScale=0.10,MaxScaleGlow=1.00,MinScaleGlow=1.00,GrowPhase=0,MaxGrowRate=0.00,MinGrowRate=0.00,FadePhase=1,MaxFadeRate=-0.07,MinFadeRate=-0.10),
+    Templates(1)=(LifeSpan=15.00,Weight=1.00,MaxInitialVelocity=5.00,MinInitialVelocity=0.00,MaxDrawScale=0.30,MinDrawScale=0.10,MaxScaleGlow=1.00,MinScaleGlow=1.00,GrowPhase=0,MaxGrowRate=0.00,MinGrowRate=0.00,FadePhase=1,MaxFadeRate=-0.07,MinFadeRate=-0.10),
+    Templates(2)=(LifeSpan=15.00,Weight=1.00,MaxInitialVelocity=5.00,MinInitialVelocity=0.00,MaxDrawScale=0.30,MinDrawScale=0.10,MaxScaleGlow=1.00,MinScaleGlow=1.00,GrowPhase=0,MaxGrowRate=0.00,MinGrowRate=0.00,FadePhase=1,MaxFadeRate=-0.07,MinFadeRate=-0.10),
+    Particles(0)=Texture'ParticleSystems.Flares.PF03'
+    Particles(1)=Texture'ParticleSystems.Flares.PF05'
+    Particles(2)=Texture'ParticleSystems.General.Prtcl03'
+    bStatic=False
+    VisibilityRadius=800.00
+    VisibilityHeight=800.00
 }

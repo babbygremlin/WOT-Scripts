@@ -180,13 +180,13 @@ simulated state FadeOut
 
 defaultproperties
 {
-     RefLightOffset=(X=5.000000)
-     RemoteRole=ROLE_SimulatedProxy
-     LifeSpan=2.000000
-     DrawType=DT_Mesh
-     Style=STY_Translucent
-     Texture=None
-     Skin=WetTexture'Angreal.Impacts.ImpE'
-     Mesh=Mesh'Angreal.ImpactShell'
-     bSpecialLit=True
+    RefLightOffset=(X=5.00,Y=0.00,Z=0.00),
+    RemoteRole=2
+    LifeSpan=2.00
+    DrawType=2
+    Style=3
+    Texture=None
+    Skin=WetTexture'Impacts.ImpE'
+    Mesh=Mesh'ImpactShell'
+    bSpecialLit=True
 }

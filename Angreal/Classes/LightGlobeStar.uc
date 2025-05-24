@@ -13,8 +13,8 @@ class LightGlobeStar expands GenericSprite;
 
 defaultproperties
 {
-     Style=STY_Translucent
-     SpriteProjForward=1.000000
-     Texture=Texture'Angreal.Effects.LightGlobeGlow1'
-     DrawScale=0.120000
+    Style=3
+    SpriteProjForward=1.00
+    Texture=Texture'Effects.LightGlobeGlow1'
+    DrawScale=0.12
 }

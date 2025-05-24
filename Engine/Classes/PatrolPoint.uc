@@ -26,10 +26,9 @@ function PreBeginPlay()
 	
 	Super.PreBeginPlay();
 }
-
 defaultproperties
 {
-     bDirectional=True
-     Texture=Texture'Engine.S_Patrol'
-     SoundVolume=128
+    bDirectional=True
+    Texture=Texture'S_Patrol'
+    SoundVolume=128
 }

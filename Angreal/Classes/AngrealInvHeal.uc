@@ -72,28 +72,28 @@ function float GetPriority()
 
 defaultproperties
 {
-     HealingAmount=10
-     bElementWater=True
-     bElementAir=True
-     bElementSpirit=True
-     bRare=True
-     bDefensive=True
-     MinInitialCharges=3
-     MaxInitialCharges=7
-     MaxCharges=10
-     Priority=100.000000
-     ActivateSoundName="Angreal.ActivateHL"
-     MaxChargesInGroup=4
-     MinChargesInGroup=3
-     MinChargeGroupInterval=6.000000
-     Title="Heal"
-     Description="With each activation, the Heal ter'angreal raises your health slightly."
-     Quote="A chill rippled through him, not the blasting cold of full Healing, but a chill that pushed weariness out as it passed."
-     StatusIconFrame=Texture'Angreal.Icons.M_Healing'
-     InventoryGroup=61
-     PickupMessage="You got the Heal ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealHealPickup'
-     StatusIcon=Texture'Angreal.Icons.I_Healing'
-     Texture=None
-     Mesh=Mesh'Angreal.AngrealHealPickup'
+    HealingAmount=10
+    bElementWater=True
+    bElementAir=True
+    bElementSpirit=True
+    bRare=True
+    bDefensive=True
+    MinInitialCharges=3
+    MaxInitialCharges=7
+    MaxCharges=10
+    Priority=100.00
+    ActivateSoundName="Angreal.ActivateHL"
+    MaxChargesInGroup=4
+    MinChargesInGroup=3
+    MinChargeGroupInterval=6.00
+    Title="Heal"
+    Description="With each activation, the Heal ter'angreal raises your health slightly."
+    Quote="A chill rippled through him, not the blasting cold of full Healing, but a chill that pushed weariness out as it passed."
+    StatusIconFrame=Texture'Icons.M_Healing'
+    InventoryGroup=61
+    PickupMessage="You got the Heal ter'angreal"
+    PickupViewMesh=Mesh'AngrealHealPickup'
+    StatusIcon=Texture'Icons.I_Healing'
+    Texture=None
+    Mesh=Mesh'AngrealHealPickup'
 }

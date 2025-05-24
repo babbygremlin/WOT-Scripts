@@ -13,13 +13,13 @@ class TaintExpTorus expands TaintExpAssets;
 
 defaultproperties
 {
-     NumAnimFrames=15
-     DrawType=DT_Mesh
-     Style=STY_Translucent
-     Texture=IceTexture'Angreal.Taint.RedIce'
-     Mesh=Mesh'Angreal.TaintExpTorus'
-     LightType=LT_Steady
-     LightEffect=LE_NonIncidence
-     LightBrightness=255
-     LightRadius=10
+    NumAnimFrames=15
+    DrawType=2
+    Style=3
+    Texture=IceTexture'Taint.RedIce'
+    Mesh=Mesh'TaintExpTorus'
+    LightType=1
+    LightEffect=13
+    LightBrightness=255
+    LightRadius=10
 }

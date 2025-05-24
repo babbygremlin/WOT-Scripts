@@ -17,7 +17,7 @@ class BlueDart expands AngrealDartProjectile;
 
 defaultproperties
 {
-     CoronaTexture=Texture'Angreal.Coronas.Corona_blue'
-     ExplosionTexture=Texture'Angreal.Explosions.Expl_blue'
-     Skin=Texture'Angreal.Skins.Comet_blue'
+    CoronaTexture=Texture'Coronas.Corona_blue'
+    ExplosionTexture=Texture'Explosions.Expl_blue'
+    Skin=Texture'Skins.Comet_blue'
 }

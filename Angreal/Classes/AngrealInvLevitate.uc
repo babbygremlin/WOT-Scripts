@@ -113,28 +113,28 @@ function Tick( float DeltaTime )
 
 defaultproperties
 {
-     RiseHeight=24.000000
-     LevitateSpeed=96.000000
-     DurationType=DT_Charge
-     bElementAir=True
-     bUncommon=True
-     MinInitialCharges=10
-     MaxInitialCharges=30
-     MaxCharges=50
-     FailMessage="cannot be used while in Whirlwind"
-     bDisplayIcon=True
-     ActivateSoundName="Angreal.LoopLT"
-     DeActivateSoundName="Angreal.DeActivateLT"
-     MaxChargesInGroup=20
-     MinChargesInGroup=10
-     MaxChargeUsedInterval=1.000000
-     Title="Levitate"
-     Description="While you continue to activate Levitate, you float slightly above the ground. This effect is not flight, however; a thin weave of air merely cushions your descent."
-     Quote="Suddenly she lifted into the air, and Elayne, too; they stared at each other, wide-eyed, as they floated a pace above the carpet."
-     StatusIconFrame=Texture'Angreal.Icons.M_Levitation'
-     PickupMessage="You got the Levitate ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealLevitatePickup'
-     StatusIcon=Texture'Angreal.Icons.I_Levitation'
-     Texture=None
-     Mesh=Mesh'Angreal.AngrealLevitatePickup'
+    RiseHeight=24.00
+    LevitateSpeed=96.00
+    DurationType=0
+    bElementAir=True
+    bUncommon=True
+    MinInitialCharges=10
+    MaxInitialCharges=30
+    MaxCharges=50
+    FailMessage="cannot be used while in Whirlwind"
+    bDisplayIcon=True
+    ActivateSoundName="Angreal.LoopLT"
+    DeActivateSoundName="Angreal.DeActivateLT"
+    MaxChargesInGroup=20
+    MinChargesInGroup=10
+    MaxChargeUsedInterval=1.00
+    Title="Levitate"
+    Description="While you continue to activate Levitate, you float slightly above the ground. This effect is not flight, however; a thin weave of air merely cushions your descent."
+    Quote="Suddenly she lifted into the air, and Elayne, too; they stared at each other, wide-eyed, as they floated a pace above the carpet."
+    StatusIconFrame=Texture'Icons.M_Levitation'
+    PickupMessage="You got the Levitate ter'angreal"
+    PickupViewMesh=Mesh'AngrealLevitatePickup'
+    StatusIcon=Texture'Icons.I_Levitation'
+    Texture=None
+    Mesh=Mesh'AngrealLevitatePickup'
 }

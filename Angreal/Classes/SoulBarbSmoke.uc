@@ -34,16 +34,16 @@ simulated function AlignGravity()
 
 defaultproperties
 {
-     Spread=125.000000
-     Volume=15.000000
-     Gravity=(X=5.000000,Z=3.000000)
-     NumTemplates=2
-     Templates(0)=(LifeSpan=2.000000,Weight=2.000000,MaxInitialVelocity=30.000000,MinInitialVelocity=-5.000000,MaxDrawScale=0.500000,MaxScaleGlow=-0.001000,MinScaleGlow=-0.100000,GrowPhase=1,MaxGrowRate=0.500000,MinGrowRate=0.300000,FadePhase=2,MaxFadeRate=1.000000)
-     Templates(1)=(LifeSpan=2.000000,MaxInitialVelocity=30.000000,MinInitialVelocity=-5.000000,MaxDrawScale=0.250000,MinDrawScale=0.500000,MaxScaleGlow=-0.001000,MinScaleGlow=-0.100000,GrowPhase=1,MaxGrowRate=0.500000,MinGrowRate=0.300000,FadePhase=2,MaxFadeRate=1.000000)
-     Particles(0)=Texture'Angreal.SoulBarb.Spirits03'
-     Particles(1)=Texture'Angreal.SoulBarb.Spirits04'
-     bOn=True
-     bStatic=False
-     VisibilityRadius=1000.000000
-     VisibilityHeight=1000.000000
+    Spread=125.00
+    Volume=15.00
+    Gravity=(X=5.00,Y=0.00,Z=3.00),
+    NumTemplates=2
+    Templates(0)=(LifeSpan=2.00,Weight=2.00,MaxInitialVelocity=30.00,MinInitialVelocity=-5.00,MaxDrawScale=0.50,MinDrawScale=1.00,MaxScaleGlow=0.00,MinScaleGlow=-0.10,GrowPhase=1,MaxGrowRate=0.50,MinGrowRate=0.30,FadePhase=2,MaxFadeRate=1.00,MinFadeRate=0.00),
+    Templates(1)=(LifeSpan=2.00,Weight=1.00,MaxInitialVelocity=30.00,MinInitialVelocity=-5.00,MaxDrawScale=0.25,MinDrawScale=0.50,MaxScaleGlow=0.00,MinScaleGlow=-0.10,GrowPhase=1,MaxGrowRate=0.50,MinGrowRate=0.30,FadePhase=2,MaxFadeRate=1.00,MinFadeRate=0.00),
+    Particles(0)=Texture'SoulBarb.Spirits03'
+    Particles(1)=Texture'SoulBarb.Spirits04'
+    bOn=True
+    bStatic=False
+    VisibilityRadius=1000.00
+    VisibilityHeight=1000.00
 }

@@ -227,30 +227,30 @@ function float GetMinRange()
 
 defaultproperties
 {
-     MaxAngle=22.500000
-     DurationType=DT_Charge
-     bElementAir=True
-     bUncommon=True
-     bOffensive=True
-     bCombat=True
-     RoundsPerMinute=20.000000
-     MinInitialCharges=10
-     MaxInitialCharges=20
-     MaxCharges=40
-     FailMessage="requires a target"
-     bDisplayIcon=True
-     ActivateSoundName="Angreal.ActivateWW"
-     MaxChargesInGroup=20
-     MinChargesInGroup=10
-     MaxChargeUsedInterval=3.000000
-     MinChargeGroupInterval=4.000000
-     Title="Whirlwind"
-     Description="As long as you continue to activate Whirlwind, your target is spun and lifted up into the air, in any direction you point."
-     Quote="Dead leaves whirled into the air and branches whipped as if a dustdevil ran along the line she pointed to."
-     StatusIconFrame=Texture'Angreal.Icons.M_Whirlwind'
-     PickupMessage="You got the Whirlwind ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealWhirlwindPickup'
-     StatusIcon=Texture'Angreal.Icons.I_Whirlwind'
-     Texture=None
-     Mesh=Mesh'Angreal.AngrealWhirlwindPickup'
+    MaxAngle=22.50
+    DurationType=0
+    bElementAir=True
+    bUncommon=True
+    bOffensive=True
+    bCombat=True
+    RoundsPerMinute=20.00
+    MinInitialCharges=10
+    MaxInitialCharges=20
+    MaxCharges=40
+    FailMessage="requires a target"
+    bDisplayIcon=True
+    ActivateSoundName="Angreal.ActivateWW"
+    MaxChargesInGroup=20
+    MinChargesInGroup=10
+    MaxChargeUsedInterval=3.00
+    MinChargeGroupInterval=4.00
+    Title="Whirlwind"
+    Description="As long as you continue to activate Whirlwind, your target is spun and lifted up into the air, in any direction you point."
+    Quote="Dead leaves whirled into the air and branches whipped as if a dustdevil ran along the line she pointed to."
+    StatusIconFrame=Texture'Icons.M_Whirlwind'
+    PickupMessage="You got the Whirlwind ter'angreal"
+    PickupViewMesh=Mesh'AngrealWhirlwindPickup'
+    StatusIcon=Texture'Icons.I_Whirlwind'
+    Texture=None
+    Mesh=Mesh'AngrealWhirlwindPickup'
 }

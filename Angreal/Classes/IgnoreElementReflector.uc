@@ -183,7 +183,7 @@ function bool InvIsIgnored( AngrealInventory Inv )
 
 defaultproperties
 {
-     TriggerEvent=ElementalTriggered
-     Priority=255
-     bRemoveExisting=True
+    TriggerEvent=ElementalTriggered
+    Priority=255
+    bRemoveExisting=True
 }

@@ -83,10 +83,10 @@ var const ETextureFormat CompFormat;
 
 defaultproperties
 {
-     Diffuse=1.000000
-     Specular=1.000000
-     DrawScale=1.000000
-     Friction=1.000000
-     MipMult=1.000000
-     LODSet=LODSET_World
+    Diffuse=1.00
+    Specular=1.00
+    DrawScale=1.00
+    Friction=1.00
+    MipMult=1.00
+    LODSet=1
 }

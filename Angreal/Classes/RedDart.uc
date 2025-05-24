@@ -17,8 +17,8 @@ class RedDart expands AngrealDartProjectile;
 
 defaultproperties
 {
-     CoronaTexture=Texture'Angreal.Coronas.Corona_red'
-     ExplosionTexture=Texture'Angreal.Explosions.Expl_red'
-     Skin=Texture'Angreal.Skins.Comet_red'
-     LightHue=0
+    CoronaTexture=Texture'Coronas.Corona_red'
+    ExplosionTexture=Texture'Explosions.Expl_red'
+    Skin=Texture'Skins.Comet_red'
+    LightHue=0
 }

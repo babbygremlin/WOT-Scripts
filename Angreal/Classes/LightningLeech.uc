@@ -272,15 +272,15 @@ function UnInstallNotifiers()
 
 defaultproperties
 {
-     StreakType=Class'Angreal.LightningStreak02'
-     ImpactRollRate=25000.000000
-     SparkType=Class'Angreal.LightningSparks'
-     AffectResolution=0.200000
-     bDeleterious=True
-     RemoteRole=ROLE_SimulatedProxy
-     bAlwaysRelevant=True
-     SoundRadius=64
-     SoundVolume=255
-     AmbientSound=Sound'Angreal.LightningStrike.LoopLS'
-     NetPriority=6.000000
+    StreakType=Class'LightningStreak02'
+    ImpactRollRate=25000.00
+    SparkType=Class'LightningSparks'
+    AffectResolution=0.20
+    bDeleterious=True
+    RemoteRole=2
+    bAlwaysRelevant=True
+    SoundRadius=64
+    SoundVolume=255
+    AmbientSound=Sound'LightningStrike.LoopLS'
+    NetPriority=6.00
 }

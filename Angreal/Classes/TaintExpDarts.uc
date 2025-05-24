@@ -16,10 +16,10 @@ class TaintExpDarts expands TaintExpAssets;
 
 defaultproperties
 {
-     NumAnimFrames=27
-     DrawType=DT_Mesh
-     Texture=Texture'Angreal.Taint.TaintDarts'
-     Mesh=Mesh'Angreal.TaintExpDarts'
-     AmbientGlow=20
-     bUnlit=True
+    NumAnimFrames=27
+    DrawType=2
+    Texture=Texture'Taint.TaintDarts'
+    Mesh=Mesh'TaintExpDarts'
+    AmbientGlow=20
+    bUnlit=True
 }

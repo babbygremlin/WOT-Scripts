@@ -63,7 +63,7 @@ function Trigger( actor Other, pawn EventInstigator )
 
 defaultproperties
 {
-     CdTrack=255
-     Transition=MTRAN_Fade
-     bAffectAllPlayers=True
+    CdTrack=255
+    Transition=3
+    bAffectAllPlayers=True
 }

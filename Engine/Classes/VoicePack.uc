@@ -16,9 +16,8 @@ ClientInitialize() sets up playing the appropriate voice segment, and returns a 
 function ClientInitialize(PlayerReplicationInfo Sender, PlayerReplicationInfo Recipient, name messagetype, byte messageIndex);
 function PlayerSpeech(int Type, int Index, int Callsign);
 	
-
 defaultproperties
 {
-     RemoteRole=ROLE_None
-     LifeSpan=10.000000
+    RemoteRole=0
+    LifeSpan=10.00
 }

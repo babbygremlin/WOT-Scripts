@@ -25,6 +25,6 @@ var(Settings) config bool UseSound;
 
 defaultproperties
 {
-     CacheSizeMegs=2
-     UseSound=True
+    CacheSizeMegs=2
+    UseSound=True
 }

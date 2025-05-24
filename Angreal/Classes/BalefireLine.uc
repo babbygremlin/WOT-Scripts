@@ -31,9 +31,9 @@ simulated function Tick( float DeltaTime )
 
 defaultproperties
 {
-     SegmentLength=18.000000
-     bParticleDensityScaled=True
-     LifeSpan=1.200000
-     Texture=Texture'ParticleSystems.Sparks.Sparks01'
-     DrawScale=2.000000
+    SegmentLength=18.00
+    bParticleDensityScaled=True
+    LifeSpan=1.20
+    Texture=Texture'ParticleSystems.Sparks.Sparks01'
+    DrawScale=2.00
 }

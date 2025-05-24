@@ -82,15 +82,15 @@ simulated function Tick( float DeltaTime )
 
 defaultproperties
 {
-     bMovable=False
-     RemoteRole=ROLE_None
-     SoundRadius=83
-     SoundVolume=255
-     SoundPitch=50
-     AmbientSound=Sound'Angreal.EarthTremor.LoopET'
-     LightType=LT_Steady
-     LightEffect=LE_NonIncidence
-     LightBrightness=204
-     LightHue=12
-     LightRadius=22
+    bMovable=False
+    RemoteRole=0
+    SoundRadius=83
+    SoundVolume=255
+    SoundPitch=50
+    AmbientSound=Sound'EarthTremor.LoopET'
+    LightType=1
+    LightEffect=13
+    LightBrightness=204
+    LightHue=12
+    LightRadius=22
 }

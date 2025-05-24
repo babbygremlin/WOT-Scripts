@@ -18,8 +18,8 @@ class PixieSprayerPurple expands PixieSprayer;
 
 defaultproperties
 {
-     Particles(0)=Texture'Angreal.Particles.Spark01Purple'
-     Particles(1)=Texture'Angreal.Particles.Spark02Purple'
-     Particles(2)=Texture'Angreal.Particles.Spark04Purple'
-     Particles(3)=Texture'Angreal.Particles.Spark03Purple'
+    Particles(0)=Texture'Particles.Spark01Purple'
+    Particles(1)=Texture'Particles.Spark02Purple'
+    Particles(2)=Texture'Particles.Spark04Purple'
+    Particles(3)=Texture'Particles.Spark03Purple'
 }

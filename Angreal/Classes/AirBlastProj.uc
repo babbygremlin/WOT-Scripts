@@ -130,19 +130,19 @@ simulated function Timer()
 
 defaultproperties
 {
-     BlastDuration=0.350000
-     Spread=20.000000
-     Volume=250.000000
-     NumTemplates=1
-     Templates(0)=(MaxInitialVelocity=30.000000,MinInitialVelocity=-30.000000,MaxDrawScale=0.200000,MinDrawScale=0.100000,MaxScaleGlow=0.500000,MinScaleGlow=0.500000,GrowPhase=1,MaxGrowRate=0.300000,MinGrowRate=0.200000,FadePhase=1,MaxFadeRate=-0.750000,MinFadeRate=-0.750000)
-     Particles(0)=Texture'Angreal.AirBurst.APulseA'
-     bOn=True
-     MinVolume=100.000000
-     bInterpolate=True
-     bDisableTick=False
-     bStatic=False
-     RemoteRole=ROLE_SimulatedProxy
-     bMustFace=False
-     VisibilityRadius=2500.000000
-     VisibilityHeight=2500.000000
+    BlastDuration=0.35
+    Spread=20.00
+    Volume=250.00
+    NumTemplates=1
+    Templates=(LifeSpan=1.00,Weight=1.00,MaxInitialVelocity=30.00,MinInitialVelocity=-30.00,MaxDrawScale=0.20,MinDrawScale=0.10,MaxScaleGlow=0.50,MinScaleGlow=0.50,GrowPhase=1,MaxGrowRate=0.30,MinGrowRate=0.20,FadePhase=1,MaxFadeRate=-0.75,MinFadeRate=-0.75),
+    Particles=Texture'AirBurst.APulseA'
+    bOn=True
+    MinVolume=100.00
+    bInterpolate=True
+    bDisableTick=False
+    bStatic=False
+    RemoteRole=2
+    bMustFace=False
+    VisibilityRadius=2500.00
+    VisibilityHeight=2500.00
 }

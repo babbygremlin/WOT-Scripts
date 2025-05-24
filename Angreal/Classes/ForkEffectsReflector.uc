@@ -60,7 +60,7 @@ singular function ProcessEffect( Invokable I )
 
 defaultproperties
 {
-     Priority=248
-     bRemoveExisting=True
-     bDisplayIcon=False
+    Priority=248
+    bRemoveExisting=True
+    bDisplayIcon=False
 }

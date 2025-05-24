@@ -81,8 +81,8 @@ function Trigger( actor Other, pawn EventInstigator )
 
 defaultproperties
 {
-     NumToCount=2
-     CountMessage="Only %i more to go..."
-     CompleteMessage="Completed!"
-     Texture=Texture'Engine.S_Counter'
+    NumToCount=2
+    CountMessage="Only %i more to go..."
+    CompleteMessage="Completed!"
+    Texture=Texture'S_Counter'
 }

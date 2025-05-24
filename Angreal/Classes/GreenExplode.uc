@@ -25,28 +25,28 @@ class GreenExplode expands Explosion;
 
 defaultproperties
 {
-     ExplosionAnim(0)=Texture'Angreal.Effects.FBExp500'
-     ExplosionAnim(1)=Texture'Angreal.Effects.FBExp501'
-     ExplosionAnim(2)=Texture'Angreal.Effects.FBExp502'
-     ExplosionAnim(3)=Texture'Angreal.Effects.FBExp503'
-     ExplosionAnim(4)=Texture'Angreal.Effects.FBExp504'
-     ExplosionAnim(5)=Texture'Angreal.Effects.FBExp505'
-     ExplosionAnim(6)=Texture'Angreal.Effects.FBExp506'
-     ExplosionAnim(7)=Texture'Angreal.Effects.FBExp507'
-     ExplosionAnim(8)=Texture'Angreal.Effects.FBExp508'
-     ExplosionAnim(9)=Texture'Angreal.Effects.FBExp509'
-     ExplosionAnim(10)=Texture'Angreal.Effects.FBExp510'
-     ExplosionAnim(11)=Texture'Angreal.Effects.FBExp511'
-     ExplosionAnim(12)=Texture'Angreal.Effects.FBExp512'
-     ExplosionAnim(13)=Texture'Angreal.Effects.FBExp513'
-     ExplosionAnim(14)=Texture'Angreal.Effects.FBExp514'
-     ExplosionAnim(15)=Texture'Angreal.Effects.FBExp515'
-     ExplosionAnim(16)=Texture'Angreal.Effects.FBExp516'
-     LifeSpan=1.000000
-     DrawScale=2.500000
-     SoundPitch=32
-     LightEffect=LE_NonIncidence
-     LightHue=46
-     LightSaturation=60
-     LightRadius=12
+    ExplosionAnim(0)=Texture'Effects.FBExp500'
+    ExplosionAnim(1)=Texture'Effects.FBExp501'
+    ExplosionAnim(2)=Texture'Effects.FBExp502'
+    ExplosionAnim(3)=Texture'Effects.FBExp503'
+    ExplosionAnim(4)=Texture'Effects.FBExp504'
+    ExplosionAnim(5)=Texture'Effects.FBExp505'
+    ExplosionAnim(6)=Texture'Effects.FBExp506'
+    ExplosionAnim(7)=Texture'Effects.FBExp507'
+    ExplosionAnim(8)=Texture'Effects.FBExp508'
+    ExplosionAnim(9)=Texture'Effects.FBExp509'
+    ExplosionAnim(10)=Texture'Effects.FBExp510'
+    ExplosionAnim(11)=Texture'Effects.FBExp511'
+    ExplosionAnim(12)=Texture'Effects.FBExp512'
+    ExplosionAnim(13)=Texture'Effects.FBExp513'
+    ExplosionAnim(14)=Texture'Effects.FBExp514'
+    ExplosionAnim(15)=Texture'Effects.FBExp515'
+    ExplosionAnim(16)=Texture'Effects.FBExp516'
+    LifeSpan=1.00
+    DrawScale=2.50
+    SoundPitch=32
+    LightEffect=13
+    LightHue=46
+    LightSaturation=60
+    LightRadius=12
 }

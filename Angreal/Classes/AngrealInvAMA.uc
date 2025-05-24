@@ -32,26 +32,26 @@ class AngrealInvAMA expands ProjectileLauncher;
 
 defaultproperties
 {
-     ProjectileClassName="Angreal.AngrealAMAProjectile"
-     DurationType=DT_Lifespan
-     bElementFire=True
-     bElementWater=True
-     bElementAir=True
-     bElementEarth=True
-     bElementSpirit=True
-     bUncommon=True
-     bDefensive=True
-     MaxInitialCharges=3
-     MaxCharges=5
-     MinChargeGroupInterval=4.000000
-     Title="Aura of Unraveling"
-     Description="Immediately after the ter’angreal is laid, anyone walking nearby will trigger it.  For a short time, the area surrounding the artifact acts as a dead-zone: artifacts don’t activate, currently active effects disappear, and weaves launched"
-     Quote="He reached for saidin -- and found nothing. He had not been shielded; he would have felt it, and known how to work around or break it, given time, if it was not too strong. This was as if he had been severed."
-     StatusIconFrame=Texture'Angreal.Icons.M_AntiMagicAura'
-     InventoryGroup=67
-     PickupMessage="You got the Aura of Unraveling ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealAntiMagicAuraPickup'
-     StatusIcon=Texture'Angreal.Icons.I_AntiMagicAura'
-     Mesh=Mesh'Angreal.AngrealAntiMagicAuraPickup'
-     bMeshCurvy=True
+    ProjectileClassName="Angreal.AngrealAMAProjectile"
+    DurationType=1
+    bElementFire=True
+    bElementWater=True
+    bElementAir=True
+    bElementEarth=True
+    bElementSpirit=True
+    bUncommon=True
+    bDefensive=True
+    MaxInitialCharges=3
+    MaxCharges=5
+    MinChargeGroupInterval=4.00
+    Title="Aura of Unraveling"
+    Description="Immediately after the ter’angreal is laid, anyone walking nearby will trigger it.  For a short time, the area surrounding the artifact acts as a dead-zone: artifacts don’t activate, currently active effects disappear, and weaves launched"
+    Quote="He reached for saidin -- and found nothing. He had not been shielded; he would have felt it, and known how to work around or break it, given time, if it was not too strong. This was as if he had been severed."
+    StatusIconFrame=Texture'Icons.M_AntiMagicAura'
+    InventoryGroup=67
+    PickupMessage="You got the Aura of Unraveling ter'angreal"
+    PickupViewMesh=Mesh'AngrealAntiMagicAuraPickup'
+    StatusIcon=Texture'Icons.I_AntiMagicAura'
+    Mesh=Mesh'AngrealAntiMagicAuraPickup'
+    bMeshCurvy=True
 }

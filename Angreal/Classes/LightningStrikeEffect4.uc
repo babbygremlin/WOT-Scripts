@@ -60,28 +60,27 @@ simulated function Tick( float DeltaTime )
 	}
 }
 	
-
 defaultproperties
 {
-     FrameInterval=0.050000
-     SkinAnim(0)=Texture'Angreal.Effects.LSE201'
-     SkinAnim(1)=Texture'Angreal.Effects.LSE202'
-     SkinAnim(2)=Texture'Angreal.Effects.LSE203'
-     SkinAnim(3)=Texture'Angreal.Effects.LSE204'
-     SkinAnim(4)=Texture'Angreal.Effects.LSE205'
-     SkinAnim(5)=Texture'Angreal.Effects.LSE206'
-     SkinAnim(6)=Texture'Angreal.Effects.LSE207'
-     SkinAnim(7)=Texture'Angreal.Effects.LSE208'
-     SkinAnim(8)=Texture'Angreal.Effects.LSE209'
-     SkinAnim(9)=Texture'Angreal.Effects.LSE210'
-     SkinAnim(10)=Texture'Angreal.Effects.LSE211'
-     SkinAnim(11)=Texture'Angreal.Effects.LSE212'
-     SkinAnim(12)=Texture'Angreal.Effects.LSE213'
-     SkinAnim(13)=Texture'Angreal.Effects.LSE214'
-     SkinAnim(14)=Texture'Angreal.Effects.LSE215'
-     RemoteRole=ROLE_None
-     DrawType=DT_Mesh
-     Skin=Texture'Angreal.Effects.LSE200'
-     Mesh=Mesh'Angreal.LightningStrikeEffect2'
-     bUnlit=True
+    FrameInterval=0.05
+    SkinAnim(0)=Texture'Effects.LSE201'
+    SkinAnim(1)=Texture'Effects.LSE202'
+    SkinAnim(2)=Texture'Effects.LSE203'
+    SkinAnim(3)=Texture'Effects.LSE204'
+    SkinAnim(4)=Texture'Effects.LSE205'
+    SkinAnim(5)=Texture'Effects.LSE206'
+    SkinAnim(6)=Texture'Effects.LSE207'
+    SkinAnim(7)=Texture'Effects.LSE208'
+    SkinAnim(8)=Texture'Effects.LSE209'
+    SkinAnim(9)=Texture'Effects.LSE210'
+    SkinAnim(10)=Texture'Effects.LSE211'
+    SkinAnim(11)=Texture'Effects.LSE212'
+    SkinAnim(12)=Texture'Effects.LSE213'
+    SkinAnim(13)=Texture'Effects.LSE214'
+    SkinAnim(14)=Texture'Effects.LSE215'
+    RemoteRole=0
+    DrawType=2
+    Skin=Texture'Effects.LSE200'
+    Mesh=Mesh'LightningStrikeEffect2'
+    bUnlit=True
 }

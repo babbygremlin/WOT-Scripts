@@ -18,9 +18,9 @@ class PixieSprayerBlue expands PixieSprayer;
 
 defaultproperties
 {
-     Particles(0)=Texture'Angreal.Particles.Spark01Blue'
-     Particles(1)=Texture'Angreal.Particles.Spark02Blue'
-     Particles(2)=Texture'Angreal.Particles.Spark04Blue'
-     Particles(3)=Texture'Angreal.Particles.Spark03Blue'
-     LightHue=140
+    Particles(0)=Texture'Particles.Spark01Blue'
+    Particles(1)=Texture'Particles.Spark02Blue'
+    Particles(2)=Texture'Particles.Spark04Blue'
+    Particles(3)=Texture'Particles.Spark03Blue'
+    LightHue=140
 }

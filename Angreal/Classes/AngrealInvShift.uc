@@ -55,27 +55,27 @@ function Cast()
 
 defaultproperties
 {
-     bElementAir=True
-     bElementSpirit=True
-     bUncommon=True
-     bDefensive=True
-     bCombat=True
-     MinInitialCharges=3
-     MaxInitialCharges=5
-     MaxCharges=10
-     Priority=6.000000
-     ActivateSoundName="Angreal.ActivateSF"
-     MaxChargeUsedInterval=1.000000
-     MinChargeGroupInterval=3.000000
-     Title="Shift"
-     Description="Shift instantly moves you a few paces ahead of your current location, through all obstacles, as long as the destination is clear.  Any weaves currently locked on to you lose their target."
-     Quote="You did not need to know a place at all to Travel if you only intended to go a very short distance"
-     StatusIconFrame=Texture'Angreal.Icons.M_Shift'
-     InventoryGroup=54
-     PickupMessage="You got the Shift ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealShiftPickup'
-     PickupViewScale=0.800000
-     StatusIcon=Texture'Angreal.Icons.I_Shift'
-     Mesh=Mesh'Angreal.AngrealShiftPickup'
-     DrawScale=0.800000
+    bElementAir=True
+    bElementSpirit=True
+    bUncommon=True
+    bDefensive=True
+    bCombat=True
+    MinInitialCharges=3
+    MaxInitialCharges=5
+    MaxCharges=10
+    Priority=6.00
+    ActivateSoundName="Angreal.ActivateSF"
+    MaxChargeUsedInterval=1.00
+    MinChargeGroupInterval=3.00
+    Title="Shift"
+    Description="Shift instantly moves you a few paces ahead of your current location, through all obstacles, as long as the destination is clear.  Any weaves currently locked on to you lose their target."
+    Quote="You did not need to know a place at all to Travel if you only intended to go a very short distance"
+    StatusIconFrame=Texture'Icons.M_Shift'
+    InventoryGroup=54
+    PickupMessage="You got the Shift ter'angreal"
+    PickupViewMesh=Mesh'AngrealShiftPickup'
+    PickupViewScale=0.80
+    StatusIcon=Texture'Icons.I_Shift'
+    Mesh=Mesh'AngrealShiftPickup'
+    DrawScale=0.80
 }

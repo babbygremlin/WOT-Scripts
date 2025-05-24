@@ -136,24 +136,24 @@ simulated function Destroyed()
 
 defaultproperties
 {
-     SprayerClass=Class'Angreal.TracerSprayer'
-     spinRate=(Roll=65000)
-     Acceleration=150.000000
-     bTakeShortcuts=False
-     bDesperateSeeker=True
-     ReachTolerance=20.000000
-     bNotifiesDestination=False
-     ImpactSoundRadius=700.000000
-     speed=1.000000
-     MaxSpeed=500.000000
-     SpawnSound=Sound'Angreal.Tracer.ActivateTR'
-     ImpactSound=Sound'Angreal.Tracer.ImpactTR'
-     LifeSpan=0.000000
-     Texture=None
-     Mesh=Mesh'Angreal.Tracer'
-     SoundRadius=64
-     SoundVolume=128
-     AmbientSound=Sound'Angreal.Tracer.LoopTR'
-     CollisionRadius=16.000000
-     CollisionHeight=16.000000
+    SprayerClass=Class'TracerSprayer'
+    spinRate=(Pitch=0,Yaw=0,Roll=65000),
+    Acceleration=150.00
+    bTakeShortcuts=False
+    bDesperateSeeker=True
+    ReachTolerance=20.00
+    bNotifiesDestination=False
+    ImpactSoundRadius=700.00
+    speed=1.00
+    MaxSpeed=500.00
+    SpawnSound=Sound'Tracer.ActivateTR'
+    ImpactSound=Sound'Tracer.ImpactTR'
+    LifeSpan=0.00
+    Texture=None
+    Mesh=Mesh'Tracer'
+    SoundRadius=64
+    SoundVolume=128
+    AmbientSound=Sound'Tracer.LoopTR'
+    CollisionRadius=16.00
+    CollisionHeight=16.00
 }

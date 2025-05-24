@@ -30,26 +30,26 @@ class AngrealInvIce expands ProjectileLauncher;
 
 defaultproperties
 {
-     ProjectileClassName="Angreal.AngrealIceProjectile"
-     DurationType=DT_Lifespan
-     bElementWater=True
-     bUncommon=True
-     bDefensive=True
-     bCombat=True
-     MinInitialCharges=3
-     MaxInitialCharges=5
-     MaxCharges=10
-     FailMessage="requires a target"
-     bTargetsFriendlies=False
-     MinChargeGroupInterval=4.000000
-     Title="Freeze"
-     Description="The ter'angreal wraps its target with a frozen weave of water, making movement impossible during the short time that the ice is melting."
-     Quote="Men and Myrddraal stiffened where they stood. White frost grew thick on them, frost that smoked. The Myrddraal's upraised arm broke off with a loud crack. When it hit the floortiles, arm and sword shattered."
-     StatusIconFrame=Texture'Angreal.Icons.M_Freeze'
-     PickupMessage="You got the Freeze ter'angreal"
-     PickupViewMesh=Mesh'Angreal.Freeze'
-     PickupViewScale=0.300000
-     StatusIcon=Texture'Angreal.Icons.I_Freeze'
-     Mesh=Mesh'Angreal.Freeze'
-     DrawScale=0.300000
+    ProjectileClassName="Angreal.AngrealIceProjectile"
+    DurationType=1
+    bElementWater=True
+    bUncommon=True
+    bDefensive=True
+    bCombat=True
+    MinInitialCharges=3
+    MaxInitialCharges=5
+    MaxCharges=10
+    FailMessage="requires a target"
+    bTargetsFriendlies=False
+    MinChargeGroupInterval=4.00
+    Title="Freeze"
+    Description="The ter'angreal wraps its target with a frozen weave of water, making movement impossible during the short time that the ice is melting."
+    Quote="Men and Myrddraal stiffened where they stood. White frost grew thick on them, frost that smoked. The Myrddraal's upraised arm broke off with a loud crack. When it hit the floortiles, arm and sword shattered."
+    StatusIconFrame=Texture'Icons.M_Freeze'
+    PickupMessage="You got the Freeze ter'angreal"
+    PickupViewMesh=Mesh'Freeze'
+    PickupViewScale=0.30
+    StatusIcon=Texture'Icons.I_Freeze'
+    Mesh=Mesh'Freeze'
+    DrawScale=0.30
 }

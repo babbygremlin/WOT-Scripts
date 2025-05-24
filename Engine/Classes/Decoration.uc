@@ -246,8 +246,8 @@ function Bump( actor Other )
 
 defaultproperties
 {
-     bStatic=True
-     bStasis=True
-     Texture=None
-     Mass=0.000000
+    bStatic=True
+    bStasis=True
+    Texture=None
+    Mass=0.00
 }

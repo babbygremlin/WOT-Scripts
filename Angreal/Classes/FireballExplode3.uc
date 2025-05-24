@@ -25,26 +25,26 @@ class FireballExplode3 expands Explosion;
 
 defaultproperties
 {
-     ExplosionAnim(0)=Texture'Angreal.Effects.FBExp400'
-     ExplosionAnim(1)=Texture'Angreal.Effects.FBExp401'
-     ExplosionAnim(2)=Texture'Angreal.Effects.FBExp402'
-     ExplosionAnim(3)=Texture'Angreal.Effects.FBExp403'
-     ExplosionAnim(4)=Texture'Angreal.Effects.FBExp404'
-     ExplosionAnim(5)=Texture'Angreal.Effects.FBExp405'
-     ExplosionAnim(6)=Texture'Angreal.Effects.FBExp406'
-     ExplosionAnim(7)=Texture'Angreal.Effects.FBExp407'
-     ExplosionAnim(8)=Texture'Angreal.Effects.FBExp408'
-     ExplosionAnim(9)=Texture'Angreal.Effects.FBExp409'
-     ExplosionAnim(10)=Texture'Angreal.Effects.FBExp410'
-     ExplosionAnim(11)=Texture'Angreal.Effects.FBExp411'
-     ExplosionAnim(12)=Texture'Angreal.Effects.FBExp412'
-     ExplosionAnim(13)=Texture'Angreal.Effects.FBExp413'
-     ExplosionAnim(14)=Texture'Angreal.Effects.FBExp414'
-     ExplosionAnim(15)=Texture'Angreal.Effects.FBExp415'
-     ExplosionAnim(16)=Texture'Angreal.Effects.FBExp416'
-     LifeSpan=1.000000
-     DrawScale=2.500000
-     SoundPitch=32
-     LightEffect=LE_NonIncidence
-     LightRadius=12
+    ExplosionAnim(0)=Texture'Effects.FBExp400'
+    ExplosionAnim(1)=Texture'Effects.FBExp401'
+    ExplosionAnim(2)=Texture'Effects.FBExp402'
+    ExplosionAnim(3)=Texture'Effects.FBExp403'
+    ExplosionAnim(4)=Texture'Effects.FBExp404'
+    ExplosionAnim(5)=Texture'Effects.FBExp405'
+    ExplosionAnim(6)=Texture'Effects.FBExp406'
+    ExplosionAnim(7)=Texture'Effects.FBExp407'
+    ExplosionAnim(8)=Texture'Effects.FBExp408'
+    ExplosionAnim(9)=Texture'Effects.FBExp409'
+    ExplosionAnim(10)=Texture'Effects.FBExp410'
+    ExplosionAnim(11)=Texture'Effects.FBExp411'
+    ExplosionAnim(12)=Texture'Effects.FBExp412'
+    ExplosionAnim(13)=Texture'Effects.FBExp413'
+    ExplosionAnim(14)=Texture'Effects.FBExp414'
+    ExplosionAnim(15)=Texture'Effects.FBExp415'
+    ExplosionAnim(16)=Texture'Effects.FBExp416'
+    LifeSpan=1.00
+    DrawScale=2.50
+    SoundPitch=32
+    LightEffect=13
+    LightRadius=12
 }

@@ -288,24 +288,24 @@ function float GetPriority()
 
 defaultproperties
 {
-     LightType=Class'Angreal.LightGlobe'
-     LightGlobeGlowOffset=(Y=7.000000,Z=3.000000)
-     bElementFire=True
-     bElementAir=True
-     bRare=True
-     MinInitialCharges=999
-     MaxInitialCharges=999
-     ChargeCost=0
-     Priority=100.000000
-     ActivateSoundName="Angreal.ActivateLG"
-     Title="Light Sphere"
-     Description="Activating the ter'angreal weaves a simple sphere of light.  The sphere accompanies you, until unraveled by a subsequent activation."
-     Quote="She channeled even as she moved, weaving a web of light that hung to one side, a sphere of pure white that cast lurid shadows about the room."
-     StatusIconFrame=Texture'Angreal.Icons.M_LtGlobe'
-     InventoryGroup=51
-     PickupMessage="You got the Light Sphere ter'angreal"
-     PickupViewMesh=Mesh'Angreal.LightGlobe'
-     StatusIcon=Texture'Angreal.Icons.I_LtGlobe'
-     Texture=None
-     Mesh=Mesh'Angreal.LightGlobe'
+    LightType=Class'LightGlobe'
+    LightGlobeGlowOffset=(X=0.00,Y=7.00,Z=3.00),
+    bElementFire=True
+    bElementAir=True
+    bRare=True
+    MinInitialCharges=999
+    MaxInitialCharges=999
+    ChargeCost=0
+    Priority=100.00
+    ActivateSoundName="Angreal.ActivateLG"
+    Title="Light Sphere"
+    Description="Activating the ter'angreal weaves a simple sphere of light.  The sphere accompanies you, until unraveled by a subsequent activation."
+    Quote="She channeled even as she moved, weaving a web of light that hung to one side, a sphere of pure white that cast lurid shadows about the room."
+    StatusIconFrame=Texture'Icons.M_LtGlobe'
+    InventoryGroup=51
+    PickupMessage="You got the Light Sphere ter'angreal"
+    PickupViewMesh=Mesh'LightGlobe'
+    StatusIcon=Texture'Icons.I_LtGlobe'
+    Texture=None
+    Mesh=Mesh'LightGlobe'
 }

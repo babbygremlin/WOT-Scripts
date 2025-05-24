@@ -104,5 +104,5 @@ function LogGameEnd( string Reason )
 
 defaultproperties
 {
-     StatLogFile="../Logs/unreal.ngStats.Unknown.log"
+    StatLogFile="../Logs/unreal.ngStats.Unknown.log"
 }

@@ -140,8 +140,8 @@ state() PlayerPath
 
 defaultproperties
 {
-     SoundEffectVolume=1.000000
-     SoundEffectRadius=2000.000000
-     SoundEffectPitch=1.000000
-     Texture=Texture'Engine.S_SpecialEvent'
+    SoundEffectVolume=1.00
+    SoundEffectRadius=2000.00
+    SoundEffectPitch=1.00
+    Texture=Texture'S_SpecialEvent'
 }

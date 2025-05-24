@@ -156,5 +156,5 @@ state Activated
 
 defaultproperties
 {
-     bRotatingPickup=False
+    bRotatingPickup=False
 }

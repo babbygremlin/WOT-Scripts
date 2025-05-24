@@ -282,23 +282,23 @@ simulated function DamageTouching( float Damage )
 
 defaultproperties
 {
-     MinAnimRate=0.900000
-     MaxAnimRate=1.200000
-     SpawnHeight=50.000000
-     FallLimit=300.000000
-     Frequency=1.000000
-     NumFrames=37.000000
-     MaxSpewTime=10.000000
-     BurningChunkProb=0.100000
-     LavaSpewProb=0.400000
-     Damage=5.000000
-     MomentumTransfer=10000
-     bCanTeleport=False
-     Physics=PHYS_None
-     RemoteRole=ROLE_None
-     Mesh=Mesh'Angreal.EarthTremorRock'
-     DrawScale=4.000000
-     CollisionRadius=30.000000
-     CollisionHeight=46.000000
-     bCollideWorld=False
+    MinAnimRate=0.90
+    MaxAnimRate=1.20
+    SpawnHeight=50.00
+    FallLimit=300.00
+    Frequency=1.00
+    NumFrames=37.00
+    MaxSpewTime=10.00
+    BurningChunkProb=0.10
+    LavaSpewProb=0.40
+    Damage=5.00
+    MomentumTransfer=10000
+    bCanTeleport=False
+    Physics=0
+    RemoteRole=0
+    Mesh=Mesh'EarthTremorRock'
+    DrawScale=4.00
+    CollisionRadius=30.00
+    CollisionHeight=46.00
+    bCollideWorld=False
 }

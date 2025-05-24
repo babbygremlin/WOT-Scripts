@@ -43,7 +43,6 @@ function string GetNextMap()
 	SaveConfig();
 	return Maps[MapNum];
 }
-
 defaultproperties
 {
 }

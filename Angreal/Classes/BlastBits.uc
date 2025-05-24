@@ -29,14 +29,14 @@ simulated function Timer()
 
 defaultproperties
 {
-     Spread=125.000000
-     Volume=120.000000
-     NumTemplates=2
-     Templates(0)=(LifeSpan=0.500000,Weight=2.000000,MaxInitialVelocity=600.000000,MinInitialVelocity=560.000000,MaxDrawScale=0.700000,MinDrawScale=0.400000,MinScaleGlow=0.000000,GrowPhase=1,MaxGrowRate=-0.400000,MinGrowRate=-1.000000,FadePhase=2)
-     Templates(1)=(LifeSpan=0.500000,Weight=0.500000,MaxInitialVelocity=550.000000,MaxDrawScale=0.750000,MinDrawScale=0.200000,MinScaleGlow=0.000000,GrowPhase=1,MaxGrowRate=-1.500000,MinGrowRate=-1.250000,FadePhase=2)
-     Particles(0)=WetTexture'Angreal.BlastBits.AniBitA'
-     Particles(1)=WetTexture'Angreal.BlastBits.AniBitB'
-     bOn=True
-     VolumeScalePct=0.000000
-     bStatic=False
+    Spread=125.00
+    Volume=120.00
+    NumTemplates=2
+    Templates(0)=(LifeSpan=0.50,Weight=2.00,MaxInitialVelocity=600.00,MinInitialVelocity=560.00,MaxDrawScale=0.70,MinDrawScale=0.40,MaxScaleGlow=1.00,MinScaleGlow=0.00,GrowPhase=1,MaxGrowRate=-0.40,MinGrowRate=-1.00,FadePhase=2,MaxFadeRate=0.00,MinFadeRate=0.00),
+    Templates(1)=(LifeSpan=0.50,Weight=0.50,MaxInitialVelocity=550.00,MinInitialVelocity=0.00,MaxDrawScale=0.75,MinDrawScale=0.20,MaxScaleGlow=1.00,MinScaleGlow=0.00,GrowPhase=1,MaxGrowRate=-1.50,MinGrowRate=-1.25,FadePhase=2,MaxFadeRate=0.00,MinFadeRate=0.00),
+    Particles(0)=WetTexture'BlastBits.AniBitA'
+    Particles(1)=WetTexture'BlastBits.AniBitB'
+    bOn=True
+    VolumeScalePct=0.00
+    bStatic=False
 }

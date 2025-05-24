@@ -95,22 +95,22 @@ simulated function Tick( float DeltaTime )
 
 defaultproperties
 {
-     AnimTextures(0)=Texture'Angreal.BFDecals.BFhole01'
-     AnimTextures(1)=Texture'Angreal.BFDecals.BFhole02'
-     AnimTextures(2)=Texture'Angreal.BFDecals.BFhole03'
-     AnimTextures(3)=Texture'Angreal.BFDecals.BFhole04'
-     AnimTextures(4)=Texture'Angreal.BFDecals.BFhole05'
-     AnimTextures(5)=Texture'Angreal.BFDecals.BFhole06'
-     AnimTextures(6)=Texture'Angreal.BFDecals.BFhole07'
-     AnimTextures(7)=Texture'Angreal.BFDecals.BFhole08'
-     AnimTextures(8)=Texture'Angreal.BFDecals.BFhole09'
-     AnimTextures(9)=Texture'Angreal.BFDecals.BFhole10'
-     FrameTime=0.100000
-     FadeTime=5.000000
-     DetailLevel=3
-     RemoteRole=ROLE_SimulatedProxy
-     Style=STY_Translucent
-     Skin=Texture'Angreal.BFExplodeA.BFimpact101'
-     DrawScale=0.500000
-     AmbientGlow=180
+    AnimTextures(0)=Texture'BFDecals.BFhole01'
+    AnimTextures(1)=Texture'BFDecals.BFhole02'
+    AnimTextures(2)=Texture'BFDecals.BFhole03'
+    AnimTextures(3)=Texture'BFDecals.BFhole04'
+    AnimTextures(4)=Texture'BFDecals.BFhole05'
+    AnimTextures(5)=Texture'BFDecals.BFhole06'
+    AnimTextures(6)=Texture'BFDecals.BFhole07'
+    AnimTextures(7)=Texture'BFDecals.BFhole08'
+    AnimTextures(8)=Texture'BFDecals.BFhole09'
+    AnimTextures(9)=Texture'BFDecals.BFhole10'
+    FrameTime=0.10
+    FadeTime=5.00
+    DetailLevel=3
+    RemoteRole=2
+    Style=3
+    Skin=Texture'BFExplodeA.BFimpact101'
+    DrawScale=0.50
+    AmbientGlow=180
 }

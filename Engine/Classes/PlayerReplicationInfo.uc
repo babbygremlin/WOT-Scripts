@@ -113,7 +113,7 @@ simulated function Tick( float DeltaTime )
 
 defaultproperties
 {
-     Team=255
-     RemoteRole=ROLE_SimulatedProxy
-     NetUpdateFrequency=4.000000
+    Team=255
+    RemoteRole=2
+    NetUpdateFrequency=4.00
 }

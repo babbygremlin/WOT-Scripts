@@ -54,19 +54,19 @@ simulated function Tick( float DeltaTime )
 
 defaultproperties
 {
-     FadeTime=0.250000
-     LightFadeTime=0.400000
-     ScaleTime=0.250000
-     RemoteRole=ROLE_None
-     LifeSpan=0.400000
-     DrawType=DT_Sprite
-     Style=STY_Translucent
-     Texture=WetTexture'Angreal.Dart.DartExpl'
-     DrawScale=0.500000
-     LightType=LT_Steady
-     LightEffect=LE_NonIncidence
-     LightBrightness=255
-     LightHue=154
-     LightSaturation=50
-     LightRadius=2
+    FadeTime=0.25
+    LightFadeTime=0.40
+    ScaleTime=0.25
+    RemoteRole=0
+    LifeSpan=0.40
+    DrawType=1
+    Style=3
+    Texture=WetTexture'Dart.DartExpl'
+    DrawScale=0.50
+    LightType=1
+    LightEffect=13
+    LightBrightness=255
+    LightHue=154
+    LightSaturation=50
+    LightRadius=2
 }

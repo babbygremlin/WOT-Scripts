@@ -17,11 +17,11 @@ simulated function Tick( float DeltaTime )
 
 defaultproperties
 {
-     bCanTeleport=True
-     RemoteRole=ROLE_None
-     DrawType=DT_Sprite
-     Style=STY_Translucent
-     Texture=None
-     DrawScale=0.500000
-     ScaleGlow=0.300000
+    bCanTeleport=True
+    RemoteRole=0
+    DrawType=1
+    Style=3
+    Texture=None
+    DrawScale=0.50
+    ScaleGlow=0.30
 }

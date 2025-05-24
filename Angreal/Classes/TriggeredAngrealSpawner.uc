@@ -298,21 +298,21 @@ simulated function FireAt( Actor A )
 
 defaultproperties
 {
-     LightBrightnessOverride(0)=-1
-     LightBrightnessOverride(1)=-1
-     LightBrightnessOverride(2)=-1
-     LightHueOverride(0)=-1
-     LightHueOverride(1)=-1
-     LightHueOverride(2)=-1
-     LightSaturationOverride(0)=-1
-     LightSaturationOverride(1)=-1
-     LightSaturationOverride(2)=-1
-     LightRadiusOverride(0)=-1
-     LightRadiusOverride(1)=-1
-     LightRadiusOverride(2)=-1
-     bHidden=True
-     RemoteRole=ROLE_None
-     InitialState=Directed
-     bDirectional=True
-     DrawType=DT_Sprite
+    LightBrightnessOverride(0)=-1
+    LightBrightnessOverride(1)=-1
+    LightBrightnessOverride(2)=-1
+    LightHueOverride(0)=-1
+    LightHueOverride(1)=-1
+    LightHueOverride(2)=-1
+    LightSaturationOverride(0)=-1
+    LightSaturationOverride(1)=-1
+    LightSaturationOverride(2)=-1
+    LightRadiusOverride(0)=-1
+    LightRadiusOverride(1)=-1
+    LightRadiusOverride(2)=-1
+    bHidden=True
+    RemoteRole=0
+    InitialState=Directed
+    bDirectional=True
+    DrawType=1
 }

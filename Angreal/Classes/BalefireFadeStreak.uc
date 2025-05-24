@@ -15,9 +15,9 @@ class BalefireFadeStreak expands Streak;
 
 defaultproperties
 {
-     SegmentLength=64.000000
-     DrawType=DT_Mesh
-     Skin=Texture'Angreal.Skins.BalefireFade'
-     Mesh=Mesh'Angreal.LightningBolt'
-     bUnlit=True
+    SegmentLength=64.00
+    DrawType=2
+    Skin=Texture'Skins.BalefireFade'
+    Mesh=Mesh'LightningBolt'
+    bUnlit=True
 }

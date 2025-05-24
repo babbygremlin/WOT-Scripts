@@ -59,17 +59,16 @@ simulated function Tick( float DeltaTime )
 	}
 }
 */
-
 defaultproperties
 {
-     bTrailerSameRotation=True
-     Physics=PHYS_Trailer
-     RemoteRole=ROLE_SimulatedProxy
-     DrawType=DT_Mesh
-     Style=STY_Translucent
-     bMustFace=False
-     Texture=Texture'Angreal.Effects.JAbsorbVisual0'
-     Mesh=Mesh'Angreal.AbsorbVisual'
-     DrawScale=3.000000
-     bMeshCurvy=True
+    bTrailerSameRotation=True
+    Physics=11
+    RemoteRole=2
+    DrawType=2
+    Style=3
+    bMustFace=False
+    Texture=Texture'Effects.JAbsorbVisual0'
+    Mesh=Mesh'AbsorbVisual'
+    DrawScale=3.00
+    bMeshCurvy=True
 }

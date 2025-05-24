@@ -212,29 +212,29 @@ function float GetDuration()
 
 defaultproperties
 {
-     SpawnOffset=(X=48.000000,Z=96.000000)
-     DropSound=Sound'Angreal.DistantEye.DropDE'
-     MovementTolerance=10.000000
-     bElementAir=True
-     bElementEarth=True
-     bCommon=True
-     bCombat=True
-     bInfo=True
-     MinInitialCharges=3
-     MaxInitialCharges=7
-     MaxCharges=10
-     ActivateSoundName="Angreal.ActivateDE"
-     DeActivateSoundName="Angreal.DeactivateDE"
-     MinChargeGroupInterval=10.000000
-     Title="Distant Eye"
-     Description="Activating Distant Eye fixes its location. Dropping the ter'angreal causes it to @forget@ its initial location. After placement, a subsequent activation allows you to look through the Eye¾to see whatever it sees¾as long as you remain still.  Invoking the Eye while using it fires a stream of Darts at whatever the eye is trained on."
-     Quote="As though thinking of the oddities triggered one of them, a patch of sky against the mountains darkened suddenly, became a window to somewhere else."
-     StatusIconFrame=Texture'Angreal.Icons.M_DistantEye'
-     InventoryGroup=58
-     PickupMessage="You got the Distant Eye ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealDistantEyePickup'
-     PickupViewScale=0.700000
-     StatusIcon=Texture'Angreal.Icons.I_DistantEye'
-     Mesh=Mesh'Angreal.AngrealDistantEyePickup'
-     DrawScale=0.700000
+    SpawnOffset=(X=48.00,Y=0.00,Z=96.00),
+    DropSound=Sound'DistantEye.DropDE'
+    MovementTolerance=10.00
+    bElementAir=True
+    bElementEarth=True
+    bCommon=True
+    bCombat=True
+    bInfo=True
+    MinInitialCharges=3
+    MaxInitialCharges=7
+    MaxCharges=10
+    ActivateSoundName="Angreal.ActivateDE"
+    DeActivateSoundName="Angreal.DeactivateDE"
+    MinChargeGroupInterval=10.00
+    Title="Distant Eye"
+    Description="Activating Distant Eye fixes its location. Dropping the ter'angreal causes it to @forget@ its initial location. After placement, a subsequent activation allows you to look through the Eye¾to see whatever it sees¾as long as you remain still.  Invoking the Eye while using it fires a stream of Darts at whatever the eye is trained on."
+    Quote="As though thinking of the oddities triggered one of them, a patch of sky against the mountains darkened suddenly, became a window to somewhere else."
+    StatusIconFrame=Texture'Icons.M_DistantEye'
+    InventoryGroup=58
+    PickupMessage="You got the Distant Eye ter'angreal"
+    PickupViewMesh=Mesh'AngrealDistantEyePickup'
+    PickupViewScale=0.70
+    StatusIcon=Texture'Icons.I_DistantEye'
+    Mesh=Mesh'AngrealDistantEyePickup'
+    DrawScale=0.70
 }

@@ -165,8 +165,8 @@ state() TriggerPound {
 
 defaultproperties
 {
-     bStatic=False
-     bHidden=False
-     bMovable=True
-     RemoteRole=ROLE_SimulatedProxy
+    bStatic=False
+    bHidden=False
+    bMovable=True
+    RemoteRole=2
 }

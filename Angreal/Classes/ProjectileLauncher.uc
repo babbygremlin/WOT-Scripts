@@ -303,7 +303,7 @@ function float GetMinRange()
 
 defaultproperties
 {
-     bRestrictsUsage=True
-     Priority=1.000000
-     MaxChargeUsedInterval=1.000000
+    bRestrictsUsage=True
+    Priority=1.00
+    MaxChargeUsedInterval=1.00
 }

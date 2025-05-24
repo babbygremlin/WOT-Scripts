@@ -53,6 +53,6 @@ function ProcessEffect( Invokable I )
 
 defaultproperties
 {
-     Priority=255
-     bDisplayIcon=False
+    Priority=255
+    bDisplayIcon=False
 }

@@ -132,30 +132,30 @@ simulated function Explode( vector HitLocation, vector HitNormal )
 
 defaultproperties
 {
-     SmokeType=Class'Angreal.SoulBarbSmoke'
-     FlareTexture=WetTexture'Angreal.SoulBarb.NimbusAnim'
-     HoleTexture=Texture'Angreal.SoulBarb.MODdiskC'
-     FlareStyle=STY_Translucent
-     HoleStyle=STY_Modulated
-     FlareDrawScale=0.800000
-     HoleDrawScale=0.600000
-     Duration=15.000000
-     speed=300.000000
-     MomentumTransfer=2000
-     SpawnSound=Sound'Angreal.SoulBarb.LaunchSB'
-     ImpactSound=Sound'Angreal.SoulBarb.HitSB'
-     DrawType=DT_None
-     Style=STY_None
-     Texture=None
-     SoundRadius=160
-     SoundVolume=100
-     AmbientSound=Sound'Angreal.SoulBarb.LoopSB'
-     CollisionRadius=6.000000
-     CollisionHeight=12.000000
-     LightType=LT_Steady
-     LightEffect=LE_NonIncidence
-     LightBrightness=64
-     LightHue=96
-     LightSaturation=128
-     LightRadius=8
+    SmokeType=Class'SoulBarbSmoke'
+    FlareTexture=WetTexture'SoulBarb.NimbusAnim'
+    HoleTexture=Texture'SoulBarb.MODdiskC'
+    FlareStyle=3
+    HoleStyle=4
+    FlareDrawScale=0.80
+    HoleDrawScale=0.60
+    Duration=15.00
+    speed=300.00
+    MomentumTransfer=2000
+    SpawnSound=Sound'SoulBarb.LaunchSB'
+    ImpactSound=Sound'SoulBarb.HitSB'
+    DrawType=0
+    Style=0
+    Texture=None
+    SoundRadius=160
+    SoundVolume=100
+    AmbientSound=Sound'SoulBarb.LoopSB'
+    CollisionRadius=6.00
+    CollisionHeight=12.00
+    LightType=1
+    LightEffect=13
+    LightBrightness=64
+    LightHue=96
+    LightSaturation=128
+    LightRadius=8
 }

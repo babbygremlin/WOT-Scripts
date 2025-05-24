@@ -111,27 +111,27 @@ simulated function HitWall( vector HitNormal, Actor Wall )
 
 defaultproperties
 {
-     Fireworks(0)=(ProjType=Class'ParticleSystems.Firework01',ExpType=Class'ParticleSystems.Firework05',LaunchSound=Sound'Angreal.Fireworks.Launch1FW',ExplodeSound=Sound'Angreal.Fireworks.Explode1FW')
-     Fireworks(1)=(ProjType=Class'ParticleSystems.Firework06',ExpType=Class'ParticleSystems.Firework05',LaunchSound=Sound'Angreal.Fireworks.Launch1FW',ExplodeSound=Sound'Angreal.Fireworks.Explode1FW')
-     Fireworks(2)=(ProjType=Class'ParticleSystems.Firework03',ExpType=Class'ParticleSystems.Firework09',LaunchSound=Sound'Angreal.Fireworks.Launch1FW',ExplodeSound=Sound'Angreal.Fireworks.Explode3FW')
-     Fireworks(3)=(ProjType=Class'ParticleSystems.Firework04',ExpType=Class'ParticleSystems.Firework08',LaunchSound=Sound'Angreal.Fireworks.Launch1FW',ExplodeSound=Sound'Angreal.Fireworks.Explode2FW')
-     Fireworks(4)=(ProjType=Class'ParticleSystems.Firework02',ExpType=Class'ParticleSystems.Firework07',LaunchSound=Sound'Angreal.Fireworks.Launch1FW',ExplodeSound=Sound'Angreal.Fireworks.Explode2FW')
-     MinExpTime=2.000000
-     MaxExpTime=6.000000
-     HitWaterSound=Sound'Angreal.AngrealInventoryFireball.HitWaterFB'
-     ImpactSoundPitch=0.500000
-     HitWaterSoundPitch=1.200000
-     DamageType=xxFxx
-     DamageRadius=320.000000
-     HitWaterClass=Class'Angreal.FireballFizzle'
-     HitWaterOffset=(Z=56.000000)
-     speed=2000.000000
-     Damage=50.000000
-     MomentumTransfer=1500
-     Physics=PHYS_Falling
-     DrawType=DT_None
-     CollisionRadius=6.000000
-     CollisionHeight=12.000000
-     bBounce=True
-     Mass=0.100000
+    Fireworks(0)=(ProjType=Class'ParticleSystems.Firework01',ExpType=Class'ParticleSystems.Firework05',LaunchSound=Sound'Fireworks.Launch1FW',ExplodeSound=Sound'Fireworks.Explode1FW'),
+    Fireworks(1)=(ProjType=Class'ParticleSystems.Firework06',ExpType=Class'ParticleSystems.Firework05',LaunchSound=Sound'Fireworks.Launch1FW',ExplodeSound=Sound'Fireworks.Explode1FW'),
+    Fireworks(2)=(ProjType=Class'ParticleSystems.Firework03',ExpType=Class'ParticleSystems.Firework09',LaunchSound=Sound'Fireworks.Launch1FW',ExplodeSound=Sound'Fireworks.Explode3FW'),
+    Fireworks(3)=(ProjType=Class'ParticleSystems.Firework04',ExpType=Class'ParticleSystems.Firework08',LaunchSound=Sound'Fireworks.Launch1FW',ExplodeSound=Sound'Fireworks.Explode2FW'),
+    Fireworks(4)=(ProjType=Class'ParticleSystems.Firework02',ExpType=Class'ParticleSystems.Firework07',LaunchSound=Sound'Fireworks.Launch1FW',ExplodeSound=Sound'Fireworks.Explode2FW'),
+    MinExpTime=2.00
+    MaxExpTime=6.00
+    HitWaterSound=Sound'AngrealInventoryFireball.HitWaterFB'
+    ImpactSoundPitch=0.50
+    HitWaterSoundPitch=1.20
+    DamageType=xxFxx
+    DamageRadius=320.00
+    HitWaterClass=Class'FireballFizzle'
+    HitWaterOffset=(X=0.00,Y=0.00,Z=56.00),
+    speed=2000.00
+    Damage=50.00
+    MomentumTransfer=1500
+    Physics=2
+    DrawType=0
+    CollisionRadius=6.00
+    CollisionHeight=12.00
+    bBounce=True
+    Mass=0.10
 }

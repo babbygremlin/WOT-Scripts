@@ -112,9 +112,9 @@ function Actor SpecialHandling(Pawn Other)
 
 defaultproperties
 {
-     MaxDist2D=400.000000
-     ExtraCost=400
-     bStatic=False
-     bNoDelete=True
-     RemoteRole=ROLE_None
+    MaxDist2D=400.00
+    ExtraCost=400
+    bStatic=False
+    bNoDelete=True
+    RemoteRole=0
 }

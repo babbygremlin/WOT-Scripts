@@ -30,5 +30,5 @@ simulated function Tick( float DeltaTime )
 
 defaultproperties
 {
-     Duration=7.000000
+    Duration=7.00
 }

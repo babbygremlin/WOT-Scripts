@@ -127,13 +127,13 @@ simulated function Destroyed()
 
 defaultproperties
 {
-     FollowOffset=(X=30.000000,Y=15.000000,Z=70.000000)
-     MagicNumber=4.000000
-     Color=Blue
-     LGLightRadius=-1
-     bHidden=True
-     bNetTemporary=False
-     RemoteRole=ROLE_SimulatedProxy
-     DrawType=DT_Sprite
-     bAlwaysRelevant=True
+    FollowOffset=(X=30.00,Y=15.00,Z=70.00),
+    MagicNumber=4.00
+    Color=Blue
+    LGLightRadius=-1
+    bHidden=True
+    bNetTemporary=False
+    RemoteRole=2
+    DrawType=1
+    bAlwaysRelevant=True
 }

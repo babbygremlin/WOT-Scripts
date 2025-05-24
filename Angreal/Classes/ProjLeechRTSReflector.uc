@@ -92,5 +92,5 @@ function Expired()
 
 defaultproperties
 {
-     Priority=200
+    Priority=200
 }

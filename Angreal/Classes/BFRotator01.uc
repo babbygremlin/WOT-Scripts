@@ -13,13 +13,13 @@ class BFRotator01 expands ActorRotator;
 
 defaultproperties
 {
-     bUpdateActorRotation=False
-     bFaceIn=True
-     MinRadius=50.000000
-     MaxRadius=50.000000
-     MinRotationRate=100000.000000
-     MaxRotationRate=100000.000000
-     MaxHeight=50.000000
-     HeightShiftRate=120.000000
-     bBounceHeight=True
+    bUpdateActorRotation=False
+    bFaceIn=True
+    MinRadius=50.00
+    MaxRadius=50.00
+    MinRotationRate=100000.00
+    MaxRotationRate=100000.00
+    MaxHeight=50.00
+    HeightShiftRate=120.00
+    bBounceHeight=True
 }

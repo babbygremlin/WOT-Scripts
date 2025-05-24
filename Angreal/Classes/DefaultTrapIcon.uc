@@ -5,7 +5,7 @@ class DefaultTrapIcon expands GenericSprite;
 
 defaultproperties
 {
-     Style=STY_Translucent
-     DrawScale=0.300000
-     bOnlyOwnerSee=True
+    Style=3
+    DrawScale=0.30
+    bOnlyOwnerSee=True
 }

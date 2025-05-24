@@ -17,8 +17,8 @@ class YellowDart expands AngrealDartProjectile;
 
 defaultproperties
 {
-     CoronaTexture=Texture'Angreal.Coronas.Corona_yellow'
-     ExplosionTexture=Texture'Angreal.Explosions.Expl_yellow'
-     Skin=Texture'Angreal.Skins.Comet_yellow'
-     LightHue=30
+    CoronaTexture=Texture'Coronas.Corona_yellow'
+    ExplosionTexture=Texture'Explosions.Expl_yellow'
+    Skin=Texture'Skins.Comet_yellow'
+    LightHue=30
 }

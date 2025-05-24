@@ -24,28 +24,28 @@ class AngrealInvExpWard expands ProjectileLauncher;
 
 defaultproperties
 {
-     ProjectileClassName="Angreal.AngrealExpWardProjectile"
-     bElementFire=True
-     bElementEarth=True
-     bCommon=True
-     bTraps=True
-     RoundsPerMinute=240.000000
-     MinInitialCharges=5
-     MaxInitialCharges=10
-     MaxCharges=25
-     MaxChargesInGroup=5
-     MinChargesInGroup=3
-     MaxChargeUsedInterval=0.250000
-     MinChargeGroupInterval=10.000000
-     Title="Explosive Ward"
-     Description="Activating the ter'angreal affixes a Ward upon any surface.  Walking near to the Ward causes it to unravel in an explosion of Earth.  If nothing triggers it, the weave automatically explodes after a while."
-     Quote="With a roar the ground in front of him erupted in a narrow fountain of dirt and rocks higher than his head."
-     StatusIconFrame=Texture'Angreal.Icons.M_LandMine'
-     InventoryGroup=58
-     PickupMessage="You got the Explosive Ward ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealLandMinePickup'
-     PickupViewScale=0.500000
-     StatusIcon=Texture'Angreal.Icons.I_LandMine'
-     Mesh=Mesh'Angreal.AngrealLandMinePickup'
-     DrawScale=0.500000
+    ProjectileClassName="Angreal.AngrealExpWardProjectile"
+    bElementFire=True
+    bElementEarth=True
+    bCommon=True
+    bTraps=True
+    RoundsPerMinute=240.00
+    MinInitialCharges=5
+    MaxInitialCharges=10
+    MaxCharges=25
+    MaxChargesInGroup=5
+    MinChargesInGroup=3
+    MaxChargeUsedInterval=0.25
+    MinChargeGroupInterval=10.00
+    Title="Explosive Ward"
+    Description="Activating the ter'angreal affixes a Ward upon any surface.  Walking near to the Ward causes it to unravel in an explosion of Earth.  If nothing triggers it, the weave automatically explodes after a while."
+    Quote="With a roar the ground in front of him erupted in a narrow fountain of dirt and rocks higher than his head."
+    StatusIconFrame=Texture'Icons.M_LandMine'
+    InventoryGroup=58
+    PickupMessage="You got the Explosive Ward ter'angreal"
+    PickupViewMesh=Mesh'AngrealLandMinePickup'
+    PickupViewScale=0.50
+    StatusIcon=Texture'Icons.I_LandMine'
+    Mesh=Mesh'AngrealLandMinePickup'
+    DrawScale=0.50
 }

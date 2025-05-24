@@ -279,27 +279,27 @@ function UnInstallReflectors()
 
 defaultproperties
 {
-     FrameTime=0.200000
-     AnimSkins(0)=Texture'Angreal.Skins.DE_01'
-     AnimSkins(1)=Texture'Angreal.Skins.DE_02'
-     AnimSkins(2)=Texture'Angreal.Skins.DE_03'
-     AnimSkins(3)=Texture'Angreal.Skins.DE_04'
-     AnimSkins(4)=Texture'Angreal.Skins.DE_05'
-     AnimSkins(5)=Texture'Angreal.Skins.DE_06'
-     AnimSkins(6)=Texture'Angreal.Skins.DE_07'
-     RoundsPerMinute=320.000000
-     ProjectileType=Class'Angreal.GreenDart'
-     Health=50
-     ImpactSound=Sound'Angreal.DistantEye.DropDE'
-     bCanTeleport=False
-     bNetTemporary=False
-     Physics=PHYS_None
-     LifeSpan=0.000000
-     Skin=Texture'Angreal.Skins.DE_01'
-     Mesh=Mesh'Angreal.FlatEye'
-     bAlwaysRelevant=True
-     CollisionRadius=8.000000
-     CollisionHeight=8.000000
-     bCollideWorld=False
-     bProjTarget=True
+    FrameTime=0.20
+    AnimSkins(0)=Texture'Skins.DE_01'
+    AnimSkins(1)=Texture'Skins.DE_02'
+    AnimSkins(2)=Texture'Skins.DE_03'
+    AnimSkins(3)=Texture'Skins.DE_04'
+    AnimSkins(4)=Texture'Skins.DE_05'
+    AnimSkins(5)=Texture'Skins.DE_06'
+    AnimSkins(6)=Texture'Skins.DE_07'
+    RoundsPerMinute=320.00
+    ProjectileType=Class'GreenDart'
+    Health=50
+    ImpactSound=Sound'DistantEye.DropDE'
+    bCanTeleport=False
+    bNetTemporary=False
+    Physics=0
+    LifeSpan=0.00
+    Skin=Texture'Skins.DE_01'
+    Mesh=Mesh'FlatEye'
+    bAlwaysRelevant=True
+    CollisionRadius=8.00
+    CollisionHeight=8.00
+    bCollideWorld=False
+    bProjTarget=True
 }

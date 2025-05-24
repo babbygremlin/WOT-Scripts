@@ -13,11 +13,11 @@ class SpiritShieldVisual expands ShieldParticleMesh;
 
 defaultproperties
 {
-     TextureSet(0)=Texture'Angreal.Elemental.Spirit_A01'
-     TextureSet(1)=Texture'Angreal.Elemental.Spirit_A02'
-     TextureSet(2)=Texture'Angreal.Elemental.Spirit_A03'
-     TextureSet(3)=Texture'Angreal.Elemental.Spirit_A04'
-     TextureSet(4)=Texture'Angreal.Elemental.Spirit_A05'
-     Texture=Texture'Angreal.Elemental.Spirit_A01'
-     LightHue=32
+    TextureSet(0)=Texture'Elemental.Spirit_A01'
+    TextureSet(1)=Texture'Elemental.Spirit_A02'
+    TextureSet(2)=Texture'Elemental.Spirit_A03'
+    TextureSet(3)=Texture'Elemental.Spirit_A04'
+    TextureSet(4)=Texture'Elemental.Spirit_A05'
+    Texture=Texture'Elemental.Spirit_A01'
+    LightHue=32
 }

@@ -103,30 +103,30 @@ function SetColor( name Color )
 
 defaultproperties
 {
-     bAutoFire=True
-     ProjectileClassName="Angreal.BlueDart"
-     bElementFire=True
-     bElementAir=True
-     bCommon=True
-     bOffensive=True
-     bCombat=True
-     RoundsPerMinute=320.000000
-     MinInitialCharges=20
-     MaxInitialCharges=70
-     MaxCharges=100
-     MaxChargesInGroup=20
-     MinChargesInGroup=5
-     MaxChargeUsedInterval=0.000000
-     Title="Dart"
-     Description="The Dart ter’angreal focuses the One Power into a weak burst of energy.  Although a single charge may not necessarily inflict much damage, the artifact can spray multiple Darts at a victim in a very short time."
-     Quote="His sudden roar made Egwene jump. Clapping a hand to his left buttock, he hobbled in a pained circle."
-     StatusIconFrame=Texture'Angreal.Icons.M_Dartwh'
-     PickupMessage="You got the Dart ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealInventoryDart'
-     PickupViewScale=0.600000
-     StatusIcon=Texture'Angreal.Icons.I_Dartwh'
-     Style=STY_Masked
-     Skin=Texture'Angreal.Skins.DartAesSedai'
-     Mesh=Mesh'Angreal.AngrealInventoryDart'
-     DrawScale=0.600000
+    bAutoFire=True
+    ProjectileClassName="Angreal.BlueDart"
+    bElementFire=True
+    bElementAir=True
+    bCommon=True
+    bOffensive=True
+    bCombat=True
+    RoundsPerMinute=320.00
+    MinInitialCharges=20
+    MaxInitialCharges=70
+    MaxCharges=100
+    MaxChargesInGroup=20
+    MinChargesInGroup=5
+    MaxChargeUsedInterval=0.00
+    Title="Dart"
+    Description="The Dart ter’angreal focuses the One Power into a weak burst of energy.  Although a single charge may not necessarily inflict much damage, the artifact can spray multiple Darts at a victim in a very short time."
+    Quote="His sudden roar made Egwene jump. Clapping a hand to his left buttock, he hobbled in a pained circle."
+    StatusIconFrame=Texture'Icons.M_Dartwh'
+    PickupMessage="You got the Dart ter'angreal"
+    PickupViewMesh=Mesh'AngrealInventoryDart'
+    PickupViewScale=0.60
+    StatusIcon=Texture'Icons.I_Dartwh'
+    Style=2
+    Skin=Texture'Skins.DartAesSedai'
+    Mesh=Mesh'AngrealInventoryDart'
+    DrawScale=0.60
 }

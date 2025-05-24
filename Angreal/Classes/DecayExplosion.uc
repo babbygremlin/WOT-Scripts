@@ -37,22 +37,22 @@ simulated function Tick( float DeltaTime )
 
 defaultproperties
 {
-     ExplosionAnim(0)=Texture'Angreal.Effects.DecayExplosion00'
-     ExplosionAnim(1)=Texture'Angreal.Effects.DecayExplosion01'
-     ExplosionAnim(2)=Texture'Angreal.Effects.DecayExplosion02'
-     ExplosionAnim(3)=Texture'Angreal.Effects.DecayExplosion03'
-     ExplosionAnim(4)=Texture'Angreal.Effects.DecayExplosion04'
-     ExplosionAnim(5)=Texture'Angreal.Effects.DecayExplosion05'
-     ExplosionAnim(6)=Texture'Angreal.Effects.DecayExplosion06'
-     ExplosionAnim(7)=Texture'Angreal.Effects.DecayExplosion07'
-     ExplosionAnim(8)=Texture'Angreal.Effects.DecayExplosion08'
-     ExplosionAnim(9)=Texture'Angreal.Effects.DecayExplosion09'
-     LifeSpan=1.000000
-     DrawScale=0.800000
-     SoundPitch=32
-     LightEffect=LE_NonIncidence
-     LightBrightness=192
-     LightHue=112
-     LightSaturation=64
-     LightRadius=4
+    ExplosionAnim(0)=Texture'Effects.DecayExplosion00'
+    ExplosionAnim(1)=Texture'Effects.DecayExplosion01'
+    ExplosionAnim(2)=Texture'Effects.DecayExplosion02'
+    ExplosionAnim(3)=Texture'Effects.DecayExplosion03'
+    ExplosionAnim(4)=Texture'Effects.DecayExplosion04'
+    ExplosionAnim(5)=Texture'Effects.DecayExplosion05'
+    ExplosionAnim(6)=Texture'Effects.DecayExplosion06'
+    ExplosionAnim(7)=Texture'Effects.DecayExplosion07'
+    ExplosionAnim(8)=Texture'Effects.DecayExplosion08'
+    ExplosionAnim(9)=Texture'Effects.DecayExplosion09'
+    LifeSpan=1.00
+    DrawScale=0.80
+    SoundPitch=32
+    LightEffect=13
+    LightBrightness=192
+    LightHue=112
+    LightSaturation=64
+    LightRadius=4
 }

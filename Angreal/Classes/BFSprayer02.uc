@@ -20,14 +20,14 @@ simulated function PreBeginPlay()
 
 defaultproperties
 {
-     Spread=20.000000
-     Volume=30.000000
-     NumTemplates=1
-     Templates(0)=(LifeSpan=0.500000,MaxInitialVelocity=100.000000,MinInitialVelocity=50.000000,MaxDrawScale=0.500000,MinDrawScale=0.500000,MaxScaleGlow=0.000000,MinScaleGlow=0.000000,GrowPhase=1,MaxGrowRate=-1.000000,MinGrowRate=-1.500000,FadePhase=1,MaxFadeRate=1.000000,MinFadeRate=0.500000)
-     Particles(0)=Texture'ParticleSystems.Flares.PF09'
-     ParticleDistribution=DIST_Linear
-     bOn=True
-     bStatic=False
-     VisibilityRadius=800.000000
-     VisibilityHeight=800.000000
+    Spread=20.00
+    Volume=30.00
+    NumTemplates=1
+    Templates=(LifeSpan=0.50,Weight=1.00,MaxInitialVelocity=100.00,MinInitialVelocity=50.00,MaxDrawScale=0.50,MinDrawScale=0.50,MaxScaleGlow=0.00,MinScaleGlow=0.00,GrowPhase=1,MaxGrowRate=-1.00,MinGrowRate=-1.50,FadePhase=1,MaxFadeRate=1.00,MinFadeRate=0.50),
+    Particles=Texture'ParticleSystems.Flares.PF09'
+    ParticleDistribution=1
+    bOn=True
+    bStatic=False
+    VisibilityRadius=800.00
+    VisibilityHeight=800.00
 }

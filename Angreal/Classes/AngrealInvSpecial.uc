@@ -33,22 +33,22 @@ function DropFrom( vector StartLocation );
 
 defaultproperties
 {
-     bElementFire=True
-     bElementWater=True
-     bElementAir=True
-     bElementEarth=True
-     bElementSpirit=True
-     bRare=True
-     ChargeCost=0
-     Title="Unknown"
-     Description="It's not clear how to use this artifact, nor what it does.  Quick research reveals nothing."
-     Quote="Such things need study."
-     StatusIconFrame=Texture'Angreal.Icons.M_Special'
-     InventoryGroup=65
-     PickupMessage="You got an unknown ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealSpecial'
-     PickupViewScale=0.700000
-     StatusIcon=Texture'Angreal.Icons.I_Special'
-     Mesh=Mesh'Angreal.AngrealSpecial'
-     DrawScale=0.700000
+    bElementFire=True
+    bElementWater=True
+    bElementAir=True
+    bElementEarth=True
+    bElementSpirit=True
+    bRare=True
+    ChargeCost=0
+    Title="Unknown"
+    Description="It's not clear how to use this artifact, nor what it does.  Quick research reveals nothing."
+    Quote="Such things need study."
+    StatusIconFrame=Texture'Icons.M_Special'
+    InventoryGroup=65
+    PickupMessage="You got an unknown ter'angreal"
+    PickupViewMesh=Mesh'AngrealSpecial'
+    PickupViewScale=0.70
+    StatusIcon=Texture'Icons.I_Special'
+    Mesh=Mesh'AngrealSpecial'
+    DrawScale=0.70
 }

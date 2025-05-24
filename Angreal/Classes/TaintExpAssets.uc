@@ -56,7 +56,7 @@ simulated function Tick( float DeltaTime )
 
 defaultproperties
 {
-     AnimationRate=0.400000
-     RemoteRole=ROLE_None
-     DrawScale=5.000000
+    AnimationRate=0.40
+    RemoteRole=0
+    DrawScale=5.00
 }

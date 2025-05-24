@@ -25,29 +25,29 @@ class AngrealInvRemoveCurse expands LeechAttacher;
 
 defaultproperties
 {
-     LeechClasses(0)=Class'Angreal.RemoveCurseLeech'
-     bElementFire=True
-     bElementWater=True
-     bElementAir=True
-     bElementEarth=True
-     bElementSpirit=True
-     bRare=True
-     bDefensive=True
-     bCombat=True
-     MinInitialCharges=3
-     MaxInitialCharges=5
-     MaxCharges=10
-     Priority=4.000000
-     MinChargeGroupInterval=3.000000
-     Title="Unravel"
-     Description="Unravel instantly destroys any weave currently affecting you or located within a small area around you.  All effects, woven traps, or projectiles within this radius simply disappear."
-     Quote="Something severed his flows; they snapped back so hard that he grunted."
-     StatusIconFrame=Texture'Angreal.Icons.M_RemoveCurse'
-     InventoryGroup=59
-     PickupMessage="You got the Unravel ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealRemoveCursePickup'
-     PickupViewScale=0.800000
-     StatusIcon=Texture'Angreal.Icons.I_RemoveCurse'
-     Mesh=Mesh'Angreal.AngrealRemoveCursePickup'
-     DrawScale=0.800000
+    LeechClasses=Class'RemoveCurseLeech'
+    bElementFire=True
+    bElementWater=True
+    bElementAir=True
+    bElementEarth=True
+    bElementSpirit=True
+    bRare=True
+    bDefensive=True
+    bCombat=True
+    MinInitialCharges=3
+    MaxInitialCharges=5
+    MaxCharges=10
+    Priority=4.00
+    MinChargeGroupInterval=3.00
+    Title="Unravel"
+    Description="Unravel instantly destroys any weave currently affecting you or located within a small area around you.  All effects, woven traps, or projectiles within this radius simply disappear."
+    Quote="Something severed his flows; they snapped back so hard that he grunted."
+    StatusIconFrame=Texture'Icons.M_RemoveCurse'
+    InventoryGroup=59
+    PickupMessage="You got the Unravel ter'angreal"
+    PickupViewMesh=Mesh'AngrealRemoveCursePickup'
+    PickupViewScale=0.80
+    StatusIcon=Texture'Icons.I_RemoveCurse'
+    Mesh=Mesh'AngrealRemoveCursePickup'
+    DrawScale=0.80
 }

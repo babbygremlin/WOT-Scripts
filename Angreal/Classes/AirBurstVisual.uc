@@ -76,12 +76,12 @@ simulated function Tick( float DeltaTime )
 
 defaultproperties
 {
-     Duration=0.500000
-     RemoteRole=ROLE_SimulatedProxy
-     LifeSpan=10.000000
-     DrawType=DT_Mesh
-     Style=STY_Translucent
-     bMustFace=False
-     Texture=None
-     Mesh=Mesh'Angreal.AirBurst'
+    Duration=0.50
+    RemoteRole=2
+    LifeSpan=10.00
+    DrawType=2
+    Style=3
+    bMustFace=False
+    Texture=None
+    Mesh=Mesh'AirBurst'
 }

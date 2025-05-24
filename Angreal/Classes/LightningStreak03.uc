@@ -21,10 +21,10 @@ class LightningStreak03 expands LightningStreak02;
 
 defaultproperties
 {
-     SegmentLength=61.400002
-     bAlwaysFace=True
-     Style=STY_Translucent
-     Mesh=Mesh'Angreal.LStwotri'
-     ScaleGlow=5.000000
-     AmbientGlow=254
+    SegmentLength=61.40
+    bAlwaysFace=True
+    Style=3
+    Mesh=Mesh'LStwotri'
+    ScaleGlow=5.00
+    AmbientGlow=254
 }

@@ -84,10 +84,11 @@ simulated function Tick( float DeltaTime )
 	}
 }
 
+
 defaultproperties
 {
-     DestroyTime=0.500000
-     bHidden=True
-     RemoteRole=ROLE_SimulatedProxy
-     bAlwaysRelevant=True
+    DestroyTime=0.50
+    bHidden=True
+    RemoteRole=2
+    bAlwaysRelevant=True
 }

@@ -20,14 +20,14 @@ simulated function PreBeginPlay()
 
 defaultproperties
 {
-     Spread=180.000000
-     Volume=60.000000
-     Gravity=(Z=4.000000)
-     NumTemplates=2
-     Templates(0)=(Weight=5.000000,MaxInitialVelocity=11.000000,MaxDrawScale=0.350000,MinDrawScale=0.150000,MaxScaleGlow=0.250000,MinScaleGlow=0.500000,GrowPhase=2,MaxGrowRate=0.200000,FadePhase=1,MaxFadeRate=-0.400000,MinFadeRate=-0.750000)
-     Templates(1)=(Weight=3.000000,MaxInitialVelocity=17.000000,MinInitialVelocity=12.000000,MaxDrawScale=0.200000,MinDrawScale=0.075000,MaxScaleGlow=-0.010000,MinScaleGlow=-0.020000,GrowPhase=2,MaxGrowRate=0.200000,FadePhase=2,MaxFadeRate=0.400000,MinFadeRate=0.750000)
-     bStatic=False
-     VisibilityRadius=1000.000000
-     VisibilityHeight=1000.000000
-     bOnlyOwnerSee=True
+    Spread=180.00
+    Volume=60.00
+    Gravity=(X=0.00,Y=0.00,Z=4.00),
+    NumTemplates=2
+    Templates(0)=(LifeSpan=1.00,Weight=5.00,MaxInitialVelocity=11.00,MinInitialVelocity=0.00,MaxDrawScale=0.35,MinDrawScale=0.15,MaxScaleGlow=0.25,MinScaleGlow=0.50,GrowPhase=2,MaxGrowRate=0.20,MinGrowRate=0.00,FadePhase=1,MaxFadeRate=-0.40,MinFadeRate=-0.75),
+    Templates(1)=(LifeSpan=1.00,Weight=3.00,MaxInitialVelocity=17.00,MinInitialVelocity=12.00,MaxDrawScale=0.20,MinDrawScale=0.08,MaxScaleGlow=-0.01,MinScaleGlow=-0.02,GrowPhase=2,MaxGrowRate=0.20,MinGrowRate=0.00,FadePhase=2,MaxFadeRate=0.40,MinFadeRate=0.75),
+    bStatic=False
+    VisibilityRadius=1000.00
+    VisibilityHeight=1000.00
+    bOnlyOwnerSee=True
 }

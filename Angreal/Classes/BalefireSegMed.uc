@@ -18,12 +18,12 @@ class BalefireSegMed expands TracerSeg;
 
 defaultproperties
 {
-     SegmentType=Class'Angreal.BalefireSegSm'
-     SegmentLength=128.000000
-     DrawType=DT_Mesh
-     Style=STY_Translucent
-     Texture=None
-     Mesh=Mesh'Angreal.BF050'
-     DrawScale=4.000000
-     bUnlit=True
+    SegmentType=Class'BalefireSegSm'
+    SegmentLength=128.00
+    DrawType=2
+    Style=3
+    Texture=None
+    Mesh=Mesh'BF050'
+    DrawScale=4.00
+    bUnlit=True
 }

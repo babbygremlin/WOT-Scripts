@@ -242,15 +242,14 @@ replication
 	 ClassTypes(0)=(ClassName=Trap,bIncludeSubclasses=True)
 	 ClassTypes(1)=(ClassName=AngrealExpWardProjectile)
 */
-
 defaultproperties
 {
-     TimeDilation=1.000000
-     Title="Untitled"
-     bHighDetailMode=True
-     CdTrack=255
-     Brightness=1.000000
-     DefaultTexture=Texture'Engine.DefaultTexture'
-     bCheckWalkSurfaces=True
-     bHiddenEd=True
+    TimeDilation=1.00
+    Title="Untitled"
+    bHighDetailMode=True
+    CdTrack=255
+    Brightness=1.00
+    DefaultTexture=Texture'DefaultTexture'
+    bCheckWalkSurfaces=True
+    bHiddenEd=True
 }

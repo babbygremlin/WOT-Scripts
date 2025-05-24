@@ -13,5 +13,5 @@ class LightGlobeRed expands LightGlobe;
 
 defaultproperties
 {
-     Color=Red
+    Color=Red
 }

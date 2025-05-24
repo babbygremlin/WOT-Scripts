@@ -18,9 +18,9 @@ class PixieSprayerYellow expands PixieSprayer;
 
 defaultproperties
 {
-     Particles(0)=Texture'Angreal.Particles.Spark01Yellow'
-     Particles(1)=Texture'Angreal.Particles.Spark02Yellow'
-     Particles(2)=Texture'Angreal.Particles.Spark04Yellow'
-     Particles(3)=Texture'Angreal.Particles.Spark03Yellow'
-     LightHue=50
+    Particles(0)=Texture'Particles.Spark01Yellow'
+    Particles(1)=Texture'Particles.Spark02Yellow'
+    Particles(2)=Texture'Particles.Spark04Yellow'
+    Particles(3)=Texture'Particles.Spark03Yellow'
+    LightHue=50
 }

@@ -42,8 +42,8 @@ function bool InvIsIgnored( AngrealInventory Inv )
 
 defaultproperties
 {
-     ImpactType=Class'Angreal.EarthShieldVisual'
-     DeflectSound=Sound'Angreal.EarthShield.DeflectES'
-     TriggerEvent=ElementalEarthTriggered
-     IgnoredDamageType=Earth
+    ImpactType=Class'EarthShieldVisual'
+    DeflectSound=Sound'EarthShield.DeflectES'
+    TriggerEvent=ElementalEarthTriggered
+    IgnoredDamageType=Earth
 }

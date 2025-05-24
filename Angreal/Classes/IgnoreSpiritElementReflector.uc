@@ -42,8 +42,8 @@ function bool InvIsIgnored( AngrealInventory Inv )
 
 defaultproperties
 {
-     ImpactType=Class'Angreal.SpiritShieldVisual'
-     DeflectSound=Sound'Angreal.SpiritShield.DeflectSS'
-     TriggerEvent=ElementalSpiritTriggered
-     IgnoredDamageType=Spirit
+    ImpactType=Class'SpiritShieldVisual'
+    DeflectSound=Sound'SpiritShield.DeflectSS'
+    TriggerEvent=ElementalSpiritTriggered
+    IgnoredDamageType=Spirit
 }

@@ -32,10 +32,10 @@ begin:
 
 defaultproperties
 {
-     DrawType=DT_Mesh
-     Style=STY_Translucent
-     Texture=Texture'Angreal.Taint.TaintParts'
-     Mesh=Mesh'Angreal.TaintParts'
-     DrawScale=0.070000
-     bParticles=True
+    DrawType=2
+    Style=3
+    Texture=Texture'Taint.TaintParts'
+    Mesh=Mesh'TaintParts'
+    DrawScale=0.07
+    bParticles=True
 }

@@ -63,8 +63,9 @@ function ChargeUsed( AngrealInventory Ang )
 	Super.ChargeUsed( Ang );
 }
 
+
 defaultproperties
 {
-     Priority=64
-     bDeleterious=True
+    Priority=64
+    bDeleterious=True
 }

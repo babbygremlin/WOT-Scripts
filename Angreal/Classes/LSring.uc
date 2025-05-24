@@ -31,21 +31,21 @@ simulated function Tick( float DeltaTime )
 
 defaultproperties
 {
-     Textures(0)=Texture'Angreal.Skins.LB1'
-     Textures(1)=Texture'Angreal.Skins.LB2'
-     Textures(2)=Texture'Angreal.Skins.LB3'
-     Textures(3)=Texture'Angreal.Skins.LB4'
-     Textures(4)=Texture'Angreal.Skins.LB5'
-     Textures(5)=Texture'Angreal.Skins.LB6'
-     Textures(6)=Texture'Angreal.Skins.LB7'
-     Textures(7)=Texture'Angreal.Skins.LB8'
-     Textures(8)=Texture'Angreal.Skins.LB9'
-     Textures(9)=Texture'Angreal.Skins.LB10'
-     RemoteRole=ROLE_None
-     DrawType=DT_Mesh
-     Style=STY_Translucent
-     Skin=Texture'Angreal.Skins.LB10'
-     Mesh=Mesh'Angreal.LSring'
-     DrawScale=0.500000
-     bUnlit=True
+    Textures(0)=Texture'Skins.LB1'
+    Textures(1)=Texture'Skins.LB2'
+    Textures(2)=Texture'Skins.LB3'
+    Textures(3)=Texture'Skins.LB4'
+    Textures(4)=Texture'Skins.LB5'
+    Textures(5)=Texture'Skins.LB6'
+    Textures(6)=Texture'Skins.LB7'
+    Textures(7)=Texture'Skins.LB8'
+    Textures(8)=Texture'Skins.LB9'
+    Textures(9)=Texture'Skins.LB10'
+    RemoteRole=0
+    DrawType=2
+    Style=3
+    Skin=Texture'Skins.LB10'
+    Mesh=Mesh'LSring'
+    DrawScale=0.50
+    bUnlit=True
 }

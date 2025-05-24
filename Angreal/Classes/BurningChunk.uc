@@ -197,24 +197,24 @@ simulated function Tick( float DeltaTime )
 
 defaultproperties
 {
-     MinLifeSpan=1.000000
-     MaxLifeSpan=3.000000
-     MinSpeed=100.000000
-     MaxSpeed=500.000000
-     FadeOutTime=0.500000
-     bFlaming=True
-     SprayerTypes(0)=Class'ParticleSystems.Flame01'
-     Damage=1.000000
-     DetailLevel=3
-     Physics=PHYS_Falling
-     RemoteRole=ROLE_None
-     DrawType=DT_Sprite
-     Style=STY_Masked
-     Texture=Texture'Angreal.BurningChunk.LavaRock'
-     DrawScale=0.100000
-     LightType=LT_Steady
-     LightEffect=LE_NonIncidence
-     LightBrightness=204
-     LightHue=12
-     LightRadius=1
+    MinLifeSpan=1.00
+    MaxLifeSpan=3.00
+    MinSpeed=100.00
+    MaxSpeed=500.00
+    FadeOutTime=0.50
+    bFlaming=True
+    SprayerTypes=Class'ParticleSystems.Flame01'
+    Damage=1.00
+    DetailLevel=3
+    Physics=2
+    RemoteRole=0
+    DrawType=1
+    Style=2
+    Texture=Texture'BurningChunk.LavaRock'
+    DrawScale=0.10
+    LightType=1
+    LightEffect=13
+    LightBrightness=204
+    LightHue=12
+    LightRadius=1
 }

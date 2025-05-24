@@ -80,22 +80,22 @@ function bool HaveHelper()
 
 defaultproperties
 {
-     LimitWarning="You already have one Guardian under your control."
-     TopSparkle=Texture'ParticleSystems.Appear.APurpleCorona'
-     BottomSparkle=Texture'ParticleSystems.Appear.AWhiteCorona'
-     bElementSpirit=True
-     bRare=True
-     MaxCharges=5
-     ActivateSoundName="Angreal.ActivateGN"
-     MinChargeGroupInterval=10.000000
-     Title="Guardian"
-     Description="The Guardian ter'angreal summons a captain of the type that you command."
-     Quote="All around them dust rippled and shivered ever thicker, bunching and gathering.  Suddenly, right in front of them, a shape reared up in the basin of a dry fountain, a solid man shape, dark and featureless, with fingers like sharp claws"
-     StatusIconFrame=Texture'Angreal.Icons.M_Guardian'
-     PickupMessage="You got the Guardian ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealGuardianPickup'
-     StatusIcon=Texture'Angreal.Icons.I_Guardian'
-     Style=STY_Masked
-     Mesh=Mesh'Angreal.AngrealGuardianPickup'
-     DrawScale=0.400000
+    LimitWarning="You already have one Guardian under your control."
+    TopSparkle=Texture'ParticleSystems.Appear.APurpleCorona'
+    BottomSparkle=Texture'ParticleSystems.Appear.AWhiteCorona'
+    bElementSpirit=True
+    bRare=True
+    MaxCharges=5
+    ActivateSoundName="Angreal.ActivateGN"
+    MinChargeGroupInterval=10.00
+    Title="Guardian"
+    Description="The Guardian ter'angreal summons a captain of the type that you command."
+    Quote="All around them dust rippled and shivered ever thicker, bunching and gathering.  Suddenly, right in front of them, a shape reared up in the basin of a dry fountain, a solid man shape, dark and featureless, with fingers like sharp claws"
+    StatusIconFrame=Texture'Icons.M_Guardian'
+    PickupMessage="You got the Guardian ter'angreal"
+    PickupViewMesh=Mesh'AngrealGuardianPickup'
+    StatusIcon=Texture'Icons.I_Guardian'
+    Style=2
+    Mesh=Mesh'AngrealGuardianPickup'
+    DrawScale=0.40
 }

@@ -18,9 +18,9 @@ class PixieSprayerRed expands PixieSprayer;
 
 defaultproperties
 {
-     Particles(0)=Texture'Angreal.Particles.Spark01Red'
-     Particles(1)=Texture'Angreal.Particles.Spark02Red'
-     Particles(2)=Texture'Angreal.Particles.Spark04Red'
-     Particles(3)=Texture'Angreal.Particles.Spark03Red'
-     LightHue=0
+    Particles(0)=Texture'Particles.Spark01Red'
+    Particles(1)=Texture'Particles.Spark02Red'
+    Particles(2)=Texture'Particles.Spark04Red'
+    Particles(3)=Texture'Particles.Spark03Red'
+    LightHue=0
 }

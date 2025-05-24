@@ -326,7 +326,7 @@ function UnTouch( actor Other )
 
 defaultproperties
 {
-     bInitiallyActive=True
-     InitialState=NormalTrigger
-     Texture=Texture'Engine.S_Trigger'
+    bInitiallyActive=True
+    InitialState=NormalTrigger
+    Texture=Texture'S_Trigger'
 }

@@ -29,6 +29,6 @@ var const int   InternalTime[2];
 
 defaultproperties
 {
-     MipZero=(R=64,G=128,B=64)
-     MaxColor=(R=255,G=255,B=255,A=255)
+    MipZero=(R=64,G=128,B=64,A=0),
+    MaxColor=(R=255,G=255,B=255,A=255),
 }

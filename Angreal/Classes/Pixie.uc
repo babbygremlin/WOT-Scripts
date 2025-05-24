@@ -50,19 +50,19 @@ simulated function Destroyed()
 
 defaultproperties
 {
-     bUpdateActorRotation=False
-     MinRadius=-8.000000
-     MaxRadius=8.000000
-     RadiusShiftRate=30.000000
-     MinRotationRate=20.000000
-     MaxRotationRate=100.000000
-     RotationShiftRate=60.000000
-     MaxHeight=8.000000
-     MinHeight=-8.000000
-     HeightShiftRate=20.000000
-     ActorRotatorClass=Class'Angreal.Pixie'
-     Physics=PHYS_Rotating
-     RemoteRole=ROLE_None
-     bFixedRotationDir=True
-     RotationRate=(Pitch=15000,Yaw=10000,Roll=20000)
+    bUpdateActorRotation=False
+    MinRadius=-8.00
+    MaxRadius=8.00
+    RadiusShiftRate=30.00
+    MinRotationRate=20.00
+    MaxRotationRate=100.00
+    RotationShiftRate=60.00
+    MaxHeight=8.00
+    MinHeight=-8.00
+    HeightShiftRate=20.00
+    ActorRotatorClass=Class'Pixie'
+    Physics=5
+    RemoteRole=0
+    bFixedRotationDir=True
+    RotationRate=(Pitch=15000,Yaw=10000,Roll=20000),
 }

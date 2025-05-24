@@ -20,13 +20,13 @@ simulated function PreBeginPlay()
 
 defaultproperties
 {
-     Spread=155.000000
-     Volume=60.000000
-     Gravity=(X=15.000000,Z=-50.000000)
-     NumTemplates=1
-     Templates(0)=(MaxInitialVelocity=20.000000,MinInitialVelocity=-10.000000,MaxDrawScale=0.300000,MinDrawScale=0.090000,MinScaleGlow=0.000000,GrowPhase=2,FadePhase=2)
-     Particles(0)=Texture'Angreal.Ice.SnowB'
-     bOn=True
-     MinVolume=20.000000
-     bStatic=False
+    Spread=155.00
+    Volume=60.00
+    Gravity=(X=15.00,Y=0.00,Z=-50.00),
+    NumTemplates=1
+    Templates=(LifeSpan=1.00,Weight=1.00,MaxInitialVelocity=20.00,MinInitialVelocity=-10.00,MaxDrawScale=0.30,MinDrawScale=0.09,MaxScaleGlow=1.00,MinScaleGlow=0.00,GrowPhase=2,MaxGrowRate=0.00,MinGrowRate=0.00,FadePhase=2,MaxFadeRate=0.00,MinFadeRate=0.00),
+    Particles=Texture'Ice.SnowB'
+    bOn=True
+    MinVolume=20.00
+    bStatic=False
 }

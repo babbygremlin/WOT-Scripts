@@ -886,29 +886,29 @@ function PlayIdleAnim()
 
 defaultproperties
 {
-     MaxTargetRange=4096.000000
-     bCanThrow=True
-     ProjectileSpeed=1000.000000
-     AltProjectileSpeed=1000.000000
-     aimerror=550.000000
-     shakemag=300.000000
-     shaketime=0.100000
-     shakevert=5.000000
-     AIRating=0.100000
-     RefireRate=0.500000
-     AltRefireRate=0.500000
-     MessageNoAmmo=" has no ammo."
-     DeathMessage="%o was killed by %k's %w."
-     MuzzleScale=4.000000
-     FlashLength=0.100000
-     AutoSwitchPriority=1
-     InventoryGroup=1
-     PickupMessage="You got a weapon"
-     ItemName="Weapon"
-     RespawnTime=30.000000
-     PlayerViewOffset=(X=30.000000,Z=-5.000000)
-     MaxDesireability=0.500000
-     Icon=Texture'Engine.S_Weapon'
-     Texture=Texture'Engine.S_Weapon'
-     bNoSmooth=True
+    MaxTargetRange=4096.00
+    bCanThrow=True
+    ProjectileSpeed=1000.00
+    AltProjectileSpeed=1000.00
+    aimerror=550.00
+    shakemag=300.00
+    shaketime=0.10
+    shakevert=5.00
+    AIRating=0.10
+    RefireRate=0.50
+    AltRefireRate=0.50
+    MessageNoAmmo=" has no ammo."
+    DeathMessage="%o was killed by %k's %w."
+    MuzzleScale=4.00
+    FlashLength=0.10
+    AutoSwitchPriority=1
+    InventoryGroup=1
+    PickupMessage="You got a weapon"
+    ItemName="Weapon"
+    RespawnTime=30.00
+    PlayerViewOffset=(X=30.00,Y=0.00,Z=-5.00),
+    MaxDesireability=0.50
+    Icon=Texture'S_Weapon'
+    Texture=Texture'S_Weapon'
+    bNoSmooth=True
 }

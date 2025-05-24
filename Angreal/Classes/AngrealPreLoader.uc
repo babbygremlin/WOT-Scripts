@@ -53,7 +53,7 @@ simulated function PostBeginPlay()
 
 defaultproperties
 {
-     bNoDelete=True
-     RemoteRole=ROLE_None
-     bAlwaysRelevant=True
+    bNoDelete=True
+    RemoteRole=0
+    bAlwaysRelevant=True
 }

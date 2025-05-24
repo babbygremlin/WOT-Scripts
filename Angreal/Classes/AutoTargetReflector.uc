@@ -162,8 +162,8 @@ function Destroyed()
 
 defaultproperties
 {
-     Priority=128
-     bRemovable=True
-     bRemoveExisting=True
-     bDisplayIcon=True
+    Priority=128
+    bRemovable=True
+    bRemoveExisting=True
+    bDisplayIcon=True
 }

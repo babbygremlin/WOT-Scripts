@@ -27,28 +27,28 @@ class AngrealInvSwapPlaces expands ProjectileLauncher;
 
 defaultproperties
 {
-     ProjectileClassName="Angreal.AngrealSwapPlacesProjectile"
-     bElementSpirit=True
-     bUncommon=True
-     bDefensive=True
-     MinInitialCharges=2
-     MaxInitialCharges=4
-     MaxCharges=10
-     FailMessage="requires a target"
-     NonTargetableTypes(0)=MashadarTrailer
-     NonTargetableTypes(1)=AngrealIllusionProjectile
-     MaxChargesInGroup=3
-     MinChargeGroupInterval=3.000000
-     Title="Swap Places"
-     Description="This ter’angreal switches your position with that of your target.  Swap Places tricks any weaves that currently track you into now tracking your target, and causes any weaves affecting you to now affect your target."
-     Quote="The sense of shifting, of her skin trying to crawl, did not go away."
-     StatusIconFrame=Texture'Angreal.Icons.M_SwapPlaces'
-     InventoryGroup=99
-     PickupMessage="You got the Swap Places ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealSwapPlacesPickup'
-     PickupViewScale=0.800000
-     StatusIcon=Texture'Angreal.Icons.I_SwapPlaces'
-     Texture=None
-     Mesh=Mesh'Angreal.AngrealSwapPlacesPickup'
-     DrawScale=0.800000
+    ProjectileClassName="Angreal.AngrealSwapPlacesProjectile"
+    bElementSpirit=True
+    bUncommon=True
+    bDefensive=True
+    MinInitialCharges=2
+    MaxInitialCharges=4
+    MaxCharges=10
+    FailMessage="requires a target"
+    NonTargetableTypes(0)=MashadarTrailer
+    NonTargetableTypes(1)=AngrealIllusionProjectile
+    MaxChargesInGroup=3
+    MinChargeGroupInterval=3.00
+    Title="Swap Places"
+    Description="This ter’angreal switches your position with that of your target.  Swap Places tricks any weaves that currently track you into now tracking your target, and causes any weaves affecting you to now affect your target."
+    Quote="The sense of shifting, of her skin trying to crawl, did not go away."
+    StatusIconFrame=Texture'Icons.M_SwapPlaces'
+    InventoryGroup=99
+    PickupMessage="You got the Swap Places ter'angreal"
+    PickupViewMesh=Mesh'AngrealSwapPlacesPickup'
+    PickupViewScale=0.80
+    StatusIcon=Texture'Icons.I_SwapPlaces'
+    Texture=None
+    Mesh=Mesh'AngrealSwapPlacesPickup'
+    DrawScale=0.80
 }

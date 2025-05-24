@@ -11,7 +11,6 @@ function InterpolateEnd( actor Other )
 	T.StartCycle();
 	Super.InterpolateEnd(Other);
 }
-
 defaultproperties
 {
 }

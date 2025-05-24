@@ -26,27 +26,27 @@ class AngrealInvAirShield expands ReflectorInstaller;
 
 defaultproperties
 {
-     Duration=20.000000
-     ReflectorClasses(0)=Class'Angreal.IgnoreAirElementReflector'
-     DurationType=DT_Lifespan
-     bElementAir=True
-     bRare=True
-     bDefensive=True
-     bCombat=True
-     MaxInitialCharges=3
-     MaxCharges=10
-     ActivateSoundName="Angreal.ActivateAS"
-     Title="Air Shield"
-     Description="Air Shield forms a protective barrier that prevents all air-based weaves or environmental hazards from affecting you."
-     Quote="The air around him suddenly became choking soot, clogging his nostrils, shutting off breath, but he made it fresh air again, a cool mist."
-     StatusIconFrame=Texture'Angreal.Icons.M_ElShieldWhite'
-     InventoryGroup=64
-     PickupMessage="You got the Air Shield ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealElementalShield'
-     PickupViewScale=0.300000
-     StatusIcon=Texture'Angreal.Icons.I_ElShieldWhite'
-     Style=STY_Masked
-     Skin=Texture'Angreal.Skins.ElShieldWHITE'
-     Mesh=Mesh'Angreal.AngrealElementalShield'
-     DrawScale=0.300000
+    Duration=20.00
+    ReflectorClasses=Class'IgnoreAirElementReflector'
+    DurationType=1
+    bElementAir=True
+    bRare=True
+    bDefensive=True
+    bCombat=True
+    MaxInitialCharges=3
+    MaxCharges=10
+    ActivateSoundName="Angreal.ActivateAS"
+    Title="Air Shield"
+    Description="Air Shield forms a protective barrier that prevents all air-based weaves or environmental hazards from affecting you."
+    Quote="The air around him suddenly became choking soot, clogging his nostrils, shutting off breath, but he made it fresh air again, a cool mist."
+    StatusIconFrame=Texture'Icons.M_ElShieldWhite'
+    InventoryGroup=64
+    PickupMessage="You got the Air Shield ter'angreal"
+    PickupViewMesh=Mesh'AngrealElementalShield'
+    PickupViewScale=0.30
+    StatusIcon=Texture'Icons.I_ElShieldWhite'
+    Style=2
+    Skin=Texture'Skins.ElShieldWHITE'
+    Mesh=Mesh'AngrealElementalShield'
+    DrawScale=0.30
 }

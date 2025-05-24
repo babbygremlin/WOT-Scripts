@@ -133,26 +133,25 @@ simulated function SetFollowActor( Actor Other )
 	SetBase( FollowActor );
 }
 */
-
 defaultproperties
 {
-     RotationYawRate=-20000.000000
-     FadeInTime=0.200000
-     SustainTime=0.200000
-     FadeOutTime=0.600000
-     SpriteAnimationRate=15.000000
-     Physics=PHYS_Trailer
-     RemoteRole=ROLE_SimulatedProxy
-     DrawType=DT_Mesh
-     Style=STY_Translucent
-     bMustFace=False
-     Texture=Texture'ParticleSystems.Appear.ABlueCorona'
-     Mesh=Mesh'Angreal.ShieldParticleMesh'
-     DrawScale=0.250000
-     bParticles=True
-     LightType=LT_Steady
-     LightEffect=LE_NonIncidence
-     LightBrightness=255
-     LightHue=4
-     LightRadius=6
+    RotationYawRate=-20000.00
+    FadeInTime=0.20
+    SustainTime=0.20
+    FadeOutTime=0.60
+    SpriteAnimationRate=15.00
+    Physics=11
+    RemoteRole=2
+    DrawType=2
+    Style=3
+    bMustFace=False
+    Texture=Texture'ParticleSystems.Appear.ABlueCorona'
+    Mesh=Mesh'ShieldParticleMesh'
+    DrawScale=0.25
+    bParticles=True
+    LightType=1
+    LightEffect=13
+    LightBrightness=255
+    LightHue=4
+    LightRadius=6
 }

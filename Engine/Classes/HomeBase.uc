@@ -13,10 +13,9 @@ function PreBeginPlay()
 	lookdir = 200 * vector(Rotation);
 	Super.PreBeginPlay();
 }
-
 defaultproperties
 {
-     Extent=700.000000
-     Texture=Texture'Engine.S_Flag'
-     SoundVolume=128
+    Extent=700.00
+    Texture=Texture'S_Flag'
+    SoundVolume=128
 }

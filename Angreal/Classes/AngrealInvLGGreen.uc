@@ -27,5 +27,5 @@ function PreBeginPlay()
 
 defaultproperties
 {
-     LightType=Class'Angreal.LightGlobeGreen'
+    LightType=Class'LightGlobeGreen'
 }

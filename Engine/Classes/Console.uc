@@ -931,12 +931,12 @@ state KeyMenuing
 
 defaultproperties
 {
-     ConBackground=Texture'Engine.ConsoleBack'
-     Border=Texture'Engine.Border'
-     LoadingMessage="LOADING"
-     SavingMessage="SAVING"
-     ConnectingMessage="CONNECTING"
-     PausedMessage="PAUSED"
-     PrecachingMessage="PRECACHING"
-     TimeDemoClass=Class'Engine.TimeDemo'
+    ConBackground=Texture'ConsoleBack'
+    Border=Texture'Border'
+    LoadingMessage="LOADING"
+    SavingMessage="SAVING"
+    ConnectingMessage="CONNECTING"
+    PausedMessage="PAUSED"
+    PrecachingMessage="PRECACHING"
+    TimeDemoClass=Class'TimeDemo'
 }

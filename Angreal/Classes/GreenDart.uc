@@ -17,8 +17,8 @@ class GreenDart expands AngrealDartProjectile;
 
 defaultproperties
 {
-     CoronaTexture=Texture'Angreal.Coronas.Corona_green'
-     ExplosionTexture=Texture'Angreal.Explosions.Expl_green'
-     Skin=Texture'Angreal.Skins.Comet_green'
-     LightHue=110
+    CoronaTexture=Texture'Coronas.Corona_green'
+    ExplosionTexture=Texture'Explosions.Expl_green'
+    Skin=Texture'Skins.Comet_green'
+    LightHue=110
 }

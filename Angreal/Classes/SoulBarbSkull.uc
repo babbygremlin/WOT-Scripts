@@ -80,25 +80,25 @@ simulated function Tick( float DeltaTime )
 
 defaultproperties
 {
-     MinSpinRate=-32000.000000
-     MaxSpinRate=32000.000000
-     MinRiseRate=20.000000
-     MaxRiseRate=40.000000
-     MinGrowRate=0.800000
-     MaxGrowRate=1.000000
-     AnimTextures(0)=Texture'Angreal.Skins.64SkMOD01'
-     AnimTextures(1)=Texture'Angreal.Skins.64SkMOD02'
-     AnimTextures(2)=Texture'Angreal.Skins.64SkMOD03'
-     AnimTextures(3)=Texture'Angreal.Skins.64SkMOD04'
-     AnimTextures(4)=Texture'Angreal.Skins.64SkMOD05'
-     AnimTextures(5)=Texture'Angreal.Skins.64SkMOD06'
-     AnimTextures(6)=Texture'Angreal.Skins.64SkMOD07'
-     NumTextures=7
-     LifeSpan=1.500000
-     DrawType=DT_Mesh
-     Style=STY_Modulated
-     Texture=None
-     Skin=Texture'Angreal.Skins.64SkMOD01'
-     Mesh=Mesh'Angreal.SoulSkull'
-     DrawScale=0.100000
+    MinSpinRate=-32000.00
+    MaxSpinRate=32000.00
+    MinRiseRate=20.00
+    MaxRiseRate=40.00
+    MinGrowRate=0.80
+    MaxGrowRate=1.00
+    AnimTextures(0)=Texture'Skins.64SkMOD01'
+    AnimTextures(1)=Texture'Skins.64SkMOD02'
+    AnimTextures(2)=Texture'Skins.64SkMOD03'
+    AnimTextures(3)=Texture'Skins.64SkMOD04'
+    AnimTextures(4)=Texture'Skins.64SkMOD05'
+    AnimTextures(5)=Texture'Skins.64SkMOD06'
+    AnimTextures(6)=Texture'Skins.64SkMOD07'
+    NumTextures=7
+    LifeSpan=1.50
+    DrawType=2
+    Style=4
+    Texture=None
+    Skin=Texture'Skins.64SkMOD01'
+    Mesh=Mesh'SoulSkull'
+    DrawScale=0.10
 }

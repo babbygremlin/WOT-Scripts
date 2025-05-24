@@ -205,14 +205,14 @@ simulated state FourthRing
 
 defaultproperties
 {
-     RippleDistance=70.000000
-     SpawnHeight=50.000000
-     FirstRingDelay=0.200000
-     SecondRingDelay=0.200000
-     ThirdRingDelay=0.200000
-     FourthRingDelay=0.200000
-     bHidden=True
-     RemoteRole=ROLE_None
-     LifeSpan=15.000000
-     DrawType=DT_None
+    RippleDistance=70.00
+    SpawnHeight=50.00
+    FirstRingDelay=0.20
+    SecondRingDelay=0.20
+    ThirdRingDelay=0.20
+    FourthRingDelay=0.20
+    bHidden=True
+    RemoteRole=0
+    LifeSpan=15.00
+    DrawType=0
 }

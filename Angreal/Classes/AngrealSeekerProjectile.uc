@@ -95,22 +95,22 @@ simulated function Destroyed()
 
 defaultproperties
 {
-     DamageRadius=240.000000
-     speed=150.000000
-     Damage=60.000000
-     MomentumTransfer=2000
-     SpawnSound=Sound'Angreal.AngrealSeekerProjectile.LaunchSK'
-     ImpactSound=Sound'Angreal.AngrealSeekerProjectile.HitSK'
-     DrawType=DT_Sprite
-     Style=STY_Translucent
-     Texture=FireTexture'Angreal.Seeker.SLightning01'
-     SoundRadius=160
-     SoundVolume=255
-     AmbientSound=Sound'Angreal.AngrealSeekerProjectile.LoopSK'
-     CollisionRadius=6.000000
-     CollisionHeight=12.000000
-     LightType=LT_Steady
-     LightBrightness=64
-     LightHue=96
-     LightSaturation=128
+    DamageRadius=240.00
+    speed=150.00
+    Damage=60.00
+    MomentumTransfer=2000
+    SpawnSound=Sound'AngrealSeekerProjectile.LaunchSK'
+    ImpactSound=Sound'AngrealSeekerProjectile.HitSK'
+    DrawType=1
+    Style=3
+    Texture=FireTexture'Seeker.SLightning01'
+    SoundRadius=160
+    SoundVolume=255
+    AmbientSound=Sound'AngrealSeekerProjectile.LoopSK'
+    CollisionRadius=6.00
+    CollisionHeight=12.00
+    LightType=1
+    LightBrightness=64
+    LightHue=96
+    LightSaturation=128
 }

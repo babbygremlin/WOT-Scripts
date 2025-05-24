@@ -7,7 +7,6 @@ function Test()
 {
 	log( "TestObj.Test" );
 }
-
 defaultproperties
 {
 }

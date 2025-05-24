@@ -149,26 +149,26 @@ simulated function Explode(vector HitLocation, vector HitNormal);
 
 defaultproperties
 {
-     PctDistFromSource=0.333333
-     SpawnSound=Sound'Angreal.WallOfAir.LaunchWA'
-     DeflectSound=Sound'Angreal.WallOfAir.DeflectWA'
-     UnAffectedTypes(0)=MashadarGuide
-     UnAffectedTypes(1)=MachinShin
-     bCanTeleport=False
-     bNetTemporary=False
-     Physics=PHYS_None
-     LifeSpan=0.000000
-     Mesh=Mesh'Angreal.WallOfAir'
-     SoundRadius=255
-     SoundVolume=255
-     AmbientSound=Sound'Angreal.WallOfAir.LoopWA'
-     CollisionRadius=75.000000
-     CollisionHeight=75.000000
-     bCollideWorld=False
-     LightType=LT_Steady
-     LightEffect=LE_NonIncidence
-     LightBrightness=88
-     LightHue=204
-     LightSaturation=204
-     LightRadius=12
+    PctDistFromSource=0.33
+    SpawnSound=Sound'WallOfAir.LaunchWA'
+    DeflectSound=Sound'WallOfAir.DeflectWA'
+    UnAffectedTypes(0)=MashadarGuide
+    UnAffectedTypes(1)=MachinShin
+    bCanTeleport=False
+    bNetTemporary=False
+    Physics=0
+    LifeSpan=0.00
+    Mesh=Mesh'WallOfAir'
+    SoundRadius=255
+    SoundVolume=255
+    AmbientSound=Sound'WallOfAir.LoopWA'
+    CollisionRadius=75.00
+    CollisionHeight=75.00
+    bCollideWorld=False
+    LightType=1
+    LightEffect=13
+    LightBrightness=88
+    LightHue=204
+    LightSaturation=204
+    LightRadius=12
 }

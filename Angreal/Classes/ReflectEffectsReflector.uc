@@ -41,6 +41,6 @@ singular function ProcessEffect( Invokable I )
 
 defaultproperties
 {
-     Priority=248
-     bDisplayIcon=False
+    Priority=248
+    bDisplayIcon=False
 }

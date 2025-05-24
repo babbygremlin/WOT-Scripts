@@ -111,7 +111,6 @@ replication
 	reliable if ( bDemoRecording )
 		RepClientMessage, RepTeamMessage, RepClientVoiceMessage, RepReceiveLocalizedMessage;
 }
-
 defaultproperties
 {
 }

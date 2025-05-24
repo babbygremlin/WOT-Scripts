@@ -158,27 +158,27 @@ Begin:
 
 defaultproperties
 {
-     bRespawn=True
-     Weight(0)=1
-     Weight(1)=1
-     Weight(2)=1
-     Weight(3)=1
-     Weight(4)=1
-     Weight(5)=1
-     Weight(6)=1
-     Weight(7)=1
-     Weight(8)=1
-     Weight(9)=1
-     Weight(10)=1
-     Weight(11)=1
-     Weight(12)=1
-     Weight(13)=1
-     Weight(14)=1
-     Weight(15)=1
-     CommmonSound="Angreal.RespawnA"
-     UnCommmonSound="Angreal.RespawnB"
-     RareSound="Angreal.RespawnC"
-     bHidden=True
-     DrawType=DT_Sprite
-     Style=STY_Masked
+    bRespawn=True
+    Weight(0)=1
+    Weight(1)=1
+    Weight(2)=1
+    Weight(3)=1
+    Weight(4)=1
+    Weight(5)=1
+    Weight(6)=1
+    Weight(7)=1
+    Weight(8)=1
+    Weight(9)=1
+    Weight(10)=1
+    Weight(11)=1
+    Weight(12)=1
+    Weight(13)=1
+    Weight(14)=1
+    Weight(15)=1
+    CommmonSound="Angreal.RespawnA"
+    UnCommmonSound="Angreal.RespawnB"
+    RareSound="Angreal.RespawnC"
+    bHidden=True
+    DrawType=1
+    Style=2
 }

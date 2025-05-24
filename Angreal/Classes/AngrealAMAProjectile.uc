@@ -166,17 +166,17 @@ static function float GetMaxRange()
 
 defaultproperties
 {
-     TriggerRadius=150.000000
-     AlphaRate=1.500000
-     HitWaterSound=Sound'Angreal.AMAProj.HitWaterAM'
-     bRequiresLeading=False
-     speed=200.000000
-     SpawnSound=Sound'Angreal.AMAProj.LaunchAM'
-     ImpactSound=Sound'Angreal.AMAProj.PlaceAM'
-     Physics=PHYS_Falling
-     LifeSpan=0.000000
-     Mesh=Mesh'Angreal.AngrealAntiMagicAuraPickup'
-     bAlwaysRelevant=True
-     CollisionRadius=12.000000
-     CollisionHeight=10.000000
+    TriggerRadius=150.00
+    AlphaRate=1.50
+    HitWaterSound=Sound'AMAProj.HitWaterAM'
+    bRequiresLeading=False
+    speed=200.00
+    SpawnSound=Sound'AMAProj.LaunchAM'
+    ImpactSound=Sound'AMAProj.PlaceAM'
+    Physics=2
+    LifeSpan=0.00
+    Mesh=Mesh'AngrealAntiMagicAuraPickup'
+    bAlwaysRelevant=True
+    CollisionRadius=12.00
+    CollisionHeight=10.00
 }

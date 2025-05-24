@@ -160,9 +160,9 @@ function float GetDuration()
 
 defaultproperties
 {
-     ShieldReduceDamagePct=50
-     ShieldDeflectSound=Sound'Angreal.Shield.DeflectSD'
-     MaxShieldHitPoints=50
-     Priority=225
-     bRemoveExisting=True
+    ShieldReduceDamagePct=50
+    ShieldDeflectSound=Sound'Shield.DeflectSD'
+    MaxShieldHitPoints=50
+    Priority=225
+    bRemoveExisting=True
 }

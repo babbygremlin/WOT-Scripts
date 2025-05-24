@@ -89,9 +89,8 @@ function float GetPriority()
 	}
 }
 */
-
 defaultproperties
 {
-     InstallRefEffectClass=Class'Angreal.InstallReflectorEffect'
-     Priority=20.000000
+    InstallRefEffectClass=Class'InstallReflectorEffect'
+    Priority=20.00
 }

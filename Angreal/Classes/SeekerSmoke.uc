@@ -22,12 +22,12 @@ simulated function PreBeginPlay()
 
 defaultproperties
 {
-     NumTemplates=1
-     Templates(0)=(LifeSpan=2.000000,MaxInitialVelocity=20.000000,MinInitialVelocity=10.000000,MaxDrawScale=1.500000,MaxScaleGlow=0.000000,MinScaleGlow=0.000000,GrowPhase=1,MaxGrowRate=-0.500000,MinGrowRate=-1.000000,FadePhase=2,MaxFadeRate=0.100000,MinFadeRate=0.050000)
-     Particles(0)=Texture'Angreal.Effects.FBExp503'
-     bOn=True
-     VolumeScalePct=1.000000
-     bStatic=False
-     VisibilityRadius=2000.000000
-     VisibilityHeight=2000.000000
+    NumTemplates=1
+    Templates=(LifeSpan=2.00,Weight=1.00,MaxInitialVelocity=20.00,MinInitialVelocity=10.00,MaxDrawScale=1.50,MinDrawScale=1.00,MaxScaleGlow=0.00,MinScaleGlow=0.00,GrowPhase=1,MaxGrowRate=-0.50,MinGrowRate=-1.00,FadePhase=2,MaxFadeRate=0.10,MinFadeRate=0.05),
+    Particles=Texture'Effects.FBExp503'
+    bOn=True
+    VolumeScalePct=1.00
+    bStatic=False
+    VisibilityRadius=2000.00
+    VisibilityHeight=2000.00
 }

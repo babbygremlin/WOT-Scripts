@@ -48,6 +48,6 @@ function float GetDuration()
 
 defaultproperties
 {
-     Priority=128
-     bRemovable=False
+    Priority=128
+    bRemovable=False
 }

@@ -106,11 +106,11 @@ function SetFont( Font NewFont, optional bool bForce )
 
 defaultproperties
 {
-     Z=1.000000
-     Style=1
-     DrawColor=(R=127,G=127,B=127)
-     SmallFont=Font'Engine.SmallFont'
-     MedFont=Font'Engine.MedFont'
-     BigFont=Font'Engine.BigFont'
-     LargeFont=Font'Engine.LargeFont'
+    Z=1.00
+    Style=1
+    DrawColor=(R=127,G=127,B=127,A=0),
+    SmallFont=Font'SmallFont'
+    MedFont=Font'MedFont'
+    BigFont=Font'BigFont'
+    LargeFont=Font'LargeFont'
 }

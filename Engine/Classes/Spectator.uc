@@ -164,14 +164,14 @@ function TakeDamage( int Damage, Pawn instigatedBy, Vector hitlocation,
 
 defaultproperties
 {
-     bChaseCam=True
-     Visibility=0
-     AttitudeToPlayer=ATTITUDE_Friendly
-     MenuName="Spectator"
-     bHidden=True
-     bCollideActors=False
-     bCollideWorld=False
-     bBlockActors=False
-     bBlockPlayers=False
-     bProjTarget=False
+    bChaseCam=True
+    Visibility=0
+    AttitudeToPlayer=5
+    MenuName="Spectator"
+    bHidden=True
+    bCollideActors=False
+    bCollideWorld=False
+    bBlockActors=False
+    bBlockPlayers=False
+    bProjTarget=False
 }

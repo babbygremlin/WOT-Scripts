@@ -31,8 +31,8 @@ simulated function PreBeginPlay()
 
 defaultproperties
 {
-     bNetTemporary=False
-     RemoteRole=ROLE_SimulatedProxy
-     LifeSpan=1.000000
-     bAlwaysRelevant=True
+    bNetTemporary=False
+    RemoteRole=2
+    LifeSpan=1.00
+    bAlwaysRelevant=True
 }

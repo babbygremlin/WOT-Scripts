@@ -13,11 +13,11 @@ class EarthShieldVisual expands ShieldParticleMesh;
 
 defaultproperties
 {
-     TextureSet(0)=Texture'Angreal.Elemental.Earth_A01'
-     TextureSet(1)=Texture'Angreal.Elemental.Earth_A02'
-     TextureSet(2)=Texture'Angreal.Elemental.Earth_A03'
-     TextureSet(3)=Texture'Angreal.Elemental.Earth_A04'
-     TextureSet(4)=Texture'Angreal.Elemental.Earth_A05'
-     Texture=Texture'Angreal.Elemental.Earth_A01'
-     LightHue=64
+    TextureSet(0)=Texture'Elemental.Earth_A01'
+    TextureSet(1)=Texture'Elemental.Earth_A02'
+    TextureSet(2)=Texture'Elemental.Earth_A03'
+    TextureSet(3)=Texture'Elemental.Earth_A04'
+    TextureSet(4)=Texture'Elemental.Earth_A05'
+    Texture=Texture'Elemental.Earth_A01'
+    LightHue=64
 }

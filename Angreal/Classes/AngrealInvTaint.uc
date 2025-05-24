@@ -26,27 +26,27 @@ class AngrealInvTaint expands ProjectileLauncher;
 
 defaultproperties
 {
-     ProjectileClassName="Angreal.AngrealTaintProjectile"
-     bElementFire=True
-     bElementWater=True
-     bElementAir=True
-     bElementEarth=True
-     bElementSpirit=True
-     bRare=True
-     bOffensive=True
-     bCombat=True
-     MaxInitialCharges=2
-     MaxCharges=10
-     FailMessage="requires a target"
-     bTargetsFriendlies=False
-     MinChargeGroupInterval=8.000000
-     Title="Taint"
-     Description="All ter'angreal held by the target are permanently tainted. If the tainted artifacts are used, they cause damage to the user; more powerful artifacts inflict more damage."
-     Quote="@It is flawed,@ she replied curtly, @lacking the buffer that makes other sa'angreal safe to use. And it apparently magnifies the taint, inducing wildness of the mind.@"
-     StatusIconFrame=Texture'Angreal.Icons.M_Taint'
-     InventoryGroup=63
-     PickupMessage="You got the Taint ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealTaintPickup'
-     StatusIcon=Texture'Angreal.Icons.I_Taint'
-     Mesh=Mesh'Angreal.AngrealTaintPickup'
+    ProjectileClassName="Angreal.AngrealTaintProjectile"
+    bElementFire=True
+    bElementWater=True
+    bElementAir=True
+    bElementEarth=True
+    bElementSpirit=True
+    bRare=True
+    bOffensive=True
+    bCombat=True
+    MaxInitialCharges=2
+    MaxCharges=10
+    FailMessage="requires a target"
+    bTargetsFriendlies=False
+    MinChargeGroupInterval=8.00
+    Title="Taint"
+    Description="All ter'angreal held by the target are permanently tainted. If the tainted artifacts are used, they cause damage to the user; more powerful artifacts inflict more damage."
+    Quote="@It is flawed,@ she replied curtly, @lacking the buffer that makes other sa'angreal safe to use. And it apparently magnifies the taint, inducing wildness of the mind.@"
+    StatusIconFrame=Texture'Icons.M_Taint'
+    InventoryGroup=63
+    PickupMessage="You got the Taint ter'angreal"
+    PickupViewMesh=Mesh'AngrealTaintPickup'
+    StatusIcon=Texture'Icons.I_Taint'
+    Mesh=Mesh'AngrealTaintPickup'
 }

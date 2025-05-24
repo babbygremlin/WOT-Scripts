@@ -19,7 +19,7 @@ function PreBeginPlay()
 
 defaultproperties
 {
-     SightRadius=5000.000000
-     bDirectional=True
-     SoundVolume=128
+    SightRadius=5000.00
+    bDirectional=True
+    SoundVolume=128
 }

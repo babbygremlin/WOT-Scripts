@@ -19,14 +19,14 @@ class BalefireSegSm expands TracerSeg;
 
 defaultproperties
 {
-     FadedTexture=Texture'Angreal.Skins.JBF1002'
-     SegmentLength=64.000000
-     FadeTime=0.200000
-     FadeInterval=0.150000
-     DrawType=DT_Mesh
-     Style=STY_Translucent
-     Texture=None
-     Mesh=Mesh'Angreal.BF100'
-     DrawScale=2.000000
-     bUnlit=True
+    FadedTexture=Texture'Skins.JBF1002'
+    SegmentLength=64.00
+    FadeTime=0.20
+    FadeInterval=0.15
+    DrawType=2
+    Style=3
+    Texture=None
+    Mesh=Mesh'BF100'
+    DrawScale=2.00
+    bUnlit=True
 }

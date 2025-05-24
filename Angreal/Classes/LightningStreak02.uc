@@ -32,22 +32,22 @@ class LightningStreak02 expands Streak;
 
 defaultproperties
 {
-     SegmentLength=64.000000
-     bRandomizeTextures=True
-     Textures(0)=Texture'Angreal.Skins.LB_A01'
-     Textures(1)=Texture'Angreal.Skins.LB_A02'
-     Textures(2)=Texture'Angreal.Skins.LB_A03'
-     Textures(3)=Texture'Angreal.Skins.LB_A04'
-     Textures(4)=Texture'Angreal.Skins.LB_A05'
-     Textures(5)=Texture'Angreal.Skins.LB_A06'
-     Textures(6)=Texture'Angreal.Skins.LB_A07'
-     Textures(7)=Texture'Angreal.Skins.LB_A08'
-     Textures(8)=Texture'Angreal.Skins.LB_A09'
-     Textures(9)=Texture'Angreal.Skins.LB_A10'
-     NumTextures=10
-     DrawType=DT_Mesh
-     Skin=Texture'Angreal.Skins.LB_A01'
-     Mesh=Mesh'Angreal.LSbolt'
-     AmbientGlow=250
-     bUnlit=True
+    SegmentLength=64.00
+    bRandomizeTextures=True
+    Textures(0)=Texture'Skins.LB_A01'
+    Textures(1)=Texture'Skins.LB_A02'
+    Textures(2)=Texture'Skins.LB_A03'
+    Textures(3)=Texture'Skins.LB_A04'
+    Textures(4)=Texture'Skins.LB_A05'
+    Textures(5)=Texture'Skins.LB_A06'
+    Textures(6)=Texture'Skins.LB_A07'
+    Textures(7)=Texture'Skins.LB_A08'
+    Textures(8)=Texture'Skins.LB_A09'
+    Textures(9)=Texture'Skins.LB_A10'
+    NumTextures=10
+    DrawType=2
+    Skin=Texture'Skins.LB_A01'
+    Mesh=Mesh'LSbolt'
+    AmbientGlow=250
+    bUnlit=True
 }

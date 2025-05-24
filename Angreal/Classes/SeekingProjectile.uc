@@ -750,22 +750,22 @@ simulated function Actor GetSeekingProjectileTarget()
 
 defaultproperties
 {
-     AccelPerSec=1.000000
-     Acceleration=16.000000
-     PathCheckResolution=1.000000
-     bTakeShortcuts=True
-     ReachTolerance=12.000000
-     bNotifiesDestination=True
-     bAlignToVelocity=True
-     BroadcastLocationTime=1.000000
-     DeltaTimeTolerance=0.500000
-     bUsesDestination=True
-     bRequiresDestination=True
-     bRequiresLeading=False
-     MaxTargetAngle=22.500000
-     MaxSpeed=1200.000000
-     bNetTemporary=False
-     LifeSpan=300.000000
-     bAlwaysRelevant=True
-     NetPriority=10.000000
+    AccelPerSec=1.00
+    Acceleration=16.00
+    PathCheckResolution=1.00
+    bTakeShortcuts=True
+    ReachTolerance=12.00
+    bNotifiesDestination=True
+    bAlignToVelocity=True
+    BroadcastLocationTime=1.00
+    DeltaTimeTolerance=0.50
+    bUsesDestination=True
+    bRequiresDestination=True
+    bRequiresLeading=False
+    MaxTargetAngle=22.50
+    MaxSpeed=1200.00
+    bNetTemporary=False
+    LifeSpan=300.00
+    bAlwaysRelevant=True
+    NetPriority=10.00
 }

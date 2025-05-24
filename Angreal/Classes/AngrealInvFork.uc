@@ -76,29 +76,29 @@ function ReflectDeleteriousEffects()
 
 defaultproperties
 {
-     Duration=20.000000
-     ReflectorClasses(0)=Class'Angreal.ForkRTSReflector'
-     DurationType=DT_Lifespan
-     bElementFire=True
-     bElementWater=True
-     bElementAir=True
-     bElementEarth=True
-     bElementSpirit=True
-     bRare=True
-     bDefensive=True
-     bCombat=True
-     MaxInitialCharges=3
-     MaxCharges=5
-     ActivateSoundName="Angreal.ActivateFK"
-     MaxChargesInGroup=3
-     MinChargeGroupInterval=3.000000
-     Title="Fork"
-     Description="For a short time, Fork erects a shield. Although artifact weaves that penetrate this shield still affect you, a duplicate attack is launched back at the originator."
-     Quote="Balling her fist tightly, Egwene hit the woman as hard as she could, right in her eye-and staggered and fell to her knees herself, head ringing. It felt as if a large man had struck her in the face."
-     StatusIconFrame=Texture'Angreal.Icons.M_Fork'
-     PickupMessage="You got the Fork ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealForkPickup'
-     StatusIcon=Texture'Angreal.Icons.I_Fork'
-     Texture=None
-     Mesh=Mesh'Angreal.AngrealForkPickup'
+    Duration=20.00
+    ReflectorClasses=Class'ForkRTSReflector'
+    DurationType=1
+    bElementFire=True
+    bElementWater=True
+    bElementAir=True
+    bElementEarth=True
+    bElementSpirit=True
+    bRare=True
+    bDefensive=True
+    bCombat=True
+    MaxInitialCharges=3
+    MaxCharges=5
+    ActivateSoundName="Angreal.ActivateFK"
+    MaxChargesInGroup=3
+    MinChargeGroupInterval=3.00
+    Title="Fork"
+    Description="For a short time, Fork erects a shield. Although artifact weaves that penetrate this shield still affect you, a duplicate attack is launched back at the originator."
+    Quote="Balling her fist tightly, Egwene hit the woman as hard as she could, right in her eye-and staggered and fell to her knees herself, head ringing. It felt as if a large man had struck her in the face."
+    StatusIconFrame=Texture'Icons.M_Fork'
+    PickupMessage="You got the Fork ter'angreal"
+    PickupViewMesh=Mesh'AngrealForkPickup'
+    StatusIcon=Texture'Icons.I_Fork'
+    Texture=None
+    Mesh=Mesh'AngrealForkPickup'
 }

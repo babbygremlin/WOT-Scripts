@@ -29,29 +29,29 @@ class AngrealInvAbsorb expands ReflectorInstaller;
 
 defaultproperties
 {
-     Duration=8.000000
-     ReflectorClasses(0)=Class'Angreal.AbsorbReflector'
-     DurationType=DT_Lifespan
-     bElementFire=True
-     bElementWater=True
-     bElementAir=True
-     bElementEarth=True
-     bElementSpirit=True
-     bRare=True
-     bDefensive=True
-     bCombat=True
-     MaxInitialCharges=2
-     MaxCharges=5
-     ActivateSoundName="Angreal.ActivateABS"
-     MinChargeGroupInterval=7.000000
-     Title="Absorb"
-     Description="Absorb weaves a shield around you for a short time.  If a weave from another ter'angreal strikes it, the artifact that generated that weave is snatched from the owner's grasp and placed in your inventory."
-     Quote="@How did you...?@ Elayne said wonderingly. @The flows just... vanished.@"
-     StatusIconFrame=Texture'Angreal.Icons.M_Absorb'
-     InventoryGroup=50
-     PickupMessage="You got the Absorb ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealAbsorbPickup'
-     StatusIcon=Texture'Angreal.Icons.I_Absorb'
-     Texture=None
-     Mesh=Mesh'Angreal.AngrealAbsorbPickup'
+    Duration=8.00
+    ReflectorClasses=Class'AbsorbReflector'
+    DurationType=1
+    bElementFire=True
+    bElementWater=True
+    bElementAir=True
+    bElementEarth=True
+    bElementSpirit=True
+    bRare=True
+    bDefensive=True
+    bCombat=True
+    MaxInitialCharges=2
+    MaxCharges=5
+    ActivateSoundName="Angreal.ActivateABS"
+    MinChargeGroupInterval=7.00
+    Title="Absorb"
+    Description="Absorb weaves a shield around you for a short time.  If a weave from another ter'angreal strikes it, the artifact that generated that weave is snatched from the owner's grasp and placed in your inventory."
+    Quote="@How did you...?@ Elayne said wonderingly. @The flows just... vanished.@"
+    StatusIconFrame=Texture'Icons.M_Absorb'
+    InventoryGroup=50
+    PickupMessage="You got the Absorb ter'angreal"
+    PickupViewMesh=Mesh'AngrealAbsorbPickup'
+    StatusIcon=Texture'Icons.I_Absorb'
+    Texture=None
+    Mesh=Mesh'AngrealAbsorbPickup'
 }

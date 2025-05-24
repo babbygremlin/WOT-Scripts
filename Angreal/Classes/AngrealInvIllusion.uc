@@ -84,24 +84,24 @@ function float GetPriority()
 
 defaultproperties
 {
-     SpawnOffset=(X=48.000000)
-     DurationType=DT_Lifespan
-     bElementAir=True
-     bElementSpirit=True
-     bCommon=True
-     bCombat=True
-     MaxInitialCharges=3
-     MaxCharges=5
-     Priority=0.500000
-     ActivateSoundName="Angreal.ActivatePI"
-     MinChargeGroupInterval=10.000000
-     Title="Personal Illusion"
-     Description="Personal Illusion weaves your image before you, an ethereal copy of you, and leaves it there to fool others. Although not solid, this image can be targeted by other weaves. It dissipates after some time."
-     Quote=" "
-     StatusIconFrame=Texture'Angreal.Icons.M_PersonalIllusion'
-     InventoryGroup=65
-     PickupMessage="You got the Personal Illusion ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealPersonalIllusionPickup'
-     StatusIcon=Texture'Angreal.Icons.I_PersonalIllusion'
-     Mesh=Mesh'Angreal.AngrealPersonalIllusionPickup'
+    SpawnOffset=(X=48.00,Y=0.00,Z=0.00),
+    DurationType=1
+    bElementAir=True
+    bElementSpirit=True
+    bCommon=True
+    bCombat=True
+    MaxInitialCharges=3
+    MaxCharges=5
+    Priority=0.50
+    ActivateSoundName="Angreal.ActivatePI"
+    MinChargeGroupInterval=10.00
+    Title="Personal Illusion"
+    Description="Personal Illusion weaves your image before you, an ethereal copy of you, and leaves it there to fool others. Although not solid, this image can be targeted by other weaves. It dissipates after some time."
+    Quote=" "
+    StatusIconFrame=Texture'Icons.M_PersonalIllusion'
+    InventoryGroup=65
+    PickupMessage="You got the Personal Illusion ter'angreal"
+    PickupViewMesh=Mesh'AngrealPersonalIllusionPickup'
+    StatusIcon=Texture'Icons.I_PersonalIllusion'
+    Mesh=Mesh'AngrealPersonalIllusionPickup'
 }

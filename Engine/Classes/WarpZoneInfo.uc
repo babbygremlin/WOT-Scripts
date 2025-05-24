@@ -202,5 +202,5 @@ State DelayedWarp
 
 defaultproperties
 {
-     MaxCarcasses=0
+    MaxCarcasses=0
 }

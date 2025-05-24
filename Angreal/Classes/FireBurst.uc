@@ -49,12 +49,12 @@ begin:
 
 defaultproperties
 {
-     FadeTime=0.500000
-     DrawType=DT_Mesh
-     Style=STY_Translucent
-     Texture=Texture'Angreal.Skins.JFireBurst0'
-     Mesh=Mesh'Angreal.FireBurst'
-     DrawScale=0.300000
-     bUnlit=True
-     bParticles=True
+    FadeTime=0.50
+    DrawType=2
+    Style=3
+    Texture=Texture'Skins.JFireBurst0'
+    Mesh=Mesh'FireBurst'
+    DrawScale=0.30
+    bUnlit=True
+    bParticles=True
 }

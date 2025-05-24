@@ -20,16 +20,16 @@ simulated function PreBeginPlay()
 
 defaultproperties
 {
-     Spread=3.000000
-     Gravity=(Z=10.000000)
-     NumTemplates=1
-     Templates(0)=(LifeSpan=2.000000,MaxInitialVelocity=100.000000,MinInitialVelocity=80.000000,MaxDrawScale=2.000000,MinDrawScale=1.500000,MaxScaleGlow=0.000000,MinScaleGlow=0.000000,GrowPhase=2,MaxGrowRate=0.750000,MinGrowRate=0.300000,FadePhase=2,MaxFadeRate=0.200000,MinFadeRate=0.050000)
-     Particles(0)=Texture'ParticleSystems.Smoke.particle_fog07'
-     bOn=True
-     VolumeScalePct=1.000000
-     bStatic=False
-     SpriteProjForward=32.000000
-     bMustFace=False
-     VisibilityRadius=5000.000000
-     VisibilityHeight=5000.000000
+    Spread=3.00
+    Gravity=(X=0.00,Y=0.00,Z=10.00),
+    NumTemplates=1
+    Templates=(LifeSpan=2.00,Weight=1.00,MaxInitialVelocity=100.00,MinInitialVelocity=80.00,MaxDrawScale=2.00,MinDrawScale=1.50,MaxScaleGlow=0.00,MinScaleGlow=0.00,GrowPhase=2,MaxGrowRate=0.75,MinGrowRate=0.30,FadePhase=2,MaxFadeRate=0.20,MinFadeRate=0.05),
+    Particles=Texture'ParticleSystems.Smoke.particle_fog07'
+    bOn=True
+    VolumeScalePct=1.00
+    bStatic=False
+    SpriteProjForward=32.00
+    bMustFace=False
+    VisibilityRadius=5000.00
+    VisibilityHeight=5000.00
 }

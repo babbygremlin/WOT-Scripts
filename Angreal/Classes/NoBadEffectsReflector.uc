@@ -27,7 +27,7 @@ function ProcessEffect( Invokable I )
 
 defaultproperties
 {
-     Priority=255
-     bRemovable=False
-     bDisplayIcon=False
+    Priority=255
+    bRemovable=False
+    bDisplayIcon=False
 }

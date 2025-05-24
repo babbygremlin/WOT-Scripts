@@ -13,7 +13,7 @@ class TrapDetectLeech expands Leech;
 
 // NOTE[aleiby]: Replication -- client-side only?
 
-#exec OBJ	LOAD	FILE=Textures\TrapDetectT.utx		PACKAGE=Angreal.TrapDetect //FIXME missing
+#exec OBJ	LOAD	FILE=Textures\TrapDetectT.utx		PACKAGE=Angreal.TrapDetect
 #exec AUDIO	IMPORT	FILE=Sounds\TrapDetect\ActiveTD.wav	GROUP=TrapDetect
 
 struct TrapIconInfo
@@ -283,20 +283,20 @@ simulated function bool InitializeVisualsFor( Actor Trap )
 
 defaultproperties
 {
-     TrapIconInfos(0)=(TrapType=WallSlab,TrapIcon=Texture'Angreal.TrapDetect.TrapWallParts',IconScale=0.300000,SparkleSprite=Texture'ParticleSystems.Appear.PurpleCorona',Weight=3.000000,MaxInitialVelocity=17.000000,MinInitialVelocity=12.000000,MaxDrawScale=0.200000,MinDrawScale=0.075000,MaxScaleGlow=-0.010000,MinScaleGlow=-0.020000,GrowPhase=2,MaxGrowRate=0.200000,FadePhase=2,MaxFadeRate=0.400000,MinFadeRate=0.750000)
-     TrapIconInfos(1)=(TrapType=Pit,TrapIcon=Texture'Angreal.TrapDetect.TrapPitParts',IconScale=0.300000,SparkleSprite=Texture'ParticleSystems.Appear.AOrangeCorona',Weight=3.000000,MaxInitialVelocity=17.000000,MinInitialVelocity=12.000000,MaxDrawScale=0.200000,MinDrawScale=0.075000,MaxScaleGlow=-0.010000,MinScaleGlow=-0.020000,GrowPhase=2,MaxGrowRate=0.200000,FadePhase=2,MaxFadeRate=0.400000,MinFadeRate=0.750000)
-     TrapIconInfos(2)=(TrapType=Portcullis,TrapIcon=Texture'Angreal.TrapDetect.TrapPortculParts',IconScale=0.300000,SparkleSprite=Texture'ParticleSystems.Appear.APinkCorona',Weight=3.000000,MaxInitialVelocity=17.000000,MinInitialVelocity=12.000000,MaxDrawScale=0.200000,MinDrawScale=0.075000,MaxScaleGlow=-0.010000,MinScaleGlow=-0.020000,GrowPhase=2,MaxGrowRate=0.200000,FadePhase=2,MaxFadeRate=0.400000,MinFadeRate=0.750000)
-     TrapIconInfos(3)=(TrapType=Spear,TrapIcon=Texture'Angreal.TrapDetect.TrapSpearParts',IconScale=0.400000,SparkleSprite=Texture'ParticleSystems.Fire.Flame06',Weight=1.000000,MaxInitialVelocity=11.000000,MaxDrawScale=0.350000,MinDrawScale=0.150000,MaxScaleGlow=0.250000,MinScaleGlow=0.500000,GrowPhase=2,MaxGrowRate=0.200000,FadePhase=1,MaxFadeRate=-0.400000,MinFadeRate=-0.750000)
-     TrapIconInfos(4)=(TrapType=Staircase,TrapIcon=Texture'Angreal.TrapDetect.TrapStairParts',IconScale=0.300000,SparkleSprite=Texture'ParticleSystems.Appear.AYellowCorona',Weight=3.000000,MaxInitialVelocity=17.000000,MinInitialVelocity=12.000000,MaxDrawScale=0.200000,MinDrawScale=0.075000,MaxScaleGlow=-0.010000,MinScaleGlow=-0.020000,GrowPhase=2,MaxGrowRate=0.200000,FadePhase=2,MaxFadeRate=0.400000,MinFadeRate=0.750000)
-     TrapIconInfos(5)=(TrapType=AngrealExpWardProjectile,TrapIcon=Texture'Angreal.TrapDetect.TrapExpWardPartsX',IconScale=0.300000,SparkleSprite=Texture'ParticleSystems.Appear.AYellowCorona',Weight=3.000000,MaxInitialVelocity=17.000000,MinInitialVelocity=12.000000,MaxDrawScale=0.200000,MinDrawScale=0.075000,MaxScaleGlow=-0.010000,MinScaleGlow=-0.020000,GrowPhase=2,MaxGrowRate=0.200000,FadePhase=2,MaxFadeRate=0.400000,MinFadeRate=0.750000)
-     DetectSound=Sound'Angreal.TrapDetect.ActiveTD'
-     DetectRadius=1000.000000
-     MinBeatTime=0.300000
-     MaxBeatTime=3.000000
-     MinBeatVolume=1.000000
-     MaxBeatVolume=5000.000000
-     AffectResolution=1.000000
-     bDisplayIcon=True
-     bRemoveExisting=True
-     RemoteRole=ROLE_SimulatedProxy
+    TrapIconInfos(0)=(TrapType=WallSlab,TrapIcon=Texture'TrapDetect.TrapWallParts',IconScale=0.30,SparkleSprite=Texture'ParticleSystems.Appear.PurpleCorona',Weight=3.00,MaxInitialVelocity=17.00,MinInitialVelocity=12.00,MaxDrawScale=0.20,MinDrawScale=0.08,MaxScaleGlow=-0.01,MinScaleGlow=-0.02,GrowPhase=2,MaxGrowRate=0.20,MinGrowRate=0.00,FadePhase=2,MaxFadeRate=0.40,MinFadeRate=0.75),
+    TrapIconInfos(1)=(TrapType=Pit,TrapIcon=Texture'TrapDetect.TrapPitParts',IconScale=0.30,SparkleSprite=Texture'ParticleSystems.Appear.AOrangeCorona',Weight=3.00,MaxInitialVelocity=17.00,MinInitialVelocity=12.00,MaxDrawScale=0.20,MinDrawScale=0.08,MaxScaleGlow=-0.01,MinScaleGlow=-0.02,GrowPhase=2,MaxGrowRate=0.20,MinGrowRate=0.00,FadePhase=2,MaxFadeRate=0.40,MinFadeRate=0.75),
+    TrapIconInfos(2)=(TrapType=Portcullis,TrapIcon=Texture'TrapDetect.TrapPortculParts',IconScale=0.30,SparkleSprite=Texture'ParticleSystems.Appear.APinkCorona',Weight=3.00,MaxInitialVelocity=17.00,MinInitialVelocity=12.00,MaxDrawScale=0.20,MinDrawScale=0.08,MaxScaleGlow=-0.01,MinScaleGlow=-0.02,GrowPhase=2,MaxGrowRate=0.20,MinGrowRate=0.00,FadePhase=2,MaxFadeRate=0.40,MinFadeRate=0.75),
+    TrapIconInfos(3)=(TrapType=Spear,TrapIcon=Texture'TrapDetect.TrapSpearParts',IconScale=0.40,SparkleSprite=Texture'ParticleSystems.Fire.Flame06',Weight=1.00,MaxInitialVelocity=11.00,MinInitialVelocity=0.00,MaxDrawScale=0.35,MinDrawScale=0.15,MaxScaleGlow=0.25,MinScaleGlow=0.50,GrowPhase=2,MaxGrowRate=0.20,MinGrowRate=0.00,FadePhase=1,MaxFadeRate=-0.40,MinFadeRate=-0.75),
+    TrapIconInfos(4)=(TrapType=Staircase,TrapIcon=Texture'TrapDetect.TrapStairParts',IconScale=0.30,SparkleSprite=Texture'ParticleSystems.Appear.AYellowCorona',Weight=3.00,MaxInitialVelocity=17.00,MinInitialVelocity=12.00,MaxDrawScale=0.20,MinDrawScale=0.08,MaxScaleGlow=-0.01,MinScaleGlow=-0.02,GrowPhase=2,MaxGrowRate=0.20,MinGrowRate=0.00,FadePhase=2,MaxFadeRate=0.40,MinFadeRate=0.75),
+    TrapIconInfos(5)=(TrapType=AngrealExpWardProjectile,TrapIcon=Texture'TrapDetect.TrapExpWardPartsX',IconScale=0.30,SparkleSprite=Texture'ParticleSystems.Appear.AYellowCorona',Weight=3.00,MaxInitialVelocity=17.00,MinInitialVelocity=12.00,MaxDrawScale=0.20,MinDrawScale=0.08,MaxScaleGlow=-0.01,MinScaleGlow=-0.02,GrowPhase=2,MaxGrowRate=0.20,MinGrowRate=0.00,FadePhase=2,MaxFadeRate=0.40,MinFadeRate=0.75),
+    DetectSound=Sound'TrapDetect.ActiveTD'
+    DetectRadius=1000.00
+    MinBeatTime=0.30
+    MaxBeatTime=3.00
+    MinBeatVolume=1.00
+    MaxBeatVolume=5000.00
+    AffectResolution=1.00
+    bDisplayIcon=True
+    bRemoveExisting=True
+    RemoteRole=2
 }

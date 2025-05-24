@@ -36,22 +36,22 @@ function class<WOTPawn> GetResourceClass()
 
 defaultproperties
 {
-     LimitWarning="You already have one Minion under your control."
-     TopSparkle=Texture'ParticleSystems.Appear.APinkCorona'
-     BottomSparkle=Texture'ParticleSystems.Appear.ABlueCorona'
-     bElementSpirit=True
-     bRare=True
-     MaxCharges=5
-     ActivateSoundName="Angreal.ActivateMN"
-     MinChargeGroupInterval=10.000000
-     Title="Minion"
-     Description="The Minion ter'angreal summons a @grunt@ or soldier of the type that you command."
-     Quote="Trollocs leaped out of thin air, huge bestial shapes and eyelesss faces distorted with a rage to kill, scythe-like swords and blades of deadly black steel seeking his blood"
-     StatusIconFrame=Texture'Angreal.Icons.M_Minion'
-     PickupMessage="You got the Minion ter'angreal"
-     PickupViewMesh=Mesh'Angreal.AngrealMinionPickup'
-     PickupViewScale=0.800000
-     StatusIcon=Texture'Angreal.Icons.I_Minion'
-     Mesh=Mesh'Angreal.AngrealMinionPickup'
-     DrawScale=0.800000
+    LimitWarning="You already have one Minion under your control."
+    TopSparkle=Texture'ParticleSystems.Appear.APinkCorona'
+    BottomSparkle=Texture'ParticleSystems.Appear.ABlueCorona'
+    bElementSpirit=True
+    bRare=True
+    MaxCharges=5
+    ActivateSoundName="Angreal.ActivateMN"
+    MinChargeGroupInterval=10.00
+    Title="Minion"
+    Description="The Minion ter'angreal summons a @grunt@ or soldier of the type that you command."
+    Quote="Trollocs leaped out of thin air, huge bestial shapes and eyelesss faces distorted with a rage to kill, scythe-like swords and blades of deadly black steel seeking his blood"
+    StatusIconFrame=Texture'Icons.M_Minion'
+    PickupMessage="You got the Minion ter'angreal"
+    PickupViewMesh=Mesh'AngrealMinionPickup'
+    PickupViewScale=0.80
+    StatusIcon=Texture'Icons.I_Minion'
+    Mesh=Mesh'AngrealMinionPickup'
+    DrawScale=0.80
 }

@@ -147,17 +147,17 @@ simulated function Destroyed()
 
 defaultproperties
 {
-     SprayerType=Class'ParticleSystems.Firework04'
-     speed=750.000000
-     MaxSpeed=1000.000000
-     SpawnSound=Sound'Angreal.SwapPlaces.LaunchSP'
-     ImpactSound=Sound'Angreal.SwapPlaces.HitSP'
-     DrawType=DT_Sprite
-     Style=STY_Translucent
-     Texture=Texture'Angreal.Effects.SPP_A00'
-     SoundRadius=160
-     SoundVolume=100
-     AmbientSound=Sound'Angreal.SwapPlaces.LoopSP'
-     CollisionRadius=6.000000
-     CollisionHeight=12.000000
+    SprayerType=Class'ParticleSystems.Firework04'
+    speed=750.00
+    MaxSpeed=1000.00
+    SpawnSound=Sound'SwapPlaces.LaunchSP'
+    ImpactSound=Sound'SwapPlaces.HitSP'
+    DrawType=1
+    Style=3
+    Texture=Texture'Effects.SPP_A00'
+    SoundRadius=160
+    SoundVolume=100
+    AmbientSound=Sound'SwapPlaces.LoopSP'
+    CollisionRadius=6.00
+    CollisionHeight=12.00
 }

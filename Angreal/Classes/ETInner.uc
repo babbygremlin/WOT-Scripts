@@ -18,6 +18,6 @@ class ETInner expands EarthTremorRock;
 
 defaultproperties
 {
-     Mesh=Mesh'Angreal.ETInner'
-     DrawScale=3.000000
+    Mesh=Mesh'ETInner'
+    DrawScale=3.00
 }

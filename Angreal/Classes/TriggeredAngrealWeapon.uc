@@ -211,10 +211,10 @@ simulated function Timer()
 
 defaultproperties
 {
-     InitialState=TriggerToggle
-     bDirectional=True
-     DrawType=DT_Mesh
-     Mesh=Mesh'Angreal.Frozen'
-     CollisionRadius=35.000000
-     CollisionHeight=40.000000
+    InitialState=TriggerToggle
+    bDirectional=True
+    DrawType=2
+    Mesh=Mesh'Frozen'
+    CollisionRadius=35.00
+    CollisionHeight=40.00
 }

@@ -188,6 +188,6 @@ function Invokable Duplicate()
 
 defaultproperties
 {
-     ActorFitsRadius=1024.000000
-     ShiftDistance=160.000000
+    ActorFitsRadius=1024.00
+    ShiftDistance=160.00
 }
