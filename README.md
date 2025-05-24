@@ -19,6 +19,6 @@ Below are each package and information about building them as well as issues.
 - IpServer can be rebuilt.
 - UBrowser can be rebuilt.
 - UWindow can be rebuilt.
-- Angreal can be rebuilt, though it seems to be missing a texture package.
+- Angreal can be rebuilt, though it seems to be missing a few texture packages.
 - Can not currently build WoTPawns.
 - Can not currently build ParticleSystems.
