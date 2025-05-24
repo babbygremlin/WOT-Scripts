@@ -1,0 +1,56 @@
+//=============================================================================
+// LegionAssets.uc
+// $Author: Mfox $
+// $Date: 1/05/00 2:38p $
+// $Revision: 5 $
+//=============================================================================
+
+class LegionAssets expands Champion;
+									
+#exec MESH IMPORT MESH=Legion ANIVFILE=MODELS\Legion_a.3d DATAFILE=MODELS\Legion_d.3d X=0 Y=0 Z=0
+#exec MESH ORIGIN MESH=Legion X=0 Y=0 Z=-10 YAW=0
+
+#exec MESH SEQUENCE MESH=Legion SEQ=All          STARTFRAME=0 NUMFRAMES=379
+#exec MESH SEQUENCE MESH=Legion SEQ=ATTACKSTOMP1 STARTFRAME=0 NUMFRAMES=17
+#exec MESH SEQUENCE MESH=Legion SEQ=ATTACKSTOMP2 STARTFRAME=35 NUMFRAMES=23		// AniFix: Start on 18th frame of this seq.						
+#exec MESH SEQUENCE MESH=Legion SEQ=BREATH       STARTFRAME=56 NUMFRAMES=44		Group=Waiting
+#exec MESH SEQUENCE MESH=Legion SEQ=DEATHL       STARTFRAME=100 NUMFRAMES=45
+#exec MESH SEQUENCE MESH=Legion SEQ=LOOK         STARTFRAME=147 NUMFRAMES=69	        Group=Waiting
+#exec MESH SEQUENCE MESH=Legion SEQ=LOOKGROAN    STARTFRAME=216 NUMFRAMES=49
+#exec MESH SEQUENCE MESH=Legion SEQ=RECOVER      STARTFRAME=265 NUMFRAMES=45
+#exec MESH SEQUENCE MESH=Legion SEQ=SHOOT        STARTFRAME=310 NUMFRAMES=39
+#exec MESH SEQUENCE MESH=Legion SEQ=WALK         STARTFRAME=349 NUMFRAMES=30
+#exec MESH SEQUENCE MESH=Legion SEQ=RUN          STARTFRAME=349 NUMFRAMES=30	                                // walk
+
+#exec MESH SEQUENCE MESH=Legion SEQ=HITB         STARTFRAME=145 NUMFRAMES=1
+#exec MESH SEQUENCE MESH=Legion SEQ=HITBHARD     STARTFRAME=145 NUMFRAMES=1		Group=TakeHit		// hitb
+#exec MESH SEQUENCE MESH=Legion SEQ=HITF         STARTFRAME=146 NUMFRAMES=1		Group=TakeHit
+#exec MESH SEQUENCE MESH=Legion SEQ=HITFHARD     STARTFRAME=146 NUMFRAMES=1		Group=TakeHit		// hitf
+#exec MESH SEQUENCE MESH=Legion SEQ=FALL         STARTFRAME=56 NUMFRAMES=1					// breath
+#exec MESH SEQUENCE MESH=Legion SEQ=JUMP         STARTFRAME=56 NUMFRAMES=1					// breath
+#exec MESH SEQUENCE MESH=Legion SEQ=LANDED       STARTFRAME=56 NUMFRAMES=1		Group=Landing		// breath
+
+#exec MESH SEQUENCE MESH=Legion SEQ=REACTP       STARTFRAME=265 NUMFRAMES=6					// recover
+#exec MESH SEQUENCE MESH=Legion SEQ=REACTPLOOP   STARTFRAME=272 NUMFRAMES=1					// recover
+
+#exec TEXTURE IMPORT NAME=Jlegion1 FILE=MODELS\legion3.PCX GROUP=Skins FLAGS=2 // Legion3
+#exec TEXTURE IMPORT NAME=Jlegion2 FILE=MODELS\legion2.PCX GROUP=Skins PALETTE=Jlegion1 // Legion2
+#exec TEXTURE IMPORT NAME=Jlegion3 FILE=MODELS\legion1.PCX GROUP=Skins PALETTE=Jlegion1 // Legion1
+#exec TEXTURE IMPORT NAME=Jlegion4 FILE=MODELS\legion4.PCX GROUP=Skins PALETTE=Jlegion1 // Legion4
+#exec TEXTURE IMPORT NAME=Jlegion5 FILE=MODELS\legion5.PCX GROUP=Skins PALETTE=Jlegion1 // Legion41
+
+#exec MESHMAP NEW   MESHMAP=Legion MESH=Legion
+#exec MESHMAP SCALE MESHMAP=Legion X=0.1 Y=0.1 Z=0.2
+
+#exec MESHMAP SETTEXTURE MESHMAP=Legion NUM=1 TEXTURE=JLegion1
+#exec MESHMAP SETTEXTURE MESHMAP=Legion NUM=2 TEXTURE=JLegion2
+#exec MESHMAP SETTEXTURE MESHMAP=Legion NUM=3 TEXTURE=JLegion3
+#exec MESHMAP SETTEXTURE MESHMAP=Legion NUM=4 TEXTURE=JLegion4
+#exec MESHMAP SETTEXTURE MESHMAP=Legion NUM=5 TEXTURE=JLegion5
+
+#exec TEXTURE IMPORT FILE=Icons\Champions\H_LegionDisguise.PCX GROUP=UI MIPS=Off
+
+defaultproperties
+{
+     Mesh=LodMesh'WOTPawns.Legion'
+}

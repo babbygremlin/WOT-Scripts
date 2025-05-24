@@ -1,0 +1,89 @@
+//=============================================================================
+// WallFragments.uc
+// $Author: Mfox $
+// $Date: 1/05/00 2:38p $
+// $Revision: 6 $
+//=============================================================================
+class WallFragments expands Fragment;
+
+#exec MESH IMPORT MESH=wafr1 ANIVFILE=MODELS\wafr1_a.3D DATAFILE=MODELS\wafr1_d.3D X=0 Y=0 Z=0 MLOD=0
+#exec MESH ORIGIN MESH=wafr1 X=0 Y=0 Z=0 YAW=64 ROLL=64
+#exec MESH SEQUENCE MESH=wafr1 SEQ=All  STARTFRAME=0  NUMFRAMES=1
+#exec TEXTURE IMPORT NAME=AllGrey FILE=MODELS\allgrey.pcx GROUP=Skins
+#exec MESHMAP SCALE MESHMAP=wafr1 X=0.1 Y=0.1 Z=0.2
+#exec MESHMAP SETTEXTURE MESHMAP=wafr1 NUM=0 TEXTURE=AllGrey
+
+#exec MESH IMPORT MESH=wafr2 ANIVFILE=MODELS\wafr2_a.3D DATAFILE=MODELS\wafr2_d.3D X=0 Y=0 Z=0 MLOD=0
+#exec MESH ORIGIN MESH=wafr2 X=0 Y=0 Z=0 YAW=64 ROLL=64
+#exec MESH SEQUENCE MESH=wafr2 SEQ=All  STARTFRAME=0  NUMFRAMES=1
+#exec MESHMAP SCALE MESHMAP=wafr2 X=0.1 Y=0.1 Z=0.2
+#exec MESHMAP SETTEXTURE MESHMAP=wafr2 NUM=0 TEXTURE=AllGrey
+
+#exec MESH IMPORT MESH=wafr4 ANIVFILE=MODELS\wafr4_a.3D DATAFILE=MODELS\wafr4_d.3D X=0 Y=0 Z=0 MLOD=0
+#exec MESH ORIGIN MESH=wafr4 X=0 Y=0 Z=0 YAW=64 ROLL=64
+#exec MESH SEQUENCE MESH=wafr4 SEQ=All  STARTFRAME=0  NUMFRAMES=1
+#exec MESHMAP SCALE MESHMAP=wafr4 X=0.1 Y=0.1 Z=0.2
+#exec MESHMAP SETTEXTURE MESHMAP=wafr4 NUM=0 TEXTURE=AllGrey
+
+#exec MESH IMPORT MESH=wafr5 ANIVFILE=MODELS\wafr5_a.3D DATAFILE=MODELS\wafr5_d.3D X=0 Y=0 Z=0 MLOD=0
+#exec MESH ORIGIN MESH=wafr5 X=0 Y=0 Z=0 YAW=64 ROLL=64
+#exec MESH SEQUENCE MESH=wafr5 SEQ=All  STARTFRAME=0  NUMFRAMES=1
+#exec MESHMAP SCALE MESHMAP=wafr5 X=0.1 Y=0.1 Z=0.2
+#exec MESHMAP SETTEXTURE MESHMAP=wafr5 NUM=0 TEXTURE=AllGrey
+
+#exec MESH IMPORT MESH=wafr6 ANIVFILE=MODELS\wafr6_a.3D DATAFILE=MODELS\wafr6_d.3D X=0 Y=0 Z=0 MLOD=0
+#exec MESH ORIGIN MESH=wafr6 X=0 Y=0 Z=0 YAW=64 ROLL=64
+#exec MESH SEQUENCE MESH=wafr6 SEQ=All  STARTFRAME=0  NUMFRAMES=1
+#exec MESHMAP SCALE MESHMAP=wafr6 X=0.1 Y=0.1 Z=0.2
+#exec MESHMAP SETTEXTURE MESHMAP=wafr6 NUM=0 TEXTURE=AllGrey
+
+#exec MESH IMPORT MESH=wafr7 ANIVFILE=MODELS\wafr7_a.3D DATAFILE=MODELS\wafr7_d.3D X=0 Y=0 Z=0 MLOD=0
+#exec MESH ORIGIN MESH=wafr7 X=0 Y=0 Z=0 YAW=64 ROLL=64
+#exec MESH SEQUENCE MESH=wafr7 SEQ=All  STARTFRAME=0  NUMFRAMES=1
+#exec MESHMAP SCALE MESHMAP=wafr7 X=0.1 Y=0.1 Z=0.2
+#exec MESHMAP SETTEXTURE MESHMAP=wafr7 NUM=0 TEXTURE=AllGrey
+
+#exec MESH IMPORT MESH=wafr8 ANIVFILE=MODELS\wafr8_a.3D DATAFILE=MODELS\wafr8_d.3D X=0 Y=0 Z=0 MLOD=0
+#exec MESH ORIGIN MESH=wafr8 X=0 Y=0 Z=0 YAW=64 ROLL=64
+#exec MESH SEQUENCE MESH=wafr8 SEQ=All  STARTFRAME=0  NUMFRAMES=1
+#exec MESHMAP SCALE MESHMAP=wafr8 X=0.1 Y=0.1 Z=0.2
+#exec MESHMAP SETTEXTURE MESHMAP=wafr8 NUM=0 TEXTURE=AllGrey
+
+#exec MESH IMPORT MESH=wafr9 ANIVFILE=MODELS\wafr9_a.3D DATAFILE=MODELS\wafr9_d.3D X=0 Y=0 Z=0 MLOD=0
+#exec MESH ORIGIN MESH=wafr9 X=0 Y=0 Z=0 YAW=64 ROLL=64
+#exec MESH SEQUENCE MESH=wafr9 SEQ=All  STARTFRAME=0  NUMFRAMES=1
+#exec MESHMAP SCALE MESHMAP=wafr9 X=0.1 Y=0.1 Z=0.2
+#exec MESHMAP SETTEXTURE MESHMAP=wafr9 NUM=0 TEXTURE=AllGrey
+
+#exec MESH IMPORT MESH=wafr10 ANIVFILE=MODELS\wafr10_a.3D DATAFILE=MODELS\wafr10_d.3D X=0 Y=0 Z=0 MLOD=0
+#exec MESH ORIGIN MESH=wafr10 X=0 Y=0 Z=0 YAW=64 ROLL=64
+#exec MESH SEQUENCE MESH=wafr10 SEQ=All  STARTFRAME=0  NUMFRAMES=1
+#exec MESHMAP SCALE MESHMAP=wafr10 X=0.1 Y=0.1 Z=0.2
+#exec MESHMAP SETTEXTURE MESHMAP=wafr10 NUM=0 TEXTURE=AllGrey
+
+#exec MESH IMPORT MESH=wafr11 ANIVFILE=MODELS\wafr11_a.3D DATAFILE=MODELS\wafr11_d.3D X=0 Y=0 Z=0 MLOD=0
+#exec MESH ORIGIN MESH=wafr11 X=0 Y=0 Z=0 YAW=64 ROLL=64
+#exec MESH SEQUENCE MESH=wafr11 SEQ=All  STARTFRAME=0  NUMFRAMES=1
+#exec MESHMAP SCALE MESHMAP=wafr11 X=0.1 Y=0.1 Z=0.2
+#exec MESHMAP SETTEXTURE MESHMAP=wafr11 NUM=0 TEXTURE=AllGrey
+
+#exec AUDIO IMPORT FILE="Sounds\Effect\WallFragment1.WAV" NAME="WallFragment1" GROUP="Effect"
+
+defaultproperties
+{
+     Fragments(0)=Mesh'WOT.wafr1'
+     Fragments(1)=Mesh'WOT.wafr2'
+     Fragments(2)=Mesh'WOT.wafr4'
+     Fragments(3)=Mesh'WOT.wafr5'
+     Fragments(4)=Mesh'WOT.wafr6'
+     Fragments(5)=Mesh'WOT.wafr7'
+     Fragments(6)=Mesh'WOT.wafr8'
+     Fragments(7)=Mesh'WOT.wafr9'
+     Fragments(8)=Mesh'WOT.wafr10'
+     Fragments(9)=Mesh'WOT.wafr11'
+     Fragments(10)=Mesh'WOT.wafr10'
+     numFragmentTypes=11
+     ImpactSound=Sound'WOT.Effect.WallFragment1'
+     MiscSound=Sound'WOT.Effect.WallFragment1'
+     Mesh=Mesh'WOT.wafr1'
+}
